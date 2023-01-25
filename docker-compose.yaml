@@ -1,0 +1,47 @@
+version: "3.9"
+services:
+    backend:
+        depends_on:
+            - db
+            - cache
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: php:7.4.33-apache
+        container_name: backend
+        volumes:
+            - ./providence-1.7.16:/var/www/html:rw
+        environment:
+            - MYSQL_USER
+            - MYSQL_DATABASE
+            - MYSQL_PASSWORD
+            - CA_CACHE_PASSWORD
+            - CA_APP_DISPLAY_NAME
+            - CA_ADMIN_EMAIL
+            - CA_TIMEZONE
+            - CA_QUEUE_ENABLED
+            - CA_DEFAULT_LOCALE
+            - CA_USE_CLEAN_URLS
+        ports:
+            - 8080:80
+    cache:
+        build:
+            context: ./redis
+            dockerfile: Dockerfile
+            args:
+                - REDIS_PASSWORD=${CA_CACHE_PASSWORD}
+        container_name: redis
+        restart: always
+        ports:
+            - 6379:6379
+    db:
+        container_name: mysql
+        image: mysql:8.0.31
+        restart: always
+        environment:
+            - MYSQL_USER
+            - MYSQL_DATABASE
+            - MYSQL_PASSWORD
+            - MYSQL_ROOT_PASSWORD
+        ports:
+            - 3306:3306
