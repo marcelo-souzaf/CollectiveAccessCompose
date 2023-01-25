@@ -23,7 +23,7 @@ services:
             - CA_DEFAULT_LOCALE
             - CA_USE_CLEAN_URLS
         ports:
-            - 8080:80
+            - 80:80
     cache:
         build:
             context: ./redis

@@ -208,8 +208,8 @@ if (!defined('__CA_REDIS_HOST__')) {
 	define('__CA_REDIS_HOST__', 'cache');
 }
 
-if (!defined('__CA_CACHE_PASSWORD__') && getenv('CA_CACHE_PASSWORD')) {
-	define('__CA_CACHE_PASSWORD__', getenv('CA_CACHE_PASSWORD'));
+if (!defined('__CA_REDIS_PASSWORD__') && getenv('CA_CACHE_PASSWORD')) {
+	define('__CA_REDIS_PASSWORD__', getenv('CA_CACHE_PASSWORD'));
 }
 
 if (!defined('__CA_REDIS_PORT__')) {
