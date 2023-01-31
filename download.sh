@@ -23,8 +23,9 @@ ln -s ../media ./media
 
 cd ../..
 
-# Copies setup.php to the providence folder
+# Copies the setup.php file to the right folders
 cp setup.php providence/setup.php
+cp setup.php providence/pawtucket/setup.php
 
 # Small fix (2 lines) so CA checks for a password environment variable to access Redis
 cp ExternalCache.php providence/app/lib/Cache/ExternalCache.php
@@ -37,5 +38,9 @@ chmod a=rwx -R providence
 cp pt_BR.lang providence/app/lib/Parsers/TimeExpressionParser/pt_BR.lang
 mkdir providence/app/locale/user
 mkdir providence/app/locale/user/pt_BR
+mkdir providence/pawtucket/app/locale/user
+mkdir providence/pawtucket/app/locale/user/pt_BR
 cp messages.po providence/app/locale/user/pt_BR/messages.po
 cp messages.mo providence/app/locale/user/pt_BR/messages.mo
+cp messages.po providence/pawtucket/app/locale/user/pt_BR/messages.po
+cp messages.mo providence/pawtucket/app/locale/user/pt_BR/messages.mo
