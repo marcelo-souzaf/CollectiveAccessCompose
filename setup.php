@@ -29,6 +29,8 @@
 
 # __CA_DB_HOST__ = Database server host name (often 'localhost')
 #
+### Value should match the name of the database service in the docker-compose.yaml file
+#
 if (!defined("__CA_DB_HOST__")) {
 	define("__CA_DB_HOST__", 'db');
 }

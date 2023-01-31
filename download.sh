@@ -4,26 +4,38 @@
 
 version=1.7.16
 
-sudo curl -L https://github.com/collectiveaccess/providence/archive/$version.tar.gz -o providence.tar.gz
+curl -L https://github.com/collectiveaccess/providence/archive/$version.tar.gz -o providence.tar.gz
 
-# Arguments are eXtract, gZip and File name (optionally v for verbose)
-tar -xzf providence.tar.gz
+# Arguments are eXtract and File name (optionally v for verbose)
+tar -xf providence.tar.gz
 rm providence.tar.gz
-cd providence-$version
+mv providence-$version providence
+cd providence
 
-sudo curl -L https://github.com/collectiveaccess/pawtucket2/archive/$version.tar.gz -o pawtucket2.tar.gz
-tar -xzf pawtucket2.tar.gz
+curl -L https://github.com/collectiveaccess/pawtucket2/archive/$version.tar.gz -o pawtucket2.tar.gz
+tar -xf pawtucket2.tar.gz
+mv pawtucket2-$version pawtucket
 rm pawtucket2.tar.gz
 
-cd ..
+# Necessary for the symbolic link to work properly
+cd pawtucket
+ln -s ../media ./media
+
+cd ../..
 
 # Copies setup.php to the providence folder
-sudo cp setup.php providence-version/setup.php
+cp setup.php providence/setup.php
 
 # Small fix (2 lines) so CA checks for a password environment variable to access Redis
-sudo cp ExternalCache.php providence-version/app/lib/Cache/ExternalCache.php
+cp ExternalCache.php providence/app/lib/Cache/ExternalCache.php
 
-# Might be useful in the future
-# sudo cp pt_BR.lang providence-version/app/lib/Parsers/TimeExpressionParser/pt_BR.lang
-# sudo cp messages.po providence-version/app/locale/user/pt_BR/messages.po
-# sudo cp messages.mo providence-version/app/locale/user/pt_BR/messages.mo
+# Gives read, write and execute access to all users so that the container can access the files
+chmod a=rwx -R providence
+
+
+# pt_BR locale
+cp pt_BR.lang providence/app/lib/Parsers/TimeExpressionParser/pt_BR.lang
+mkdir providence/app/locale/user
+mkdir providence/app/locale/user/pt_BR
+cp messages.po providence/app/locale/user/pt_BR/messages.po
+cp messages.mo providence/app/locale/user/pt_BR/messages.mo

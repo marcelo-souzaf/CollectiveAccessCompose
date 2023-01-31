@@ -10,7 +10,7 @@ services:
         image: php:7.4.33-apache
         container_name: backend
         volumes:
-            - ./providence-1.7.16:/var/www/html:rw
+            - ./providence:/var/www/html:rw
         environment:
             - MYSQL_USER
             - MYSQL_DATABASE
