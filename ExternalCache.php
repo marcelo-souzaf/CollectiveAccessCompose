@@ -278,11 +278,15 @@ class ExternalCache {
 		if(!defined('__CA_REDIS_DB__')) {
 			define('__CA_REDIS_DB__', 0);
 		}
-		if(!defined('__CA_REDIS_PASSWORD__')) {
-			define('__CA_REDIS_PASSWORD__', null);
-		}
 		
-		$driver = new Stash\Driver\Redis(['servers' => [[__CA_REDIS_HOST__, __CA_REDIS_PORT__]], 'database' => __CA_REDIS_DB__, 'password' => __CA_REDIS_PASSWORD__]);
+		$options = array('servers' => [[__CA_REDIS_HOST__, __CA_REDIS_PORT__]], 'database' => __CA_REDIS_DB__);
+		
+		# Uses password if defined
+		if(defined('__CA_REDIS_PASSWORD__') && __CA_REDIS_PASSWORD__) {
+			$options['password'] = __CA_REDIS_PASSWORD__;
+		}
+
+		$driver = new Stash\Driver\Redis($options);
 		return new Stash\Pool($driver);
 	}
 	# ------------------------------------------------

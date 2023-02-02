@@ -27,20 +27,24 @@ cd ../..
 cp setup.php providence/setup.php
 cp setup.php providence/pawtucket/setup.php
 
-# Small fix (2 lines) so CA checks for a password environment variable to access Redis
+# Small fix (5 lines) so CA checks for a password environment variable to access Redis
 cp ExternalCache.php providence/app/lib/Cache/ExternalCache.php
+cp ExternalCache.php providence/pawtucket/app/lib/Cache/ExternalCache.php
 
 # Gives read, write and execute access to all users so that the container can access the files
 chmod a=rwx -R providence
 
 
 # pt_BR locale
+cp base.xml providence/install/profiles/xml/base.xml
+cp default.xml providence/install/profiles/xml/default.xml
 cp pt_BR.lang providence/app/lib/Parsers/TimeExpressionParser/pt_BR.lang
-mkdir providence/app/locale/user
-mkdir providence/app/locale/user/pt_BR
-mkdir providence/pawtucket/app/locale/user
-mkdir providence/pawtucket/app/locale/user/pt_BR
-cp messages.po providence/app/locale/user/pt_BR/messages.po
-cp messages.mo providence/app/locale/user/pt_BR/messages.mo
-cp messages.po providence/pawtucket/app/locale/user/pt_BR/messages.po
-cp messages.mo providence/pawtucket/app/locale/user/pt_BR/messages.mo
+cp messages.po providence/app/locale/pt_BR/messages.po
+cp messages.mo providence/app/locale/pt_BR/messages.mo
+cp messages.po providence/app/locale/pt_PT/messages.po
+cp messages.mo providence/app/locale/pt_PT/messages.mo
+mkdir providence/pawtucket/app/locale/pt_BR
+cp messages.po providence/pawtucket/app/locale/pt_BR/messages.po
+cp messages.mo providence/pawtucket/app/locale/pt_BR/messages.mo
+cp messages.po providence/pawtucket/app/locale/pt_PT/messages.po
+cp messages.mo providence/pawtucket/app/locale/pt_PT/messages.mo
