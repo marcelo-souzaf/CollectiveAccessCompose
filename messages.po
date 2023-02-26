@@ -1501,7 +1501,7 @@ msgstr "◉ = Padrão"
 
 #: ../../themes/default/views/administrate/setup/Search/search_controls_html.php:120
 msgid "⨂ = Disabled"
-msgstr "⨂ = Desativado"
+msgstr "⨂ = Desabilitado"
 
 #: ../../themes/default/views/administrate/setup/Search/search_controls_html.php:122
 msgid "⧩ = Vocabulary list"
@@ -2056,10 +2056,10 @@ msgstr "Indexando %1 (%2/%3)"
 
 #: ../../themes/default/views/administrate/maintenance/search_reindex_landing_html.php:32
 msgid ""
-"<p>CollectiveAccess relies upon <em>indices</em> when searching your data.  "
+"<p>CollectiveAccess relies upon <em>indices</em> when searching your data. "
 "Indices are simply summaries of your data designed to speed query "
 "processing. The precise form and characteristics of the indices used will "
-"vary with the type of search engine you  are using. They may be stored on "
+"vary with the type of search engine you are using. They may be stored on "
 "disk, in a database or on another server, but their purpose is always the "
 "same: to make searches execute faster.</p>\n"
 "<p>For search results to be accurate the database and indices must be in "
@@ -2516,7 +2516,7 @@ msgstr "Nenhum interface de usuário definida"
 
 #: ../../themes/default/views/editor/interstitial/interstitial_html.php:108
 msgid "Saved changes to"
-msgstr "Salvar alterações a"
+msgstr "Salvas alterações a"
 
 #: ../../themes/default/views/editor/interstitial/interstitial_html.php:108
 #: ../../themes/default/views/find/Results/ajax_results_editable_complex_data_form_html.php:88
@@ -2843,7 +2843,7 @@ msgstr "Excluído"
 #: ../../app/conf/user_actions.conf:747 ../../app/conf/user_actions.conf:806
 #: ../../app/conf/user_actions.conf:865 ../../app/conf/user_actions.conf:920
 msgid "Change type"
-msgstr "Modificar o tipo"
+msgstr "Mudar tipo"
 
 #: ../../themes/default/views/logs/my_change_log_html.php:62
 #: ../../themes/default/views/logs/global_change_log_html.php:62
@@ -2981,7 +2981,7 @@ msgstr "Adicionar rótulo"
 #: ../../app/helpers/batchHelpers.php:187
 #: ../../app/helpers/batchHelpers.php:215
 msgid "In batch"
-msgstr "Em série"
+msgstr "Em lote"
 
 #: ../../themes/default/views/bundles/ca_object_representations_access_status.php:44
 #: ../../app/helpers/batchHelpers.php:51 ../../app/helpers/batchHelpers.php:58
@@ -2990,7 +2990,7 @@ msgstr "Em série"
 #: ../../app/helpers/batchHelpers.php:189
 #: ../../app/helpers/batchHelpers.php:217
 msgid "do not use"
-msgstr "não utilize"
+msgstr "não usam"
 
 #: ../../themes/default/views/bundles/ca_object_representations_access_status.php:45
 #: ../../app/models/ca_sets.php:50
@@ -4000,7 +4000,7 @@ msgstr "Definir tipo para %1"
 
 #: ../../themes/default/views/bundles/floorplan_viewer.php:37
 msgid "Editing floor plan for <em>%1</em>"
-msgstr "Editar plano de piso para <em>%1</em>"
+msgstr "Editar planta baixa para <em>%1</em>"
 
 #: ../../themes/default/views/find/Search/ajax_refine_facet_html.php:79
 msgid ""
@@ -4861,7 +4861,7 @@ msgstr "Entidades"
 #: ../../app/conf/user_pref_defs.conf:1229
 #: ../../app/conf/user_pref_defs.conf:1326
 msgid "Places"
-msgstr "Locais"
+msgstr "Lugares"
 
 #: ../../themes/default/views/manage/saved_searches_list_html.php:84
 msgid "Object Lots"
@@ -5016,7 +5016,7 @@ msgstr "Mostrar"
 
 #: ../../themes/default/views/manage/widget_set_info_html.php:64
 msgid "Your %1"
-msgstr "Seus %1"
+msgstr "Seu %1"
 
 #: ../../themes/default/views/manage/widget_set_info_html.php:67
 msgid "1 %1 is available"
@@ -5821,7 +5821,7 @@ msgstr "Não é uma medida válida"
 #: ../../app/helpers/utilityHelpers.php:3293
 #: ../../app/helpers/utilityHelpers.php:3422
 msgid "Must not be less than zero"
-msgstr "Não pode ser inferior a zero"
+msgstr "Não pode ser menor que zero"
 
 #: ../../app/helpers/utilityHelpers.php:3306
 #: ../../app/helpers/utilityHelpers.php:3434
@@ -5830,7 +5830,7 @@ msgstr "Não é uma medida válida [%1]"
 
 #: ../../app/helpers/utilityHelpers.php:3412
 msgid "Not a valid unit of weight [%2]"
-msgstr "Não é uma unidade de peso válida [2%]"
+msgstr "Não é uma unidade de peso válida [%2]"
 
 #: ../../app/helpers/utilityHelpers.php:3637
 #: ../../app/helpers/utilityHelpers.php:3640
@@ -5878,7 +5878,7 @@ msgstr "Pesquisas em todo conteúdo que foi indexado"
 
 #: ../../app/helpers/searchHelpers.php:1451
 msgid "type name"
-msgstr "tipo de nome"
+msgstr "nome do tipo"
 
 #: ../../app/helpers/searchHelpers.php:1458
 #: ../../app/helpers/searchHelpers.php:1466
@@ -5953,11 +5953,11 @@ msgstr "Tags"
 
 #: ../../app/helpers/themeHelpers.php:530
 msgid "Add your tags and comment"
-msgstr "Adicionar seus tags e comentários"
+msgstr "Adicionar suass tags e comentar"
 
 #: ../../app/helpers/themeHelpers.php:532
 msgid "Login/register to comment on this object"
-msgstr "Entrar/Registrar para comentar neste objeto"
+msgstr "Faça login/cadastro para comentar sobre este objeto"
 
 #: ../../app/helpers/themeHelpers.php:595
 msgid "this %1 contains no items"
@@ -6027,7 +6027,7 @@ msgstr "sala de aula"
 
 #: ../../app/helpers/themeHelpers.php:984
 msgid "Login to add to %1"
-msgstr "Entre para adicionar a %1"
+msgstr "Faça login para adicionar a %1"
 
 #: ../../app/helpers/themeHelpers.php:1082
 msgid "AND"
@@ -6109,7 +6109,7 @@ msgid ""
 "lengths. Check your configuration."
 msgstr ""
 "As listas de padrões de substituição e de pesquisa para substituição %1 têm "
-"diferentes extensões. Verifique a configuração."
+"tamanhos diferentes. Verifique a configuração."
 
 #: ../../app/helpers/batchHelpers.php:281
 msgid ""
@@ -6214,7 +6214,7 @@ msgstr "Este %1 é referenciado %2 vez"
 #: ../../app/helpers/displayHelpers.php:507
 #: ../../app/helpers/displayHelpers.php:509
 msgid "When deleting this %1:"
-msgstr "Enquanto excluindo este %1:"
+msgstr "Ao excluir este %1:"
 
 #: ../../app/helpers/displayHelpers.php:382
 msgid "This %1 is referenced %2 times"
@@ -6279,7 +6279,7 @@ msgstr "páginas"
 
 #: ../../app/helpers/displayHelpers.php:641
 msgid "No embedded metadata was extracted from the media"
-msgstr "Não foram extraídos os metadados inclusos na imagem"
+msgstr "Nenhum metadado embutido foi extraído do arquivo de mídia"
 
 #: ../../app/helpers/displayHelpers.php:906
 #: ../../app/helpers/displayHelpers.php:1946
@@ -6293,7 +6293,7 @@ msgstr "Visualizando %1"
 
 #: ../../app/helpers/displayHelpers.php:914
 msgid "Deaccessioned %1"
-msgstr "Removido %1"
+msgstr "Removido %1 do acervo"
 
 #: ../../app/helpers/displayHelpers.php:935
 msgid "Location: %1"
@@ -6307,13 +6307,13 @@ msgstr "nova tela"
 #: ../../app/helpers/displayHelpers.php:1396
 #: ../../app/helpers/displayHelpers.php:1399
 msgid "Lot contains %1 object"
-msgstr "Conjunto contém %1 objeto"
+msgstr "Lote contém %1 objeto"
 
 #: ../../app/helpers/displayHelpers.php:1030
 #: ../../app/helpers/displayHelpers.php:1396
 #: ../../app/helpers/displayHelpers.php:1399
 msgid "Lot contains %1 objects"
-msgstr "Conjunto contém %1 objetos"
+msgstr "Lote contém %1 objetos"
 
 #: ../../app/helpers/displayHelpers.php:1046
 msgid "Creating new %1"
@@ -6343,7 +6343,7 @@ msgstr "Observar/Esquecer este registro"
 #: ../../app/helpers/displayHelpers.php:1937
 #: ../../app/helpers/displayHelpers.php:1995
 msgid "Change Record Type"
-msgstr "Alterar tipo de registro"
+msgstr "Alterar Tipo de Registro"
 
 #: ../../app/helpers/displayHelpers.php:1191
 msgid "Create Child Record"
@@ -6351,7 +6351,7 @@ msgstr "Criar Registro Filho"
 
 #: ../../app/helpers/displayHelpers.php:1198
 msgid "Create a child record under this one"
-msgstr "Criar um registro filho relacionado a este"
+msgstr "Criar um registro filho sob este"
 
 #: ../../app/helpers/displayHelpers.php:1216
 msgid "Duplicate this %1"
@@ -6364,7 +6364,7 @@ msgstr "Baixar toda mídia associada a objetos deste lote"
 
 #: ../../app/helpers/displayHelpers.php:1231
 msgid "Download all media associated with records in this set"
-msgstr "Baxiar toda mídia associada a registros neste conjunto"
+msgstr "Baixar toda mídia associada a registros neste conjunto"
 
 #: ../../app/helpers/displayHelpers.php:1243
 msgid "In set"
@@ -6386,7 +6386,7 @@ msgstr "%1 atrás"
 
 #: ../../app/helpers/displayHelpers.php:1269
 msgid "<strong>Created</strong><br/>%1 by %2"
-msgstr "<strong>Criado</strong><br/>%1 by %2"
+msgstr "<strong>Criado</strong><br/>%1 por %2"
 
 #: ../../app/helpers/displayHelpers.php:1269
 msgid "<strong>Created</strong><br/>%1"
@@ -6464,11 +6464,11 @@ msgstr "Tem"
 
 #: ../../app/helpers/displayHelpers.php:1397
 msgid "Lot contains %1 component"
-msgstr "O lote contém %1 componente"
+msgstr "Lote contém %1 componente"
 
 #: ../../app/helpers/displayHelpers.php:1397
 msgid "Lot contains %1 components"
-msgstr "O lote contém %1 componentes"
+msgstr "Lote contém %1 componentes"
 
 #: ../../app/helpers/displayHelpers.php:1404
 msgid "There is %1 object with non-conforming numbering"
@@ -6485,7 +6485,7 @@ msgstr "Renumerar objetos"
 #: ../../app/helpers/displayHelpers.php:1424
 #: ../../app/helpers/displayHelpers.php:1427
 msgid "Add new %1 to lot"
-msgstr "Adicionar novo %1 ao conjunto"
+msgstr "Adicionar novo %1 a lote"
 
 #: ../../app/helpers/displayHelpers.php:1450
 msgid "%1 related %2"
@@ -6498,7 +6498,7 @@ msgstr "Relacionado %1"
 
 #: ../../app/helpers/displayHelpers.php:1482
 msgid "Applied to representation"
-msgstr "Aplicado à representação"
+msgstr "Aplicado a representação"
 
 #: ../../app/helpers/displayHelpers.php:1500
 msgid "Batch Edit"
@@ -6574,7 +6574,7 @@ msgstr "É um"
 
 #: ../../app/helpers/displayHelpers.php:1651
 msgid "Referenced by user interfaces"
-msgstr "Referenciada por interfaces de usuário"
+msgstr "Referenciado por interfaces de usuário"
 
 #: ../../app/helpers/displayHelpers.php:1664
 msgid "Number of screens"
@@ -6660,11 +6660,11 @@ msgstr "Exportação em lote de metadados"
 
 #: ../../app/helpers/displayHelpers.php:2059
 msgid "Selected exporter"
-msgstr "Selecionar exportador"
+msgstr "Exportador selecionado"
 
 #: ../../app/helpers/displayHelpers.php:2062
 msgid "Back to record"
-msgstr "Voltar ao registro"
+msgstr "De volta ao registro"
 
 #: ../../app/helpers/displayHelpers.php:3282 ../../app/lib/BaseSettings.php:583
 #: ../../app/lib/BaseSettings.php:589
@@ -6693,7 +6693,7 @@ msgstr "Adicionar item a %1"
 
 #: ../../app/helpers/displayHelpers.php:3757
 msgid "Login to add item to %1"
-msgstr "Entre para adicionar item a %1"
+msgstr "Faça login para adicionar item a %1"
 
 #: ../../app/helpers/displayHelpers.php:3803
 msgid "Zoom"
@@ -6774,7 +6774,7 @@ msgstr "Id inválido"
 #: ../../app/widgets/recentlyCreated/views/main_html.php:45
 #: ../../app/widgets/recordsByStatus/views/main_html.php:43
 msgid "BLANK"
-msgstr "EM BRANCO"
+msgstr "VAZIO"
 
 #: ../../app/helpers/htmlFormHelpers.php:465
 msgid "More..."
@@ -6854,11 +6854,11 @@ msgstr "Açores"
 
 #: ../../app/helpers/gisHelpers.php:61
 msgid "Bahamas"
-msgstr "Baamas"
+msgstr "Bahamas"
 
 #: ../../app/helpers/gisHelpers.php:62
 msgid "Bahrain"
-msgstr "Bahrain"
+msgstr "Bahrein"
 
 #: ../../app/helpers/gisHelpers.php:63
 msgid "Bangladesh"
@@ -6870,7 +6870,7 @@ msgstr "Barbados"
 
 #: ../../app/helpers/gisHelpers.php:65
 msgid "Belarus"
-msgstr "Belarus"
+msgstr "Bielorrússia"
 
 #: ../../app/helpers/gisHelpers.php:66
 msgid "Belgium"
@@ -6954,7 +6954,7 @@ msgstr "Cabo Verde"
 
 #: ../../app/helpers/gisHelpers.php:86
 msgid "Cayman Islands"
-msgstr "Ilhas Caimão"
+msgstr "Ilhas Cayman"
 
 #: ../../app/helpers/gisHelpers.php:87
 msgid "Central African Republic"
@@ -7034,7 +7034,7 @@ msgstr "Dinamarca"
 
 #: ../../app/helpers/gisHelpers.php:106
 msgid "Djibouti"
-msgstr "Djibouti"
+msgstr "Djibuti"
 
 #: ../../app/helpers/gisHelpers.php:107
 msgid "Dominica"
@@ -7046,7 +7046,7 @@ msgstr "República Dominicana"
 
 #: ../../app/helpers/gisHelpers.php:109
 msgid "East Timor"
-msgstr "Timor-Leste"
+msgstr "Timor Leste"
 
 #: ../../app/helpers/gisHelpers.php:110
 msgid "Ecuador"
@@ -8140,7 +8140,7 @@ msgid ""
 "[%3] Error processing rule \"%1\" as an error occurred. Error number was "
 "\"%2\""
 msgstr ""
-"[%3] Erro ao processar regra \"%1\" porque ocorreu um erro. Erro número "
+"[%3] Erro ao processar regra \"%1\" pois um erro ocorreu. Número do erro foi "
 "\"%2\""
 
 #: ../../app/helpers/importHelpers.php:207
@@ -8356,7 +8356,7 @@ msgid ""
 "No database login information found. Have you specified it in your setup.php "
 "file?"
 msgstr ""
-"Não foi encontrada informação de acesso na base de dados. Você especificou "
+"Não foi encontrada informação de acesso da base de dados. Você especificou "
 "essa informação no seu arquivo setup.php?"
 
 #: ../../app/lib/ConfigurationCheck.php:224
@@ -8422,7 +8422,7 @@ msgid ""
 "CollectiveAccess requires PHP version 7.2 or higher to function properly. "
 "You're running %1. Please upgrade."
 msgstr ""
-"O CollectiveAccess requer PHP versão 7.2 ou superior para funcionar "
+"O CollectiveAccess requer PHP versão 7.2 ou maior para funcionar "
 "corretamente. Você está usando a %1. Por favor, atualize."
 
 #: ../../app/lib/ConfigurationCheck.php:281
@@ -8669,7 +8669,7 @@ msgid ""
 msgstr ""
 "Parece que a configuração __CA_SITE_HOSTNAME__ no seu setup.php pode estar "
 "incorreta. Se tiver quaisquer problemas com a exibição da imagem, tente "
-"definir esta opção para &quot;%1&quot;. Fizemos esta sugestão, porque este é "
+"definir esta opção para &quot;%1&quot;. Fizemos esta sugestão porque este é "
 "o nome do host usado para acessar este script. Pode ser válida apenas para "
 "você (e não para outros usuários do sistema) embora (por exemplo, se usar o "
 "'localhost' ou um recurso como/etc/hosts em sistemas operacionais baseados "
@@ -8744,7 +8744,7 @@ msgid ""
 "value is %1"
 msgstr ""
 "Em particular, você tem que definir o valor da configuração \"suhosin.post."
-"max_name_length\" para 256 ou superior para garantir que o CA funcione "
+"max_name_length\" para 256 ou maior para garantir que o CA funcione "
 "corretamente. O seu valor é %1"
 
 #: ../../app/lib/ConfigurationCheck.php:553
@@ -8754,7 +8754,7 @@ msgid ""
 "Your value is %1"
 msgstr ""
 "Em particular, você tem que definir o valor da configuração \"suhosin."
-"request.max_varname_length\" para 256 ou superior para garantir que o CA "
+"request.max_varname_length\" para 256 ou maior para garantir que o CA "
 "funcione corretamente. O seu valor é %1"
 
 #: ../../app/lib/ConfigurationCheck.php:560
@@ -8764,7 +8764,7 @@ msgid ""
 "Your value is %1"
 msgstr ""
 "Em particular, você tem que definir o valor da configuração \"suhosin.post."
-"max_totalname_length\" para 5012 ou superior para garantir que a CA funcione "
+"max_totalname_length\" para 5012 ou maior para garantir que a CA funcione "
 "corretamente. O seu valor é %1"
 
 #: ../../app/lib/ConfigurationCheck.php:567
@@ -8774,7 +8774,7 @@ msgid ""
 "Your value is %1"
 msgstr ""
 "Em particular, você tem que definir o valor da configuração \"suhosin."
-"request.max_totalname_length\" para 5012 ou superior para garantir que o CA "
+"request.max_totalname_length\" para 5012 ou maior para garantir que o CA "
 "funciona corretamente. O seu valor é %1"
 
 #: ../../app/lib/ConfigurationCheck.php:644
@@ -9009,7 +9009,7 @@ msgstr ""
 
 #: ../../app/lib/BaseQuickAddController.php:272
 msgid "You are not allowed to quickadd %1"
-msgstr "Não está autorizado a fazer a adição rápida de %1"
+msgstr "Você não tem permissão para fazer a adição rápida de %1"
 
 #: ../../app/lib/BaseQuickAddController.php:324
 #: ../../app/lib/BaseEditorController.php:263
@@ -9062,12 +9062,12 @@ msgid ""
 "Thank you for contributing.  Your comments will be posted on this page after "
 "review by site staff."
 msgstr ""
-"Obrigado por contribuir. Os seus comentários serão publicados após revisão "
-"pelo administrador."
+"Obrigado por contribuir. Seus comentários serão publicados nesta página após "
+"revisão pela equipe do site."
 
 #: ../../app/lib/BaseDetailController.php:390
 msgid "Thank you for your contribution."
-msgstr "Obrigado pela sua contribuição."
+msgstr "Obrigado por sua contribuição."
 
 #: ../../app/lib/AppNavigation.php:462 ../../app/lib/AppNavigation.php:467
 #: ../../app/lib/AppNavigation.php:493 ../../app/lib/AppNavigation.php:513
@@ -9081,7 +9081,7 @@ msgstr "Erro de controlador: %1"
 
 #: ../../app/lib/AppNavigation.php:711
 msgid "Disabled"
-msgstr "Desativado"
+msgstr "Desabilitado"
 
 #: ../../app/lib/AppNavigation.php:719
 msgid "For type <em>%1</em>"
@@ -9095,7 +9095,8 @@ msgstr "Para tipos <em>%1</em>"
 msgid ""
 "Error applying database migration %1: %2; error was at query %3; query was %4"
 msgstr ""
-"Erro ao aplicar a migração de %1: %2; erro na consulta %3; a consulta foi %4"
+"Erro ao aplicar a migração de banco de dados de %1: %2; erro foi na consulta %3; "
+"a consulta foi %4"
 
 #: ../../app/lib/IDNumbering/MultipartIDNumber.php:455
 #: ../../app/lib/IDNumbering/SMFMultipartIDNumber.php:252
@@ -9636,7 +9637,7 @@ msgstr "Não é possível excluir raiz da hierarquia"
 
 #: ../../app/lib/BaseEditorController.php:512
 msgid "Transferred %1 relationship to type <em>%2</em>"
-msgstr "Transferido %1 relação para o tipo  <em>%2</em>"
+msgstr "Transferido %1 relação para o tipo <em>%2</em>"
 
 #: ../../app/lib/BaseEditorController.php:512
 msgid "Transferred %1 relationships to type <em>%2</em>"
@@ -9758,7 +9759,7 @@ msgstr "Não foi possível atualizar marcador primário para representação: %1
 
 #: ../../app/lib/BaseRepresentationRelationship.php:249
 msgid "Could not load %1-representation link"
-msgstr "Não foi possível carregar %1-link de representação"
+msgstr "Não foi possível carregar ligação %1-representação"
 
 #: ../../app/lib/Utils/BaseApplicationTool.php:175
 msgid "Command %1 does not exist"
@@ -10018,7 +10019,7 @@ msgid ""
 "Analyzes a directory of images and returns a tab-delimited  list of import-"
 "mapping compatible EXIF and IPTC tags containing data."
 msgstr ""
-"Analisa um diretório de imagens e retorna uma  lista delimitada por tabs "
+"Analisa um diretório de imagens e retorna uma lista delimitada por tabs "
 "compatível com o mapeamento de importação de tags EXIF e IPTC contendo dados."
 
 #: ../../app/lib/Utils/CLIUtils.php:56
@@ -10455,7 +10456,7 @@ msgid ""
 "files will be deleted if you re-run the script with the -d (--delete) option "
 "and the correct permissions."
 msgstr ""
-"%1 arquivos são referenciados  por %2 registros excluídos. Tanto os "
+"%1 arquivos são referenciados por %2 registros excluídos. Tanto os "
 "registros, qaunto os arquivos serão excluídos se você executar novamente o "
 "script com a opção -d (--delete) e as permissões corretas."
 
@@ -12176,7 +12177,7 @@ msgid ""
 "Password to use to log into the targets. We assume the same credentials can "
 "be used to log into all target systems."
 msgstr ""
-"Senha usada para fazer login nos alvos. Supomos que as mesmas credenciais "
+"Senha a usar para fazer login nos alvos. Supomos que as mesmas credenciais "
 "possam ser usadas para fazer login em todos os sistemas alvo."
 
 #: ../../app/lib/Utils/CLIUtils.php:4028
@@ -12187,7 +12188,7 @@ msgid ""
 "use that instead. This parameter is a fixed offset/\"starting point\" of "
 "sorts."
 msgstr ""
-"Timestamp usado para filtrar as alterações de configuração que devem ser "
+"Timestamp a usar para filtrar as alterações de configuração que devem ser "
 "exportadas/enviadas. Opcional. O timestamp só é usado para o primeiro envio "
 "para esse sistema. Depois disso, o sistema mestre armazenará o último "
 "timestamp de envio e usará isso em vez disso. Este parâmetro é um offset "
@@ -12507,7 +12508,7 @@ msgstr ""
 
 #: ../../app/lib/Utils/CLIUtils.php:4576
 msgid "Identifier to use for all newly created target records."
-msgstr "Identificador usado para todos os registros alvo criados."
+msgstr "Identificador a usar para todos os registros alvo criados."
 
 #: ../../app/lib/Utils/CLIUtils.php:4577
 msgid ""
@@ -12549,12 +12550,12 @@ msgid ""
 "Type to use for all newly created representations. Possible values are %1. "
 "Default is %2."
 msgstr ""
-"Tipo usado para todas as representações criadas recentemente. Valores "
+"Tipo a usar para todas as representações criadas recentemente. Valores "
 "possíveis são %1. Padrão é %2."
 
 #: ../../app/lib/Utils/CLIUtils.php:4581
 msgid "Identifier to use for all newly created representation records."
-msgstr "Identificador usado para todos os registros de representação criados."
+msgstr "Identificador a usar para todos os registros de representação criados."
 
 #: ../../app/lib/Utils/CLIUtils.php:4582
 msgid ""
@@ -13498,7 +13499,7 @@ msgstr "Data e hora em que %1 foi criado"
 
 #: ../../app/lib/BaseModel.php:6112
 msgid "Date and time %1 was modified"
-msgstr "Data e hora em que %1  foi modificado"
+msgstr "Data e hora em que %1 foi modificado"
 
 #: ../../app/lib/BaseModel.php:6126
 msgid "Date and time %1 was last modified"
@@ -14637,11 +14638,11 @@ msgstr "Processador de arquivos de mídia em segundo plano"
 
 #: ../../app/lib/Plugins/TaskQueueHandlers/mediaproc.php:86
 msgid "Input format"
-msgstr "Formato de entrada"
+msgstr "Formato de inserção"
 
 #: ../../app/lib/Plugins/TaskQueueHandlers/mediaproc.php:91
 msgid "Input file size"
-msgstr "Tamanho do arquivo de entrada"
+msgstr "Tamanho do arquivo inserido"
 
 #: ../../app/lib/Plugins/TaskQueueHandlers/mediaproc.php:96
 #: ../../app/models/ca_data_importer_items.php:77
@@ -15247,7 +15248,7 @@ msgstr "entidades"
 #: ../../app/conf/browse.conf:495 ../../app/conf/browse.conf:579
 #: ../../app/conf/browse.conf:696
 msgid "places"
-msgstr "locais"
+msgstr "lugares"
 
 #: ../../app/lib/Plugins/InformationService/CollectiveAccess.php:62
 #: ../../app/models/ca_editor_uis.php:88
@@ -15422,7 +15423,7 @@ msgstr "Converte moeda usando taxas de banco europeias disponíveis em %1"
 #: ../../app/lib/Attributes/Values/CurrencyAttributeValue.php:235
 msgid "%1 is not a valid currency value; be sure to include a currency symbol"
 msgstr ""
-"%1 não é um valor de moeda válido; certifique-se de incluir um símbolo de "
+"%1 não é um valor monetário válido; certifique-se de incluir um símbolo de "
 "moeda"
 
 #: ../../app/lib/Plugins/CurrencyConversion/EuroBank.php:88
@@ -16081,7 +16082,7 @@ msgid ""
 "results. (The default is not to be.)"
 msgstr ""
 "Marque esta opção se este valor do atributo pode ser usado para ordenar os "
-"resultados de pesquisa. (O padrão é não ser usado)."
+"resultados de pesquisa. (O padrão é não poder)."
 
 #: ../../app/lib/Attributes/Values/LCSHAttributeValue.php:87
 #: ../../app/lib/Attributes/Values/LengthAttributeValue.php:91
@@ -16144,8 +16145,8 @@ msgid ""
 "Check this option if this attribute value can be used in search forms. (The "
 "default is to be.)"
 msgstr ""
-"Marque esta opção se este atributo pode ser usado em formulários de pesquisa."
-"(O padrão é ser usado.)"
+"Marque esta opção se este valor de atributo pode ser usado em formulários de "
+"pesquisa. (O padrão é poder.)"
 
 #: ../../app/lib/Attributes/Values/LCSHAttributeValue.php:95
 #: ../../app/lib/Attributes/Values/LengthAttributeValue.php:99
@@ -16214,8 +16215,8 @@ msgid ""
 "Check this option if this attribute value can be used for display in search "
 "results. (The default is to be.)"
 msgstr ""
-"Marque esta opção se este atributo puder ser usado na exibição de resultados "
-"de pesquisas. (O padrão é ser usado.)"
+"Marque esta opção se este valor de atributo pode ser usado na exibição de "
+"resultados de pesquisa. (O padrão é poder.)"
 
 #: ../../app/lib/Attributes/Values/LCSHAttributeValue.php:103
 #: ../../app/lib/Attributes/Values/LengthAttributeValue.php:123
@@ -16288,7 +16289,7 @@ msgid ""
 "template. For example: <i>^my_element_code</i>."
 msgstr ""
 "Layout para o valor quando usado numa exibição (pode incluir HTML). Tags de "
-"código de elemento prefixadas com o caractere ^ podem ser usadas para "
+"código de elemento com o prefixo ^ podem ser usadas para "
 "representar o valor no modelo. Por exemplo: <i>^meu_codigo_de_elemento</i>."
 
 #: ../../app/lib/Attributes/Values/LCSHAttributeValue.php:112
@@ -16483,7 +16484,7 @@ msgstr "Delimitador de valor"
 #: ../../app/lib/Attributes/Values/CurrencyAttributeValue.php:155
 msgid "Delimiter to use between multiple values when used in a display."
 msgstr ""
-"Delimitador usado entre vários valores, quando utilizado numa exibição."
+"Delimitador a usar entre vários valores, quando utilizado numa exibição."
 
 #: ../../app/lib/Attributes/Values/LCSHAttributeValue.php:137
 #: ../../app/conf/user_pref_defs.conf:570
@@ -16642,8 +16643,8 @@ msgid ""
 "Check this option if this attribute value can be used for sorting of search "
 "results. (The default is to be.)"
 msgstr ""
-"Marque esta opção se este atributo puder ser usado na ordenação de "
-"resultados de pesquisas. (O padrão é ser usado.)"
+"Marque esta opção se este valor atributo pode ser usado para ordenação de "
+"resultados de pesquisa. (O padrão é não poder.)"
 
 #: ../../app/lib/Attributes/Values/LengthAttributeValue.php:342
 #: ../../app/lib/Attributes/Values/WeightAttributeValue.php:214
@@ -16665,7 +16666,7 @@ msgid ""
 "The minimum number of characters to allow. Input shorter than required will "
 "be rejected."
 msgstr ""
-"Número mínimo de caracteres a autorizar. Entradas menores serão rejeitadas."
+"Número mínimo de caracteres a autorizar. Inserções menores serão rejeitadas."
 
 #: ../../app/lib/Attributes/Values/TextAttributeValue.php:57
 #: ../../app/lib/Attributes/Values/UrlAttributeValue.php:57
@@ -16682,7 +16683,7 @@ msgid ""
 "The maximum number of characters to allow. Input longer than required will "
 "be rejected."
 msgstr ""
-"Número máximo de caracteres autorizados. Entradas superiores serão "
+"Número máximo de caracteres autorizados. Inserções maiores serão "
 "rejeitadas."
 
 #: ../../app/lib/Attributes/Values/TextAttributeValue.php:65
@@ -16705,7 +16706,7 @@ msgstr ""
 "Uma expressão regular no formato Perl com a qual se valida a entrada. "
 "Entradas não correspondentes à expressão serão rejeitadas. Não inclui os "
 "caracteres delimitadores iniciais e finais (tipicamente \"/\") na sua "
-"expressão. Deixe em branco se você não quiser usar validação baseada em "
+"expressão. Deixe vazio se você não quiser usar validação baseada em "
 "expressão regular."
 
 #: ../../app/lib/Attributes/Values/TextAttributeValue.php:89
@@ -16765,7 +16766,7 @@ msgid ""
 "Choose <em>most recently added </em> to sort with most recently entered "
 "values first."
 msgstr ""
-"Se a sugestão de valores existentes está ativada, esta opção determina como "
+"Se a sugestão de valores existentes estiver ativada, esta opção determina como "
 "os valores retornados são ordenados. Escolha <em>value</em> para ordenar "
 "alfabeticamente. Escolha <em>adicionado mais recentemente</me> para ordenar "
 "com os valores mais recentes em primeiro."
@@ -16781,7 +16782,7 @@ msgstr "Valor"
 #: ../../app/lib/Attributes/Values/UrlAttributeValue.php:125
 #: ../../app/lib/Attributes/Values/DateRangeAttributeValue.php:144
 msgid "Most recently added"
-msgstr "Adicionados recentemente"
+msgstr "Mais recentemente adicionado"
 
 #: ../../app/lib/Attributes/Values/TextAttributeValue.php:133
 #: ../../app/lib/Attributes/Values/UrlAttributeValue.php:133
@@ -16809,7 +16810,7 @@ msgid ""
 "template. For example: <em>^my_element_code</em>."
 msgstr ""
 "Layout para o valor quando usado numa exibição (pode incluir HTML) . Tags de "
-"código de elemento prefixadas com o caractere ^ podem ser usadas para "
+"código de elemento com o prefixo ^ podem ser usadas para "
 "representar o valor no modelo. Por exemplo: <em>^meu_codigo_de_elemento</em>."
 
 #: ../../app/lib/Attributes/Values/TextAttributeValue.php:191
@@ -16838,7 +16839,7 @@ msgid ""
 msgstr ""
 "Template a ser usado para formatar conteúdo para valores dependentes. O "
 "modelo deve referenciar valores de contêiner usando o código do elemento "
-"prefixado com o símbolo (^). Não inclua os códigos de tabela ou contêiner."
+"com o prefixo ^. Não inclua os códigos de tabela ou contêiner."
 
 #: ../../app/lib/Attributes/Values/TextAttributeValue.php:209
 #: ../../app/lib/Attributes/Values/IntegerAttributeValue.php:130
@@ -16921,16 +16922,16 @@ msgid ""
 "Insert number of metadata elements after which a line break should be "
 "inserted here. (Default is 0 - i.e. no line breaks)"
 msgstr ""
-"Insira o número de elementos de metadados depois dos quais deve feita uma "
-"quebra de linha. (O padrão é 0 - isto é, sem quebras de linha)"
+"Insira o número de elementos de metadados após o qual uma quebra de linha "
+"deve ser inserida aqui. (O padrão é 0 - ou seja, sem quebras de linha)"
 
 #: ../../app/lib/Attributes/Values/ContainerAttributeValue.php:109
 msgid "Delimiter to use between multiple values."
-msgstr "Delimitador para utilizar entre valores múltiplos."
+msgstr "Delimitador para utilizar entre múltiplos valores."
 
 #: ../../app/lib/Attributes/Values/ContainerAttributeValue.php:116
 msgid "Display template for read-only mode"
-msgstr "Template de exibição para modo de apenas leitura"
+msgstr "Template de exibição para modo somente leitura"
 
 #: ../../app/lib/Attributes/Values/ContainerAttributeValue.php:118
 msgid ""
@@ -16938,9 +16939,9 @@ msgid ""
 "set, existing values are always displayed in read-only mode until you click "
 "to edit. This can be used to preserve screen space for large containers."
 msgstr ""
-"Layout usado quando um valor de contêiner está em modo de apenas leitura. Se "
+"Layout usado quando um valor de contêiner está em modo somente leitura. Se "
 "este modelo estiver definido, os valores existentes são sempre exibidos em "
-"modo de apenas leitura até você clicar para editar. Isto pode ser usado para "
+"modo somente leitura até você clicar para editar. Isto pode ser usado para "
 "preservar espaço de tela para contêineres grandes."
 
 #: ../../app/lib/Attributes/Values/UrlAttributeValue.php:90
@@ -17032,8 +17033,8 @@ msgid ""
 "The minimum numeric value to allow. Values smaller than required will be "
 "rejected. Leave blank to indicate no lower limit."
 msgstr ""
-"Valor numérico mínimo permitido. Valores inferiores ao exigido serão "
-"rejeitados. Deixe em branco para indicar ausência de limite mínimo."
+"Valor numérico mínimo permitido. Valores menores que o exigido serão "
+"rejeitados. Deixe vazio para indicar ausência de limite mínimo."
 
 #: ../../app/lib/Attributes/Values/NumericAttributeValue.php:73
 #: ../../app/lib/Attributes/Values/IntegerAttributeValue.php:74
@@ -17046,8 +17047,8 @@ msgid ""
 "The maximum numeric value to allow. Values larger than required will be "
 "rejected. Leave blank to indicate no upper limit."
 msgstr ""
-"Valor numérico máximo permitido. Valores superiores ao exigido serão "
-"rejeitados. Deixe em branco para indicar ausência de limite máximo."
+"Valor numérico máximo permitido. Valores maiores que o exigido serão "
+"rejeitados. Deixe vazioem branco para indicar ausência de limite máximo."
 
 #: ../../app/lib/Attributes/Values/NumericAttributeValue.php:106
 msgid ""
@@ -17132,8 +17133,8 @@ msgid ""
 "Check this option if you don't want your list values to be locale-specific. "
 "(The default is to not be.)"
 msgstr ""
-"Marque esta opção se não deseja que a sua lista seja específica de "
-"localização de idioma. (O padrão é não ser.)"
+"Marque esta opção se você não deseja que seus valores de lista sejam "
+"específicos de localização de idioma. (O padrão é não serem.)"
 
 #: ../../app/lib/Attributes/Values/CollectionsAttributeValue.php:132
 #: ../../app/lib/Attributes/Values/StorageLocationsAttributeValue.php:132
@@ -17475,7 +17476,7 @@ msgstr "Delimitador de elementos GeoNames"
 #: ../../app/lib/Attributes/Values/GeoNamesAttributeValue.php:169
 msgid "Delimiter to use between multiple values pulled from GeoNames service."
 msgstr ""
-"Delimitador usado entre valores múltiplos obtidos através do serviço "
+"Delimitador a usar entre múltiplos valores obtidos através do serviço "
 "GeoNames."
 
 #: ../../app/lib/Attributes/Values/GeoNamesAttributeValue.php:267
@@ -17552,7 +17553,7 @@ msgid ""
 "The range of dates that are accepted. Input dates outside the range will be "
 "rejected. Leave blank if you do not require restrictions."
 msgstr ""
-"O intervalo de datas que é aceito. Entradas de data fora do intervalo serão "
+"O intervalo de datas que é aceito. Inserções de data fora do intervalo serão "
 "rejeitadas. Deixe vazio se não desejar restrições."
 
 #: ../../app/lib/Attributes/Values/DateRangeAttributeValue.php:67
@@ -17565,20 +17566,20 @@ msgstr ""
 
 #: ../../app/lib/Attributes/Values/DateRangeAttributeValue.php:82
 msgid "Include date picker"
-msgstr "Incluir selecionador de data"
+msgstr "Incluir seletor de data"
 
 #: ../../app/lib/Attributes/Values/DateRangeAttributeValue.php:83
 msgid ""
 "Check this option if you want a calendar-based date picker to be available "
 "for date entry. (The default is to not include a picker.)"
 msgstr ""
-"Marque esta opção se desejar que um selecionador de data baseado em "
-"calendário esteja disponível para entrada de datas. (O padrão é não incluir "
-"um selecionador.)"
+"Marque esta opção se desejar que um seletor de data baseado em "
+"calendário esteja disponível para inserção de datas. (O padrão é não incluir "
+"um seletor.)"
 
 #: ../../app/lib/Attributes/Values/DateRangeAttributeValue.php:90
 msgid "Date picker date format"
-msgstr "Formato de data do selecionador de data"
+msgstr "Formato de data do seletor de data"
 
 #: ../../app/lib/Attributes/Values/DateRangeAttributeValue.php:92
 msgid "ISO-8601 (ex. 2012-07-03)"
@@ -17586,38 +17587,38 @@ msgstr "ISO-8601 (ex. 2012-07-03)"
 
 #: ../../app/lib/Attributes/Values/DateRangeAttributeValue.php:93
 msgid "US Delimited (ex. 07/03/2012)"
-msgstr "US Delimited (ex. 07/03/2012)"
+msgstr "EUA Delimitado por Barras (ex. 07/21/2012)"
 
 #: ../../app/lib/Attributes/Values/DateRangeAttributeValue.php:94
 msgid "European Delimited (ex. 03/07/2012)"
-msgstr "European Delimited (ex. 03/07/2012)"
+msgstr "Europeu Delimitado por Barras (ex. 21/07/2012)"
 
 #: ../../app/lib/Attributes/Values/DateRangeAttributeValue.php:95
 msgid "Month Day, Year (ex. July 3, 2012)"
-msgstr "Mês Dia, Ano (ex. Julho 3, 2012)"
+msgstr "Mês Dia, Ano (ex. Julho 21, 2012)"
 
 #: ../../app/lib/Attributes/Values/DateRangeAttributeValue.php:96
 msgid "Month Day Year (ex. July 3 2012)"
-msgstr "Mês Dia Ano (ex. Julho 3 2012)"
+msgstr "Mês Dia Ano (ex. Julho 21 2012)"
 
 #: ../../app/lib/Attributes/Values/DateRangeAttributeValue.php:97
 msgid "Day Month Year (ex. 3 July 2012)"
-msgstr "Dia Mês Ano (ex. 3 Julho 2012)"
+msgstr "Dia Mês Ano (ex. 21 Julho 2012)"
 
 #: ../../app/lib/Attributes/Values/DateRangeAttributeValue.php:98
 msgid "Short month Day Year (ex. Jul 3 2012)"
-msgstr "Mês curto Dia Ano (ex. Jul 3 2012)"
+msgstr "Mês curto Dia Ano (ex. Jul 21 2012)"
 
 #: ../../app/lib/Attributes/Values/DateRangeAttributeValue.php:99
 msgid "Day Short month Year (ex. 3 July 2012)"
-msgstr "Dia Mês curto Ano (ex. 3 Jul 2012)"
+msgstr "Dia Mês curto Ano (ex. 21 Jul 2012)"
 
 #: ../../app/lib/Attributes/Values/DateRangeAttributeValue.php:101
 msgid ""
 "Format to use for dates selected from the date picker. (The default is YY-MM-"
 "DD format.)"
 msgstr ""
-"Formato usado para datas selecionadas a partir do selecionador de data. (O "
+"Formato a usar para datas selecionadas a partir do seletor de datas. (O "
 "padrão é o formato AA-MM-DD.)"
 
 #: ../../app/lib/Attributes/Values/DateRangeAttributeValue.php:116
@@ -17649,8 +17650,8 @@ msgid ""
 "Check this option if you want this attribute to suggest previously saved "
 "values as text is entered."
 msgstr ""
-"Marque esta opção se desejar que este atributo sugira valores previamente "
-"salvos enquanto o texto é inserido."
+"Marque esta opção se desejar que este atributo sugira valores salvos "
+"anteriormente à medida que o texto é inserido."
 
 #: ../../app/lib/Attributes/Values/DateRangeAttributeValue.php:322
 msgid "%1 must be within %2"
@@ -17708,7 +17709,7 @@ msgid ""
 "Text to use as label for the \"no value\" option when a value is not "
 "required."
 msgstr ""
-"Texto a ser usado como rótulo para a opção \"sem valor\" quando um valor não "
+"Texto a usar como rótulo para a opção \"sem valor\" quando um valor não "
 "é necessário."
 
 #: ../../app/lib/Attributes/Values/ListAttributeValue.php:98
@@ -17851,7 +17852,7 @@ msgstr ""
 
 #: ../../app/lib/Attributes/Values/WeightAttributeValue.php:221
 msgid "%1 must not be less than zero"
-msgstr "%1 não pode ser inferior a zero"
+msgstr "%1 não pode ser menor que zero"
 
 #: ../../app/lib/Attributes/Values/LoansAttributeValue.php:48
 msgid "Check this option if you want to require that a loan be selected."
@@ -17867,14 +17868,14 @@ msgid ""
 "The minimum value allowed. Input less than the required value will be "
 "rejected."
 msgstr ""
-"O valor mínimo permitido. Importações de valores inferiores serão rejeitadas."
+"O valor mínimo permitido. Inserções de valores menores serão rejeitadas."
 
 #: ../../app/lib/Attributes/Values/CurrencyAttributeValue.php:65
 msgid ""
 "The maximum value allowed. Input greater than the required value will be "
 "rejected."
 msgstr ""
-"Valor máximo permitido. Importações de valores superiores serão rejeitadas."
+"Valor máximo permitido. Inserções de valores maiores serão rejeitadas."
 
 #: ../../app/lib/Attributes/Values/CurrencyAttributeValue.php:89
 msgid ""
@@ -17891,7 +17892,7 @@ msgstr "~%1"
 #: ../../app/lib/Attributes/Values/CurrencyAttributeValue.php:255
 msgid "%1 does not use a valid decimal notation for your locale"
 msgstr ""
-"%1 não utiliza uma notação decimal válida para a sua localização de idioma"
+"%1 não usa uma notação decimal válida para a sua localização de idioma"
 
 #: ../../app/lib/Attributes/Values/CurrencyAttributeValue.php:279
 msgid "Currency specified for %1 does not appear to be valid"
@@ -17918,7 +17919,7 @@ msgstr "Processamento concluído"
 
 #: ../../app/lib/BatchProcessor.php:191
 msgid "[%1] Batch edit completed"
-msgstr "[%1] Edição em lote completa"
+msgstr "[%1] Edição em lote concluída"
 
 #: ../../app/lib/BatchProcessor.php:207
 msgid "[%1] Batch processing for set %2 with %3 %4 begun at %5 is complete"
@@ -19437,7 +19438,7 @@ msgstr ""
 #: ../../app/models/ca_entity_labels.php:90
 #: ../../app/refineries/entityJoiner/entityJoinerRefinery.php:211
 msgid "Forename"
-msgstr "Nome próprio"
+msgstr "Nome"
 
 #: ../../app/models/ca_entity_labels.php:90
 msgid ""
@@ -19475,9 +19476,9 @@ msgid ""
 "given name. You should enter all middle names here. If there is more than "
 "one separate the names with spaces."
 msgstr ""
-"Muitos nomes incluem um ou mais nomes do meio, colocados entre o nome "
-"próprio e o sobrenome. No mundo ocidental, um nome do meio é efetivamente um "
-"segundo nome próprio. Você deve inserir aqui todos os nomes do meio. Se "
+"Muitos nomes incluem um ou mais nomes do meio, colocados entre o primeiro "
+"nome o sobrenome. No mundo ocidental, um nome do meio é efetivamente um "
+"segundo nome. Você deve inserir aqui todos os nomes do meio. Se "
 "houver mais de um, separe os nomes com espaços."
 
 #: ../../app/models/ca_entity_labels.php:114
@@ -20214,7 +20215,7 @@ msgstr "Título descritivo para o empréstimo"
 
 #: ../../app/models/ca_editor_ui_screens_x_roles.php:40
 msgid "editor screen ⇔ role association"
-msgstr "associaçãode  tela do editor ⇔ cargo"
+msgstr "associaçãode tela do editor ⇔ cargo"
 
 #: ../../app/models/ca_editor_ui_screens_x_roles.php:41
 msgid "editor screen ⇔ role associations"
@@ -20394,11 +20395,11 @@ msgstr "Nenhum código de tipo definido"
 
 #: ../../app/models/ca_user_groups.php:42
 msgid "user group"
-msgstr "grupo do usuário"
+msgstr "grupo de usuários"
 
 #: ../../app/models/ca_user_groups.php:43
 msgid "user groups"
-msgstr "grupos do usuário"
+msgstr "grupos de usuários"
 
 #: ../../app/models/ca_user_groups.php:50
 msgid "Group id"
@@ -21131,7 +21132,7 @@ msgstr "Altura"
 #: ../../app/models/ca_editor_ui_bundle_placements.php:89
 #: ../../app/conf/bundle_types.conf:10 ../../app/conf/bundle_types.conf:52
 msgid "Read only?"
-msgstr "Apenas leitura?"
+msgstr "Somente leitura?"
 
 #: ../../app/models/ca_editor_ui_bundle_placements.php:90
 msgid "If checked, field will not be editable."
@@ -22379,8 +22380,8 @@ msgid ""
 "URL pointing to documentation for this field. Leave blank if no "
 "documentation URL exists."
 msgstr ""
-"URL apontando para documentação para este campo. Deixe em branco se não "
-"existir nenhuma URL de documentação."
+"URL apontando para documentação para este campo. Deixe vazio se não "
+"existir uma URL de documentação."
 
 #: ../../app/models/ca_editor_ui_screens.php:539
 msgid "Use list to suggest values"
@@ -22475,7 +22476,7 @@ msgid ""
 "URL pointing to documentation for this field. Leave blank if you wish to use "
 "the default URL for this metadata element."
 msgstr ""
-"URL apontando a documentação para este campo. Deixe em branco se você deseja "
+"URL apontando a documentação para este campo. Deixe vazio se você deseja "
 "usar a URL padrão para o elemento de metadados."
 
 #: ../../app/models/ca_editor_ui_screens.php:628
@@ -22540,7 +22541,7 @@ msgid ""
 "in the template. For example: <i>^my_element_code</i>."
 msgstr ""
 "Layout para a relação quando exibida na lista (pode incluir HTML). Tags de "
-"código de elemento prefixadas com o caractere ^ podem ser usadas para "
+"código de elemento com o prefixo ^ podem ser usadas para "
 "representar o valor no template. Por exemplo: <i>^meu_codigo_de_elemento</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:699
@@ -22925,9 +22926,9 @@ msgid ""
 "character can be used to represent the value in the template. For example: "
 "<i>^ca_objects.idno</i>."
 msgstr ""
-"Layout para referenciar objetos. Tags de código de elemento prefixadas com o "
-"caractere ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_objects.numid</i>."
+"Layout para referenciar objetos. Tags de código de elemento com o prefixo "
+"^ podem ser usadas para representar o valor no template. Por exemplo: "
+"<i>^ca_objects.numid</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1099
 msgid "Lot display template"
@@ -22939,8 +22940,8 @@ msgid ""
 "can be used to represent the value in the template. For example: "
 "<i>^ca_object_lots.idno_stub</i>."
 msgstr ""
-"Layout para referenciar lotes. Tags de código de elemento prefixadas com o "
-"caractere ^ podem ser usadas para representar o valor no template. Por "
+"Layout para referenciar lotes. Tags de código de elemento com o prefixo "
+"^ podem ser usadas para representar o valor no template. Por "
 "exemplo: <i>^ca_object_lots.numid_stub</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1107
@@ -22953,8 +22954,8 @@ msgid ""
 "character can be used to represent the value in the template. For example: "
 "<i>^ca_entities.idno</i>."
 msgstr ""
-"Layout para referenciar entidades. Tags de código de elemento prefixadas com "
-"o caractere ^ podem ser usadas para representar o valor no template. Por "
+"Layout para referenciar entidades. Tags de código de elemento com o "
+"prefixo ^ podem ser usadas para representar o valor no template. Por "
 "exemplo: <i>^ca_entities.numid</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1115
@@ -22967,8 +22968,8 @@ msgid ""
 "character can be used to represent the value in the template. For example: "
 "<i>^ca_places.idno</i>."
 msgstr ""
-"Layout para referenciar lugares. Tags de código de elemento prefixadas com o "
-"caractere ^ podem ser usadas para representar o valor no template. Por "
+"Layout para referenciar lugares. Tags de código de elemento com o "
+"prefixo ^ podem ser usadas para representar o valor no template. Por "
 "exemplo: <i>^ca_places.numid</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1123
@@ -22981,8 +22982,8 @@ msgid ""
 "character can be used to represent the value in the template. For example: "
 "<i>^ca_occurrences.idno</i>."
 msgstr ""
-"Layout para referenciar ocorrências. Tags de código de elemento prefixadas "
-"com o caractere ^ podem ser usadas para representar o valor no template. Por "
+"Layout para referenciar ocorrências. Tags de código de elemento com o "
+"prefixo ^ podem ser usadas para representar o valor no template. Por "
 "exemplo: <i>^ca_occurrences.numid</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1131
@@ -22995,8 +22996,8 @@ msgid ""
 "character can be used to represent the value in the template. For example: "
 "<i>^ca_collections.idno</i>."
 msgstr ""
-"Layout para referenciar coleções. Tags de código de elemento prefixadas com "
-"o caractere ^ podem ser usadas para representar o valor no template. Por "
+"Layout para referenciar coleções. Tags de código de elemento com o "
+"prefixo ^ podem ser usadas para representar o valor no template. Por "
 "exemplo: <i>^ca_collections.numid</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1139
@@ -23009,8 +23010,8 @@ msgid ""
 "character can be used to represent the value in the template. For example: "
 "<i>^ca_loans.idno</i>."
 msgstr ""
-"Layout para referenciar empréstimos. Tags de código de elemento prefixadas "
-"com o caractere ^ podem ser usadas para representar o valor no template. Por "
+"Layout para referenciar empréstimos. Tags de código de elemento com o "
+"prefixo ^ podem ser usadas para representar o valor no template. Por "
 "exemplo: <i>^ca_loans.numid</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1147
@@ -23023,8 +23024,8 @@ msgid ""
 "character can be used to represent the value in the template. For example: "
 "<i>^ca_movements.idno</i>."
 msgstr ""
-"Layout para referenciar movimentações. Tags de código de elemento prefixadas "
-"com o caractere ^ podem ser usadas para representar o valor no template. Por "
+"Layout para referenciar movimentações. Tags de código de elemento com o "
+"prefixo ^ podem ser usadas para representar o valor no template. Por "
 "exemplo: <i>^ca_movements.numid</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1155
@@ -23038,7 +23039,7 @@ msgid ""
 "example: <i>^ca_object_representations.idno</i>."
 msgstr ""
 "Layout para referenciar representações de objetos. Tags de código de "
-"elemento prefixadas com o caractere ^ podem ser usadas para representar o "
+"elemento com o prefixo ^ podem ser usadas para representar o "
 "valor no template. Por exemplo: <i>^ca_object_representations.numid</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1163
@@ -23052,7 +23053,7 @@ msgid ""
 "<i>^ca_list_items.idno</i>."
 msgstr ""
 "Layout para referenciar itens de lista. Tags de código de elemento "
-"prefixadas com o caractere ^ podem ser usadas para representar o valor no "
+"com o prefixo ^ podem ser usadas para representar o valor no "
 "template. Por exemplo: <i>^ca_list_items.numid</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1178
@@ -23074,7 +23075,7 @@ msgid ""
 "template. For example: <i>^ca_objects.idno</i>."
 msgstr ""
 "Layout para componente quando exibido em lista (pode incluir HTML). Tags de "
-"código de elemento prefixadas com o caractere ^ podem ser usadas para "
+"código de elemento com o prefixo ^ podem ser usadas para "
 "representar o valor no template. Por exemplo: <i>^ca_objects.numid</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1206
@@ -23103,7 +23104,7 @@ msgstr ""
 "Layout para localização atual do objeto quando exibido em lista (pode "
 "incluir HTML). O template é avaliado relativamente à relação objeto-"
 "movimento ou objeto-localização que for atual. Tags de código de elemento "
-"prefixadas com o caractere ^ podem ser usadas para representar o valor no "
+"com o prefixo ^ podem ser usadas para representar o valor no "
 "template. Por exemplo: <i>^ca_movements.numid</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1228
@@ -23121,7 +23122,7 @@ msgstr ""
 "Layout para cada localização anterior do objeto quando exibido na lista de "
 "histórico (pode incluir HTML). O modelo é avaliado relativamente à relação "
 "objeto-movimento ou objeto-local de armazenamento. Tags de código de "
-"elemento prefixadas com o caractere ^ podem ser usadas para representar o "
+"elemento com o prefixo ^ podem ser usadas para representar o "
 "valor no template. Por exemplo: <i>^ca_movements.numid</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1237
@@ -23131,7 +23132,7 @@ msgstr "Cor para a localização atual"
 #: ../../app/models/ca_editor_ui_screens.php:1238
 msgid ""
 "Color to use as highlight for the current location in the location history."
-msgstr "Cor a ser usada como destaque para a localização atual no histórico."
+msgstr "Cor a usar como destaque para a localização atual no histórico."
 
 #: ../../app/models/ca_editor_ui_screens.php:1246
 msgid "Color for future locations"
@@ -23139,7 +23140,7 @@ msgstr "Cor para futuras localizações"
 
 #: ../../app/models/ca_editor_ui_screens.php:1247
 msgid "Color to use as highlight for future locations in the location history."
-msgstr "Cor a ser usada como destaque para futuras localizações no histórico."
+msgstr "Cor a usar como destaque para futuras localizações no histórico."
 
 #: ../../app/models/ca_editor_ui_screens.php:1255
 msgid "Color for past locations"
@@ -23149,7 +23150,7 @@ msgstr "Cor para lozalizações anteriores"
 msgid ""
 "Color to use as highlight for the previous locations in the location history."
 msgstr ""
-"Cor a ser usada como destaque para localizações anteriores no histórico."
+"Cor a usar como destaque para localizações anteriores no histórico."
 
 #: ../../app/models/ca_editor_ui_screens.php:1264
 #: ../../app/models/ca_editor_ui_screens.php:1378
@@ -23255,7 +23256,7 @@ msgstr "Cor para %1"
 #: ../../app/models/ca_editor_ui_screens.php:1611
 #: ../../app/models/ca_editor_ui_screens.php:1678
 msgid "Color to use as highlight %1."
-msgstr "Cor a ser usada como destaque %1."
+msgstr "Cor a usar como destaque %1."
 
 #: ../../app/models/ca_editor_ui_screens.php:1422
 msgid "Lot (%1) display template"
@@ -23270,7 +23271,7 @@ msgid ""
 msgstr ""
 "Layout para o lote quando exibido na lista de histórico (pode incluir HTML). "
 "O template é avaliado em relação ao lote. Tags de código de elemento "
-"prefixadas com o caractere ^ podem ser usadas para representar o valor no "
+"com o prefixo ^ podem ser usadas para representar o valor no "
 "template. Por exemplo: <i>^ca_object_lots.numid_stub</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1430
@@ -23298,7 +23299,7 @@ msgid ""
 msgstr ""
 "Layout para o lote relacionado a objetos filhos, quando exibido na lista de "
 "histórico (pode incluir HTML). O template é avaliado em relação ao lote. "
-"Tags de código de elemento prefixadas com o caractere ^ podem ser usadas "
+"Tags de código de elemento com o prefixo ^ podem ser usadas "
 "para representar o valor no template. Por exemplo: <i>^ca_object_lots."
 "numid_stub</i>."
 
@@ -23328,8 +23329,8 @@ msgid ""
 "example: <i>^ca_occurrences.idno</i>."
 msgstr ""
 "Layout para %1 quando exibido na lista de histórico (pode incluir HTML). O "
-"template é avaliado em relação a %1. Tags de código de elemento prefixadas "
-"com o caractere ^ podem ser usadas para representar o valor no template. Por "
+"template é avaliado em relação a %1. Tags de código de elemento com o "
+"prefixo ^ podem ser usadas para representar o valor no template. Por "
 "exemplo: <i>^ca_occurrences.numid</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1495
@@ -23369,7 +23370,7 @@ msgid ""
 msgstr ""
 "Layout para %1 relacionado a objetos filhos, quando exibido na lista de "
 "histórico (pode incluir HTML). O template é avaliado em relação ao lote. "
-"Tags de código de elemento prefixadas com o caractere ^ podem ser usadas "
+"Tags de código de elemento com o prefixo ^ podem ser usadas "
 "para representar o valor no template. Por exemplo: <i>^ca_object_lots."
 "numid_stub</i>."
 
@@ -23385,8 +23386,8 @@ msgid ""
 "example: <i>^ca_collections.idno</i>."
 msgstr ""
 "Layout para %1 quando exibido na lista de histórico (pode incluir HTML). O "
-"template é avaliado em relação a %1. Tags de código de elemento prefixadas "
-"com o caractere ^ podem ser usadas para representar o valor no template. Por "
+"template é avaliado em relação a %1. Tags de código de elemento com o "
+"prefixo ^ podem ser usadas para representar o valor no template. Por "
 "exemplo: <i>^ca_collections.numid</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1587
@@ -23401,8 +23402,8 @@ msgid ""
 "example: <i>^ca_movements.idno</i>."
 msgstr ""
 "Layout para %1 quando exibido na lista de histórico (pode incluir HTML). O "
-"template é avaliado em relação a %1. Tags de código de elemento prefixadas "
-"com o caractere ^ podem ser usadas para representar o valor no template. Por "
+"template é avaliado em relação a %1. Tags de código de elemento com o "
+"prefixo ^ podem ser usadas para representar o valor no template. Por "
 "exemplo: <i>^ca_movements.numid</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1653
@@ -23417,8 +23418,8 @@ msgid ""
 "example: <i>^ca_loans.idno</i>."
 msgstr ""
 "Layout para %1 quando exibido na lista de histórico (pode incluir HTML). O "
-"template é avaliado em relação a %1. Tags de código de elemento prefixadas "
-"com o caractere ^ podem ser usadas para representar o valor no template. Por "
+"template é avaliado em relação a %1. Tags de código de elemento com o "
+"prefixo ^ podem ser usadas para representar o valor no template. Por "
 "exemplo: <i>^ca_loans.numid</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1721
@@ -23435,7 +23436,7 @@ msgstr "Cor para o local de armazenamento"
 
 #: ../../app/models/ca_editor_ui_screens.php:1731
 msgid "Color to use as highlight storage location."
-msgstr "Cor usada como destaque de local de armazenamento."
+msgstr "Cor a usar como destaque de local de armazenamento."
 
 #: ../../app/models/ca_editor_ui_screens.php:1743
 #: ../../app/models/ca_editor_ui_screens.php:1744
@@ -23456,7 +23457,7 @@ msgid ""
 msgstr ""
 "Layout para o local de armazenamento quando exibido na lista de histórico "
 "(pode incluir HTML). O template é avaliado em relação à relação objeto-local "
-"de armazenamento. Tags de código de elemento prefixadas com o caractere ^ "
+"de armazenamento. Tags de código de elemento com o prefixo ^ "
 "podem ser usadas para representar o valor no template. Por exemplo: "
 "<i>^ca_object_lots.numid_stub</i>."
 
@@ -23490,7 +23491,7 @@ msgstr ""
 "Layout para o local de armazenamento relacionado a objetos filhos, quando "
 "exibido na lista de histórico (pode incluir HTML). O template é avaliado em "
 "relação à relação objeto-local de armazenamento. Tags de código de elemento "
-"prefixadas com o caractere ^ podem ser usadas para representar o valor no "
+"com o prefixo ^ podem ser usadas para representar o valor no "
 "template. Por exemplo: <i>^ca_object_lots.numid_stub</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1776
@@ -23507,7 +23508,7 @@ msgstr "Cor para remoção"
 
 #: ../../app/models/ca_editor_ui_screens.php:1786
 msgid "Color to use as highlight deaccession."
-msgstr "Cor usada como destaque de remoção."
+msgstr "Cor a usar como destaque de remoção."
 
 #: ../../app/models/ca_editor_ui_screens.php:1793
 msgid "Deaccession display template"
@@ -23522,7 +23523,7 @@ msgid ""
 msgstr ""
 "Layout para informações de remoção quando exibidas na lista de histórico "
 "(pode incluir HTML). O template é avaliado em relação ao objeto. Tags de "
-"código de elemento prefixadas com o caractere ^ podem ser usadas para "
+"código de elemento com o prefixo ^ podem ser usadas para "
 "representar o valor no template. Por exemplo: <i>^ca_objects."
 "deaccession_notes</i>."
 
@@ -23553,7 +23554,7 @@ msgid ""
 msgstr ""
 "Layout para informações de remoção quando exibidas na lista de histórico "
 "(pode incluir HTML). O template é avaliado em relação ao objeto. Tags de "
-"código de elemento prefixadas com o caractere ^ podem ser usadas para "
+"código de elemento com o prefixo ^ podem ser usadas para "
 "representar o valor no template. Por exemplo: <i>^ca_objects."
 "deaccession_notes</i>."
 
@@ -23578,9 +23579,9 @@ msgid ""
 msgstr ""
 "Layout para cada objeto no local de armazenamento (pode incluir HTML). O "
 "template é avaliado em relação a cada relação objeto-movimentação ou objeto-"
-"local de armazenamento. Tags de código de elemento prefixadas com o "
-"caractere ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_objects.numid</i>."
+"local de armazenamento. Tags de código de elemento com o prefixo ^ "
+"podem ser usadas para representar o valor no template. Por exemplo: "
+"<i>^ca_objects.numid</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1873
 msgid "Display template (%1)"
@@ -23698,8 +23699,8 @@ msgid ""
 "Indicates accession/collection status of lot. (eg. accessioned, pending "
 "accession, loan, non-accessioned item, etc.)"
 msgstr ""
-"Indica status de adesão/coleção do lote. (ex. adquiridos,  pendentes de "
-"adesão, empréstimo,  itens não-adquiridos, etc.)"
+"Indica status de adesão/coleção do lote. (ex. adquiridos, pendentes de "
+"adesão, empréstimo, itens não-adquiridos, etc.)"
 
 #: ../../app/models/ca_object_lots.php:75
 msgid "Lot identifier"
@@ -24636,7 +24637,7 @@ msgid ""
 "this mapping is '%1'. It includes the custom delimiter ';#;' that is later "
 "used to split the value into multiple values."
 msgstr ""
-"A fonte é um get() que deve ser repetido para valores múltiplos. O valor "
+"A fonte é um get() que deve ser repetido para múltiplos valores. O valor "
 "para este mapeamento é '%1'. Ele inclui o delimitador personalizado ';#;' "
 "que é usado posteriormente para dividir o valor em vários valores."
 
@@ -25510,8 +25511,7 @@ msgid ""
 "prefixed placeholders that refer to data source values."
 msgstr ""
 "Formatar valor importado com template fornecido. O template pode incluir "
-"placeholders prefixados com o símbolo (^) que se referem a valores da "
-"fontede dados."
+"placeholders com o prefixo ^ que se referem a valores da fonte de dados."
 
 #: ../../app/models/ca_data_importer_items.php:446
 msgid ""
@@ -25806,7 +25806,7 @@ msgid ""
 "administrative metadata that can be applied to it."
 msgstr ""
 "O tipo da ocorrência. No CollectiveAccess, toda ocorrência tem um tipo único "
-"\"intrínseco\"  que determina o conjunto de metadados descritivos e "
+"\"intrínseco\" que determina o conjunto de metadados descritivos e "
 "administrativos que podem ser-lhe aplicados."
 
 #: ../../app/models/ca_occurrences.php:82
@@ -26801,7 +26801,7 @@ msgstr "configurações do item do exportador"
 
 #: ../../app/models/ca_data_exporter_items.php:240
 msgid "Delimiter to use to concatenate repeating values."
-msgstr "Delimitador usado para concatenar valores repetidos."
+msgstr "Delimitador a usar para concatenar valores repetidos."
 
 #: ../../app/models/ca_data_exporter_items.php:249
 msgid "Text to prepend to value prior to export."
@@ -26818,8 +26818,8 @@ msgid ""
 "also be used to set static values for exporter items without data source."
 msgstr ""
 "Formatar valor exportado com template fornecido. O template pode incluir "
-"placeholders prefixados com o símbolo (^) que referem-se a valores da fonte "
-"de dados. Esta configuração também pode ser usada para definir valores "
+"placeholders com o prefixo que referem-se a valores da fonte de dados. "
+"Esta configuração também pode ser usada para definir valores "
 "estáticos para itens do exportador sem fonte de dados."
 
 #: ../../app/models/ca_data_exporter_items.php:289
@@ -28553,11 +28553,11 @@ msgstr "Não foi possível ler fonte %1 (formato=%2)"
 
 #: ../../app/models/ca_data_importers.php:1353
 msgid "Finished reading input source at %1 seconds"
-msgstr "Terminada a leitura de fonte de entrada aos %1 segundos"
+msgstr "Terminada a leitura de fonte de inserção aos %1 segundos"
 
 #: ../../app/models/ca_data_importers.php:1361
 msgid "Found %1 rows in input source"
-msgstr "Encontradas %1 linhas em fonte de entrada"
+msgstr "Encontradas %1 linhas em fonte de inserção"
 
 #: ../../app/models/ca_data_importers.php:1364
 #: ../../app/models/ca_data_importers.php:1367
@@ -28922,7 +28922,7 @@ msgstr ""
 #: ../../app/models/ca_data_importers.php:2869
 msgid "[%1] Could not add related list item with relationship %2:"
 msgstr ""
-"[%1] Não foi possível adicionar item de lista relacionado com relação 2%:"
+"[%1] Não foi possível adicionar item de lista relacionado com relação %2:"
 
 #: ../../app/models/ca_data_importers.php:2884
 msgid "[%1] Could not add related object representation with:"
@@ -33556,8 +33556,8 @@ msgid ""
 "original."
 msgstr ""
 "Formato para o qual forçar o nome de exibição da entidade após o realizar "
-"parse. Você pode passar um modelo usando um elemento de nome prefixado com o "
-"símbolo (^) ou um dos seguintes: surnameCommaForename, forenameCommaSurname, "
+"parse. Você pode passar um modelo usando um elemento de nome com o prefixo ^ "
+"ou um dos seguintes: surnameCommaForename, forenameCommaSurname, "
 "forenameSurname, original."
 
 #: ../../app/refineries/entitySplitter/entitySplitterRefinery.php:165
@@ -33706,7 +33706,7 @@ msgstr "Formato de data"
 
 #: ../../app/refineries/dateAccuracyJoiner/dateAccuracyJoinerRefinery.php:120
 msgid "The format in which the input dates are expected"
-msgstr "Formato no qual esperar as datas de entrada"
+msgstr "Formato no qual esperar as inserções de data"
 
 #: ../../app/refineries/dateAccuracyJoiner/dateAccuracyJoinerRefinery.php:128
 msgid "Date Accuracy Value: Day"
@@ -33753,7 +33753,7 @@ msgid ""
 "Defines what should be returned if the input date cannot be parsed, "
 "available values are \"null\" (the default) and \"original\""
 msgstr ""
-"Define o que deve ser retornado se a data de entrada não puder ser "
+"Define o que deve ser retornado se a data inserido não puder ser "
 "interpretada, os valores disponíveis são \"null\" (o padrão) e \"original\""
 
 #: ../../app/refineries/dateAccuracyJoiner/dateAccuracyJoinerRefinery.php:164
@@ -35066,7 +35066,7 @@ msgstr "Editando"
 
 #: ../../app/conf/navigation.conf:3325 ../../app/conf/user_pref_defs.conf:47
 msgid "Batch editing"
-msgstr "Editar em lote"
+msgstr "Edição em lote"
 
 #: ../../app/conf/navigation.conf:3333 ../../app/conf/user_pref_defs.conf:64
 msgid "Quick add"

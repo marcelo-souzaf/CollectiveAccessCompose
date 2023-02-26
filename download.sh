@@ -44,7 +44,7 @@ cp messages.mo providence/app/locale/pt_BR/messages.mo
 cp messages.po providence/app/locale/pt_PT/messages.po
 cp messages.mo providence/app/locale/pt_PT/messages.mo
 mkdir providence/pawtucket/app/locale/pt_BR
-cp messages.po providence/pawtucket/app/locale/pt_BR/messages.po
-cp messages.mo providence/pawtucket/app/locale/pt_BR/messages.mo
-cp messages.po providence/pawtucket/app/locale/pt_PT/messages.po
-cp messages.mo providence/pawtucket/app/locale/pt_PT/messages.mo
+cp messages2.po providence/pawtucket/app/locale/pt_BR/messages.po
+cp messages2.mo providence/pawtucket/app/locale/pt_BR/messages.mo
+cp messages2.po providence/pawtucket/app/locale/pt_PT/messages.po
+cp messages2.mo providence/pawtucket/app/locale/pt_PT/messages.mo
