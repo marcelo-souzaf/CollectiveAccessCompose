@@ -29,8 +29,6 @@
 
 # __CA_DB_HOST__ = Database server host name (often 'localhost')
 #
-### Value should match the name of the database service in the docker-compose.yaml file
-#
 if (!defined("__CA_DB_HOST__")) {
 	define("__CA_DB_HOST__", 'db');
 }
@@ -171,6 +169,7 @@ $_CA_THEMES_BY_DEVICE = [
 	'_default_' 	=> 'default'		// use the 'default' theme for everything else
 ];
 
+
 # *** 
 # __   __          _                _                  
 # \ \ / /__  _   _( )_ __ ___    __| | ___  _ __   ___ 
@@ -254,7 +253,7 @@ if (!defined('__CA_ALLOW_INSTALLER_TO_OVERWRITE_EXISTING_INSTALLS__')) {
 # For production use you should set this to false. Note that exceptions are always
 # logged to the application log in app/log, regardless of what is set here.
 if (!defined('__CA_STACKTRACE_ON_EXCEPTION__')) {
-	define('__CA_STACKTRACE_ON_EXCEPTION__', true);
+	define('__CA_STACKTRACE_ON_EXCEPTION__', false);
 }
 
 require(__DIR__."/app/helpers/post-setup.php");
@@ -265,7 +264,7 @@ require(__DIR__."/app/helpers/post-setup.php");
  * ----------------------------------------------------------------------
  *
  * Software by Whirl-i-Gig (http://www.whirl-i-gig.com)
- * Copyright 2008-2020 Whirl-i-Gig
+ * Copyright 2008-2018 Whirl-i-Gig
  *
  * For more information visit http://www.CollectiveAccess.org
  *

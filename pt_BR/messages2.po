@@ -671,7 +671,6 @@ msgid "searches"
 msgstr "pesquisas"
 
 #: controllers/SearchController.php:110 controllers/SearchController.php:411
-#, fuzzy
 msgid "Search %1"
 msgstr "Pesquisar %1"
 
@@ -1032,7 +1031,6 @@ msgid "Created on %1"
 msgstr "Criado em %1"
 
 #: helpers/displayHelpers.php:1107
-#, fuzzy
 msgid "<strong>Last changed</strong><br/>%1 by %2"
 msgstr "<strong>Última modificação</strong><br/>%1 por %2"
 
@@ -1149,7 +1147,6 @@ msgstr "novo conjunto"
 
 #: helpers/displayHelpers.php:1350 helpers/displayHelpers.php:1508
 #: helpers/displayHelpers.php:1531
-#, fuzzy
 msgid "Owner"
 msgstr "Proprietário"
 
@@ -2865,7 +2862,7 @@ msgstr "nome"
 #: lib/pawtucket/BaseDetailController.php:699
 #: lib/pawtucket/BaseDetailController.php:714
 msgid "idno"
-msgstr "numid"
+msgstr "idno"
 
 #: helpers/searchHelpers.php:1147
 msgid "type name"
@@ -6896,7 +6893,7 @@ msgstr "Acessar esta tabela diretamente não é permitido"
 #: lib/ca/Service/BaseJSONService.php:168
 #: lib/ca/Service/BaseJSONService.php:171
 msgid "idno does not exist"
-msgstr "numid não existe"
+msgstr "idno não existe"
 
 #: lib/ca/Service/BrowseService.php:70 lib/ca/Service/BrowseService.php:119
 msgid "Getting results for browses without criteria is not supported"
@@ -8248,7 +8245,7 @@ msgid ""
 "You must specify either an idno or a search expression to select a record or "
 "record set for export or activate RDF mode."
 msgstr ""
-"Você deve especificar um numid ou uma expressão de busca para selecionar um "
+"Você deve especificar um idno ou uma expressão de busca para selecionar um "
 "registro ou conjunto de registros para exportação ou ativar o modo RDF."
 
 #: lib/ca/Utils/CLIUtils.php:1384
@@ -9377,7 +9374,7 @@ msgid ""
 "getListItemID() using idno"
 msgstr ""
 "Encontrado item existente de lista %1 (membro da lista %2) em "
-"DataMigrationUtils::getListItemID() usando numid"
+"DataMigrationUtils::getListItemID() usando idno"
 
 #: lib/ca/Utils/DataMigrationUtils.php:205
 #: lib/ca/Utils/DataMigrationUtils.php:207
@@ -9406,7 +9403,7 @@ msgid ""
 "getListItemID() using idno with %3"
 msgstr ""
 "Encontrado item existente de lista %1 (membro da lista %2) em "
-"DataMigrationUtils::getListItemID() usando numid com %3"
+"DataMigrationUtils::getListItemID() usando idno com %3"
 
 #: lib/ca/Utils/DataMigrationUtils.php:296
 #: lib/ca/Utils/DataMigrationUtils.php:349
@@ -9450,7 +9447,7 @@ msgstr "Não foi possível definir rótulo não preferencial para %1 %2: %3"
 #: lib/ca/Utils/DataMigrationUtils.php:786
 #: lib/ca/Utils/DataMigrationUtils.php:789
 msgid "Could not update idno for %1 %2: %3"
-msgstr "Não foi possível atualizar numid para %1 %2: %3"
+msgstr "Não foi possível atualizar idno para %1 %2: %3"
 
 #: lib/ca/Utils/DataMigrationUtils.php:1068
 msgid "Trying media %1 in place of %2/%3"
@@ -12190,14 +12187,14 @@ msgstr "lotes de objetos"
 #: models/ca_editor_uis.php:93 models/ca_metadata_type_restrictions.php:103
 #: models/ca_search_forms.php:101 models/ca_tours.php:41
 msgid "tours"
-msgstr "tours"
+msgstr "visitas guiadas"
 
 #: models/ca_bookmarks.php:75 models/ca_bundle_displays.php:95
 #: models/ca_data_exporters.php:90 models/ca_data_importers.php:92
 #: models/ca_editor_uis.php:94 models/ca_metadata_type_restrictions.php:104
 #: models/ca_search_forms.php:102 models/ca_tour_stops.php:46
 msgid "tour stops"
-msgstr "paradas de tour"
+msgstr "paradas de visita"
 
 #: models/ca_bookmarks.php:76 models/ca_bundle_displays.php:96
 #: models/ca_data_exporters.php:91 models/ca_data_importers.php:93
@@ -13306,7 +13303,7 @@ msgstr "Movimentos relacionados"
 #: models/ca_objects.php:544 models/ca_occurrences.php:356
 #: models/ca_places.php:368 models/ca_tour_stops.php:338
 msgid "Related tour stops"
-msgstr "Paradas de tour relacionadas"
+msgstr "Paradas de visita relacionadas"
 
 #: models/ca_collections.php:383 models/ca_entities.php:364
 #: models/ca_list_items.php:571 models/ca_objects.php:552
@@ -13710,13 +13707,13 @@ msgstr ""
 
 #: models/ca_data_exporter_items.php:327
 msgid "Convert codes to idno"
-msgstr "Converter códigos para numid"
+msgstr "Converter códigos para idno"
 
 #: models/ca_data_exporter_items.php:328
 msgid "If set, id values refering to foreign keys are returned as idno."
 msgstr ""
 "Se definido, os valores de id que se referem a chaves estrangeiras são "
-"retornados como numid."
+"retornados como idno."
 
 #: models/ca_data_exporter_items.php:341
 msgid "Return id numbers for List attribute values"
@@ -13727,7 +13724,7 @@ msgid ""
 "If set, idnos are returned for List attribute values instead of primary key "
 "values. Do not combine this with convertCodesToDisplayText!"
 msgstr ""
-"Se definido, os numids são retornados para valores de atributos de Lista em "
+"Se definido, os idnos são retornados para valores de atributos de Lista em "
 "vez de valores de chave primária. Não combine isso com "
 "convertCodesToDisplayText!"
 
@@ -14624,7 +14621,7 @@ msgid ""
 "recording (entered in the Original values column) maps to audio_digital, "
 "which is entered here in the Replacement values column."
 msgstr ""
-"Lista separada por return de numids de itens de lista do CollectiveAccess "
+"Lista separada por return de idnos de itens de lista do CollectiveAccess "
 "que correspondem aos valores mapeados da fonte de dados original. Por "
 "exemplo, gravação de som (digitado na coluna Valores originais) mapeia para "
 "audio_digital, que é insierido aqui na coluna Valores de substituição."
@@ -14882,8 +14879,8 @@ msgid ""
 "to match on idno and then label if the first match fails."
 msgstr ""
 "Lista indicando a sequência de verificações de um registro existente; "
-"valores da lista podem ser \"rótulo\" e \"numid\". Ex.: array(\"numid\", "
-"\"rótulo\") tentará primeiro corresponder ao numid e então ao rótulo, se a "
+"valores da lista podem ser \"rótulo\" e \"idno\". Ex.: array(\"idno\", "
+"\"rótulo\") tentará primeiro corresponder ao idno e então ao rótulo, se a "
 "primeira correspondência falhar."
 
 #: models/ca_data_importer_items.php:481
@@ -15678,7 +15675,7 @@ msgstr "Falha ao importar %1"
 
 #: models/ca_data_importers.php:2203
 msgid "Created idno %1 at %2 seconds [id=%3]"
-msgstr "Criado numid %1 aos %2 segundos [id=%3]"
+msgstr "Criado idno %1 aos %2 segundos [id=%3]"
 
 #: models/ca_data_importers.php:2218
 msgid "Could not update matched record"
@@ -15695,11 +15692,11 @@ msgstr ""
 
 #: models/ca_data_importers.php:2261
 msgid "Updated idno %1 at %2 seconds"
-msgstr "Numid atualizado %1 aos %2 segundos"
+msgstr "idno atualizado %1 aos %2 segundos"
 
 #: models/ca_data_importers.php:2273
 msgid "Could update idno"
-msgstr "Poderia atualizar numid"
+msgstr "Poderia atualizar idno"
 
 #: models/ca_data_importers.php:2317
 msgid ""
@@ -16388,7 +16385,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar objetos. Tags de código de elemento com o prefixo "
 "^ podem ser usadas para representar o valor no template. Por exemplo: "
-"<i>^ca_objects.numid</i>."
+"<i>^ca_objects.idno</i>."
 
 #: models/ca_editor_ui_screens.php:907
 msgid "Lot display template"
@@ -16402,7 +16399,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar lotes. Tags de código de elemento com o prefixo "
 "^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_object_lots.numid_stub</i>."
+"exemplo: <i>^ca_object_lots.idno_stub</i>."
 
 #: models/ca_editor_ui_screens.php:915
 msgid "Entity display template"
@@ -16416,7 +16413,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar entidades. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_entities.numid</i>."
+"exemplo: <i>^ca_entities.idno</i>."
 
 #: models/ca_editor_ui_screens.php:923
 msgid "Place display template"
@@ -16430,7 +16427,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar lugares. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_places.numid</i>."
+"exemplo: <i>^ca_places.idno</i>."
 
 #: models/ca_editor_ui_screens.php:931
 msgid "Occurrence display template"
@@ -16444,7 +16441,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar ocorrências. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_occurrences.numid</i>."
+"exemplo: <i>^ca_occurrences.idno</i>."
 
 #: models/ca_editor_ui_screens.php:939
 msgid "Collection display template"
@@ -16458,7 +16455,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar coleções. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_collections.numid</i>."
+"exemplo: <i>^ca_collections.idno</i>."
 
 #: models/ca_editor_ui_screens.php:947
 msgid "Loan display template"
@@ -16472,7 +16469,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar empréstimos. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_loans.numid</i>."
+"exemplo: <i>^ca_loans.idno</i>."
 
 #: models/ca_editor_ui_screens.php:955
 msgid "Movement display template"
@@ -16486,7 +16483,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar movimentações. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_movements.numid</i>."
+"exemplo: <i>^ca_movements.idno</i>."
 
 #: models/ca_editor_ui_screens.php:963
 msgid "Object representation display template"
@@ -16500,7 +16497,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar representações de objetos. Tags de código de "
 "elemento com o prefixo ^ podem ser usadas para representar o "
-"valor no template. Por exemplo: <i>^ca_object_representations.numid</i>."
+"valor no template. Por exemplo: <i>^ca_object_representations.idno</i>."
 
 #: models/ca_editor_ui_screens.php:971
 msgid "List item display template"
@@ -16514,7 +16511,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar itens de lista. Tags de código de elemento "
 "com o prefixo ^ podem ser usadas para representar o valor no "
-"template. Por exemplo: <i>^ca_list_items.numid</i>."
+"template. Por exemplo: <i>^ca_list_items.idno</i>."
 
 #: models/ca_editor_ui_screens.php:985
 msgid "Metadata element"
@@ -16540,7 +16537,7 @@ msgid ""
 msgstr ""
 "Layout para componente quando exibido em lista (pode incluir HTML). Tags de "
 "código de elemento com o prefixo ^ podem ser usadas para "
-"representar o valor no template. Por exemplo: <i>^ca_objects.numid</i>."
+"representar o valor no template. Por exemplo: <i>^ca_objects.idno</i>."
 
 #: models/ca_editor_ui_screens.php:1014 models/ca_editor_ui_screens.php:1096
 msgid "storage location relationships"
@@ -16567,7 +16564,7 @@ msgstr ""
 "incluir HTML). O template é avaliado relativamente à relação objeto-"
 "movimento ou objeto-localização que for atual. Tags de código de elemento "
 "com o prefixo ^ podem ser usadas para representar o valor no "
-"template. Por exemplo: <i>^ca_movements.numid</i>."
+"template. Por exemplo: <i>^ca_movements.idno</i>."
 
 #: models/ca_editor_ui_screens.php:1034
 msgid "Object location history template"
@@ -16585,7 +16582,7 @@ msgstr ""
 "histórico (pode incluir HTML). O modelo é avaliado relativamente à relação "
 "objeto-movimento ou objeto-local de armazenamento. Tags de código de "
 "elemento com o prefixo ^ podem ser usadas para representar o "
-"valor no template. Por exemplo: <i>^ca_movements.numid</i>."
+"valor no template. Por exemplo: <i>^ca_movements.idno</i>."
 
 #: models/ca_editor_ui_screens.php:1043
 msgid "Color for current location"
@@ -16710,7 +16707,7 @@ msgstr ""
 "Layout para o lote quando exibido na lista de histórico (pode incluir HTML). "
 "O template é avaliado em relação ao lote. Tags de código de elemento "
 "com o prefixo ^ podem ser usadas para representar o valor no "
-"template. Por exemplo: <i>^ca_object_lots.numid_stub</i>."
+"template. Por exemplo: <i>^ca_object_lots.idno_stub</i>."
 
 #: models/ca_editor_ui_screens.php:1222
 msgid "Show occurrences"
@@ -16736,7 +16733,7 @@ msgstr ""
 "Layout para %1 quando exibido na lista de histórico (pode incluir HTML). O "
 "template é avaliado em relação a %1. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_occurrences.numid</i>."
+"exemplo: <i>^ca_occurrences.idno</i>."
 
 #: models/ca_editor_ui_screens.php:1268
 msgid "Show movements"
@@ -16752,7 +16749,7 @@ msgstr ""
 "Layout para %1 quando exibido na lista de histórico (pode incluir HTML). O "
 "template é avaliado em relação a %1. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_movements.numid</i>."
+"exemplo: <i>^ca_movements.idno</i>."
 
 #: models/ca_editor_ui_screens.php:1314
 msgid "Show loans"
@@ -16768,7 +16765,7 @@ msgstr ""
 "Layout para %1 quando exibido na lista de histórico (pode incluir HTML). O "
 "template é avaliado em relação a %1. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_loans.numid</i>."
+"exemplo: <i>^ca_loans.idno</i>."
 
 #: models/ca_editor_ui_screens.php:1362
 msgid "Show storage locations"
@@ -16806,7 +16803,7 @@ msgstr ""
 "(pode incluir HTML). O template é avaliado em relação à relação objeto-local "
 "de armazenamento. Tags de código de elemento com o prefixo ^ "
 "podem ser usadas para representar o valor no template. Por exemplo: "
-"<i>^ca_object_lots.numid_stub</i>."
+"<i>^ca_object_lots.idno_stub</i>."
 
 #: models/ca_editor_ui_screens.php:1400
 msgid "Show deaccession information"
@@ -16876,7 +16873,7 @@ msgstr ""
 "template é avaliado em relação a cada relação objeto-movimentação ou objeto-"
 "local de armazenamento. Tags de código de elemento com o prefixo ^ "
 "podem ser usadas para representar o valor no template. Por exemplo: "
-"<i>^ca_objects.numid</i>."
+"<i>^ca_objects.idno</i>."
 
 #: models/ca_editor_ui_screens.php:1480
 msgid "Display template (%1)"
@@ -20231,12 +20228,12 @@ msgstr "Listar itens"
 #: models/ca_set_items.php:76 models/ca_sets.php:100
 #: models/ca_user_sorts.php:70
 msgid "Tours"
-msgstr "Tours"
+msgstr "Visitas guiadas"
 
 #: models/ca_set_items.php:77 models/ca_sets.php:101 models/ca_tours.php:280
 #: models/ca_user_sorts.php:71
 msgid "Tour stops"
-msgstr "Parada de tour"
+msgstr "Parada de visita"
 
 #: models/ca_set_items.php:93 models/ca_sets.php:110
 msgid ""
@@ -20494,35 +20491,35 @@ msgstr ""
 
 #: models/ca_tour_labels.php:40
 msgid "tour name"
-msgstr "nome de tour"
+msgstr "nome de visita"
 
 #: models/ca_tour_labels.php:41
 msgid "tour names"
-msgstr "nomes de tour"
+msgstr "nomes de visita"
 
 #: models/ca_tour_labels.php:70 models/ca_tour_stop_labels.php:70
 msgid "Name of tour"
-msgstr "Nome do tour"
+msgstr "Nome da visita"
 
 #: models/ca_tour_stop_labels.php:40
 msgid "tour stop name"
-msgstr "nome de parada de tour"
+msgstr "nome de parada de visita"
 
 #: models/ca_tour_stop_labels.php:41
 msgid "tour stop names"
-msgstr "nomes de parada de tour"
+msgstr "nomes de parada de visita"
 
 #: models/ca_tour_stops.php:45
 msgid "tour stop"
-msgstr "parada de tour"
+msgstr "parada de visita"
 
 #: models/ca_tour_stops.php:67
 msgid "Tour"
-msgstr "Tour"
+msgstr "Visita guiada"
 
 #: models/ca_tour_stops.php:67
 msgid "Tour stop is part of"
-msgstr "Parada do tour faz parte de"
+msgstr "Parada da visita faz parte de"
 
 #: models/ca_tour_stops.php:77
 msgid "Indicates the type of the stop."
@@ -20534,7 +20531,7 @@ msgstr "Número do id"
 
 #: models/ca_tour_stops.php:84
 msgid "Unique identifier for this tour stop"
-msgstr "Identificador único para esta parada do tour"
+msgstr "Identificador único para esta parada de visita"
 
 #: models/ca_tour_stops.php:92
 msgid "Id number sort"
@@ -20554,90 +20551,90 @@ msgstr "Ícone opcional para ser usado com parada"
 
 #: models/ca_tour_stops_x_collections.php:40
 msgid "tour stop ⇔ collection relationship"
-msgstr "relação parada de tour ⇔ coleção"
+msgstr "relação parada de visita ⇔ coleção"
 
 #: models/ca_tour_stops_x_collections.php:41
 msgid "tour stop ⇔ collection relationships"
-msgstr "relações parada de tour ⇔ coleção"
+msgstr "relações parada de visita ⇔ coleção"
 
 #: models/ca_tour_stops_x_entities.php:40
 msgid "tour stop ⇔ entity relationship"
-msgstr "relação parada de tour ⇔ entidade"
+msgstr "relação parada de visita ⇔ entidade"
 
 #: models/ca_tour_stops_x_entities.php:41
 msgid "tour stop ⇔ entity relationships"
-msgstr "relações parada de tour ⇔ entidade"
+msgstr "relações parada de visita ⇔ entidade"
 
 #: models/ca_tour_stops_x_objects.php:40
 msgid "tour stop ⇔ objects relationship"
-msgstr "relação parada de tour ⇔ objetos"
+msgstr "relação parada de visita ⇔ objetos"
 
 #: models/ca_tour_stops_x_objects.php:41
 msgid "tour stop ⇔ objects relationships"
-msgstr "relações parada de tour ⇔ objetos"
+msgstr "relações parada de visita ⇔ objetos"
 
 #: models/ca_tour_stops_x_occurrences.php:40
 msgid "tour stop ⇔ occurrence relationship"
-msgstr "relação parada do tour ⇔ ocorrência"
+msgstr "relação parada do visita ⇔ ocorrência"
 
 #: models/ca_tour_stops_x_occurrences.php:41
 msgid "tour stop ⇔ occurrence relationships"
-msgstr "relações parada do tour ⇔ ocorrência"
+msgstr "relações parada do visita ⇔ ocorrência"
 
 #: models/ca_tour_stops_x_places.php:40
 msgid "tour stop ⇔ place relationship"
-msgstr "relação parada de tour ⇔ lugar"
+msgstr "relação parada de visita ⇔ lugar"
 
 #: models/ca_tour_stops_x_places.php:41
 msgid "tour stop ⇔ place relationships"
-msgstr "relações parada de tour ⇔ lugar"
+msgstr "relações parada de visita ⇔ lugar"
 
 #: models/ca_tour_stops_x_tour_stops.php:40
 msgid "tour stop ⇔ tour stop relationship"
-msgstr "relação parada de tour ⇔ parada de tour"
+msgstr "relação parada de visita ⇔ parada de visita"
 
 #: models/ca_tour_stops_x_tour_stops.php:41
 msgid "tour stop ⇔ tour stop relationships"
-msgstr "relações parada de tour ⇔ parada de tour"
+msgstr "relações parada de visita ⇔ parada de visita"
 
 #: models/ca_tour_stops_x_vocabulary_terms.php:40
 msgid "tour stop ⇔ vocabulary term relationship"
-msgstr "relação parada de tour ⇔ termo de vocabulário"
+msgstr "relação parada de visita ⇔ termo de vocabulário"
 
 #: models/ca_tour_stops_x_vocabulary_terms.php:41
 msgid "tour stop ⇔ vocabulary term relationships"
-msgstr "relações parada de tour ⇔ termo de vocabulário"
+msgstr "relações parada de visita ⇔ termo de vocabulário"
 
 #: models/ca_tours.php:40
 msgid "tour"
-msgstr "tour"
+msgstr "visita guiada"
 
 #: models/ca_tours.php:55
 msgid "Tour code"
-msgstr "Código de tour"
+msgstr "Código de visita"
 
 #: models/ca_tours.php:55
 msgid ""
 "Unique code for tour; used to identify the tour for configuration purposes."
 msgstr ""
-"Código único para o tour; usado para identificar o tour para fins de "
+"Código único para a visita; usado para identificar a visita para fins de "
 "configuração."
 
 #: models/ca_tours.php:67
 msgid "Indicates the type of the tour."
-msgstr "Indica o tipo do tour."
+msgstr "Indica o tipo da visita."
 
 #: models/ca_tours.php:88
 msgid "Color to identify the tour with"
-msgstr "Cor de identificação do tour"
+msgstr "Cor de identificação da visita"
 
 #: models/ca_tours.php:96
 msgid "Optional icon to identify the tour with"
-msgstr "Ícone opcional para identificação do tour"
+msgstr "Ícone opcional para identificação do visita"
 
 #: models/ca_tours.php:123
 msgid "Indicates the current state of the tour."
-msgstr "Indica o estado atual do tour."
+msgstr "Indica o estado atual do visita."
 
 #: models/ca_tours.php:132
 msgid ""
@@ -20646,7 +20643,7 @@ msgid ""
 "originates, but can also be re-tasked for use as a simple classification "
 "tool if needed."
 msgstr ""
-"Fonte administrativa do tour. Este valor é frequentemente usado para indicar "
+"Fonte administrativa da visita. Este valor é frequentemente usado para indicar "
 "a subdivisão administrativa ou base de dados legado de origem do objeto, mas "
 "pode também ser reprogramado para uso como uma simples ferramenta de "
 "classificação, se necessário."

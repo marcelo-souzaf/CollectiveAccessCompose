@@ -1501,7 +1501,7 @@ msgstr "◉ = Padrão"
 
 #: ../../themes/default/views/administrate/setup/Search/search_controls_html.php:120
 msgid "⨂ = Disabled"
-msgstr "⨂ = Desabilitado"
+msgstr "⨂ = Desativado"
 
 #: ../../themes/default/views/administrate/setup/Search/search_controls_html.php:122
 msgid "⧩ = Vocabulary list"
@@ -2602,7 +2602,7 @@ msgid ""
 "\t"
 msgstr ""
 "Para anotações poligonais, clique \n"
-"\repetidamente na imagem para estabelecer segmentos de linha em vários "
+"\trepetidamente na imagem para estabelecer segmentos de linha em vários "
 "locais para a forma do polígono. A forma pode ter qualquer número de pontos "
 "e, consequentemente, lados. Para completar a forma, clique duas vezes\n"
 "\tquando colocar o último ponto ou clique nas ferramentas de deslocamento, "
@@ -2661,7 +2661,7 @@ msgstr "%1 para alternar a visibilidade da visão geral de imagem"
 #: ../../themes/default/views/editor/objects/viewer_help_html.php:44
 msgid "%1 to return the image to the centered, zoomed out \"home\" position"
 msgstr ""
-"%1 para retornar a imagem à posição \"inicial\" centralizada e ampliada"
+"%1 para retornar a imagem à posição \"inicial\" centralizada e sem zoom"
 
 #: ../../themes/default/views/editor/objects/viewer_help_html.php:45
 msgid "%1 to toggle visibility of viewer controls"
@@ -2843,7 +2843,7 @@ msgstr "Excluído"
 #: ../../app/conf/user_actions.conf:747 ../../app/conf/user_actions.conf:806
 #: ../../app/conf/user_actions.conf:865 ../../app/conf/user_actions.conf:920
 msgid "Change type"
-msgstr "Mudar tipo"
+msgstr "Alterar tipo"
 
 #: ../../themes/default/views/logs/my_change_log_html.php:62
 #: ../../themes/default/views/logs/global_change_log_html.php:62
@@ -4169,7 +4169,7 @@ msgstr "relevância"
 #: ../../app/helpers/searchHelpers.php:1525
 #: ../../app/helpers/searchHelpers.php:1533
 msgid "idno"
-msgstr "numid"
+msgstr "idno"
 
 #: ../../themes/default/views/find/Results/quick_search_results_html.php:39
 msgid "Top %1 results for <em>%2</em>"
@@ -5953,7 +5953,7 @@ msgstr "Tags"
 
 #: ../../app/helpers/themeHelpers.php:530
 msgid "Add your tags and comment"
-msgstr "Adicionar suass tags e comentar"
+msgstr "Adicionar suas tags e comentar"
 
 #: ../../app/helpers/themeHelpers.php:532
 msgid "Login/register to comment on this object"
@@ -6664,7 +6664,7 @@ msgstr "Exportador selecionado"
 
 #: ../../app/helpers/displayHelpers.php:2062
 msgid "Back to record"
-msgstr "De volta ao registro"
+msgstr "Voltar ao registro"
 
 #: ../../app/helpers/displayHelpers.php:3282 ../../app/lib/BaseSettings.php:583
 #: ../../app/lib/BaseSettings.php:589
@@ -9482,7 +9482,7 @@ msgstr "Movimentações"
 #: ../../app/conf/navigation.conf:2949 ../../app/conf/navigation.conf:3144
 #: ../../app/conf/navigation.conf:3500
 msgid "Tours"
-msgstr "Tours"
+msgstr "Visitas guiadas"
 
 #: ../../app/lib/Search/QuickSearch.php:59 ../../app/models/ca_set_items.php:77
 #: ../../app/models/ca_metadata_alert_rules.php:88
@@ -9497,7 +9497,7 @@ msgstr "Tours"
 #: ../../app/conf/user_pref_defs.conf:1232
 #: ../../app/conf/user_pref_defs.conf:1329
 msgid "Tour stops"
-msgstr "Parada de tour"
+msgstr "Parada de visita"
 
 #: ../../app/lib/BaseFindController.php:254
 msgid "Spreadsheet with media icons (XLSX)"
@@ -9776,7 +9776,7 @@ msgid ""
 "getListItemID() using idno"
 msgstr ""
 "Encontrado item existente de lista %1 (membro da lista %2) em "
-"DataMigrationUtils::getListItemID() usando numid"
+"DataMigrationUtils::getListItemID() usando idno"
 
 #: ../../app/lib/Utils/DataMigrationUtils.php:205
 #: ../../app/lib/Utils/DataMigrationUtils.php:207
@@ -9805,7 +9805,7 @@ msgid ""
 "getListItemID() using idno with %3"
 msgstr ""
 "Encontrado item existente de lista %1 (membro da lista %2) em "
-"DataMigrationUtils::getListItemID() usando numid com %3"
+"DataMigrationUtils::getListItemID() usando idno com %3"
 
 #: ../../app/lib/Utils/DataMigrationUtils.php:299
 #: ../../app/lib/Utils/DataMigrationUtils.php:355
@@ -9850,7 +9850,7 @@ msgstr "Não foi possível definir rótulo não preferencial para %1 %2: %3"
 #: ../../app/lib/Utils/DataMigrationUtils.php:819
 #: ../../app/lib/Utils/DataMigrationUtils.php:822
 msgid "Could not update idno for %1 %2: %3"
-msgstr "Não foi possível atualizar numid para %1 %2: %3"
+msgstr "Não foi possível atualizar idno para %1 %2: %3"
 
 #: ../../app/lib/Utils/DataMigrationUtils.php:1130
 msgid "Trying media %1 in place of %2/%3"
@@ -10722,8 +10722,8 @@ msgstr ""
 "Lista separada por vírgulas de tipo de mídia para reprocessar. Tipos válidos "
 "são ca_object_representations (representações de objetos), ca_attributes "
 "(elementos de metadados) e ícones (gráficos de ícones em itens de lista, "
-"locais de armazenamento, editores, telas de edição, tours e paradas de "
-"tour). Você também pode especificar \"all\" para reprocessar todos os tipos "
+"locais de armazenamento, editores, telas de edição, visitas guiadas e paradas de "
+"visita). Você também pode especificar \"all\" para reprocessar todos os tipos "
 "de mídia. O padrão é \"all\""
 
 #: ../../app/lib/Utils/CLIUtils.php:995
@@ -11032,7 +11032,7 @@ msgid ""
 "You must specify either an idno or a search expression to select a record or "
 "record set for export or activate RDF mode."
 msgstr ""
-"Você deve especificar um numid ou uma expressão de busca para selecionar um "
+"Você deve especificar um idno ou uma expressão de busca para selecionar um "
 "registro ou conjunto de registros para exportação ou ativar o modo RDF."
 
 #: ../../app/lib/Utils/CLIUtils.php:1517
@@ -13780,7 +13780,7 @@ msgstr "Acessar esta tabela diretamente não é permitido"
 #: ../../app/lib/Service/BaseJSONService.php:167
 #: ../../app/lib/Service/BaseJSONService.php:170
 msgid "idno does not exist"
-msgstr "numid não existe"
+msgstr "idno não existe"
 
 #: ../../app/lib/CurrentLocationCriterionTrait.php:124
 #: ../../app/models/ca_storage_locations.php:528
@@ -18610,7 +18610,7 @@ msgstr ""
 
 #: ../../app/lib/MetadataAlerts/TriggerTypes/Modification.php:130
 msgid "Identifer (idno)"
-msgstr "Identificador (numid)"
+msgstr "Identificador (idno)"
 
 #: ../../app/lib/MetadataAlerts/TriggerTypes/Base.php:118
 msgid "Notification template"
@@ -18727,11 +18727,11 @@ msgstr "pode editar + excluir"
 
 #: ../../app/models/ca_tour_stops_x_occurrences.php:40
 msgid "tour stop ⇔ occurrence relationship"
-msgstr "relação parada do tour ⇔ ocorrência"
+msgstr "relação parada da visita ⇔ ocorrência"
 
 #: ../../app/models/ca_tour_stops_x_occurrences.php:41
 msgid "tour stop ⇔ occurrence relationships"
-msgstr "relações parada do tour ⇔ ocorrência"
+msgstr "relações parada da visita ⇔ ocorrência"
 
 #: ../../app/models/ca_tour_stops_x_occurrences.php:85
 #: ../../app/models/ca_entities_x_entities.php:85
@@ -19549,20 +19549,20 @@ msgstr "associações de usuário e cargo"
 
 #: ../../app/models/ca_tour_labels.php:40
 msgid "tour name"
-msgstr "nome de tour"
+msgstr "nome de visita guiada"
 
 #: ../../app/models/ca_tour_labels.php:41
 msgid "tour names"
-msgstr "nomes de tour"
+msgstr "nomes de visita guiada"
 
 #: ../../app/models/ca_tour_labels.php:70
 #: ../../app/models/ca_tour_stop_labels.php:70
 msgid "Name of tour"
-msgstr "Nome do tour"
+msgstr "Nome da visita guiada"
 
 #: ../../app/models/ca_tour_stops.php:45
 msgid "tour stop"
-msgstr "parada de tour"
+msgstr "parada de visita guiada"
 
 #: ../../app/models/ca_tour_stops.php:46 ../../app/models/ca_editor_uis.php:94
 #: ../../app/models/ca_data_exporters.php:87
@@ -19572,7 +19572,7 @@ msgstr "parada de tour"
 #: ../../app/models/ca_data_importers.php:91
 #: ../../app/models/ca_metadata_type_restrictions.php:104
 msgid "tour stops"
-msgstr "paradas de tour"
+msgstr "paradas de visita"
 
 #: ../../app/models/ca_tour_stops.php:53
 #: ../../app/models/ca_user_representation_annotations.php:51
@@ -19600,11 +19600,11 @@ msgstr "Item pai da lista para este item"
 #: ../../app/models/ca_tour_stops.php:67
 #: ../../app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:251
 msgid "Tour"
-msgstr "Tour"
+msgstr "Visita guiada"
 
 #: ../../app/models/ca_tour_stops.php:67
 msgid "Tour stop is part of"
-msgstr "Parada do tour faz parte de"
+msgstr "Parada de visita faz parte de"
 
 #: ../../app/models/ca_tour_stops.php:77
 msgid "Indicates the type of the stop."
@@ -19616,7 +19616,7 @@ msgstr "Número do id"
 
 #: ../../app/models/ca_tour_stops.php:84
 msgid "Unique identifier for this tour stop"
-msgstr "Identificador único para esta parada do tour"
+msgstr "Identificador único para esta parada de visita guiada"
 
 #: ../../app/models/ca_tour_stops.php:92
 msgid "Id number sort"
@@ -20035,7 +20035,7 @@ msgstr "Coleções relacionadas"
 #: ../../app/models/ca_places.php:368 ../../app/models/ca_occurrences.php:356
 #: ../../app/models/ca_objects.php:547 ../../app/models/ca_collections.php:383
 msgid "Related tour stops"
-msgstr "Paradas de tour relacionadas"
+msgstr "Paradas de visita relacionadas"
 
 #: ../../app/models/ca_tour_stops.php:340
 #: ../../app/models/ca_user_representation_annotations.php:299
@@ -20483,11 +20483,11 @@ msgstr "Nenhum usuário especificado"
 
 #: ../../app/models/ca_tour_stops_x_entities.php:40
 msgid "tour stop ⇔ entity relationship"
-msgstr "relação parada de tour ⇔ entidade"
+msgstr "relação parada de visita ⇔ entidade"
 
 #: ../../app/models/ca_tour_stops_x_entities.php:41
 msgid "tour stop ⇔ entity relationships"
-msgstr "relações parada de tour ⇔ entidade"
+msgstr "relações parada de visita ⇔ entidade"
 
 #: ../../app/models/ca_object_lots_x_storage_locations.php:40
 msgid "object lot ⇔ storage location relationship"
@@ -21079,11 +21079,11 @@ msgstr ""
 
 #: ../../app/models/ca_tour_stops_x_places.php:40
 msgid "tour stop ⇔ place relationship"
-msgstr "relação parada de tour ⇔ lugar"
+msgstr "relação parada de visita ⇔ lugar"
 
 #: ../../app/models/ca_tour_stops_x_places.php:41
 msgid "tour stop ⇔ place relationships"
-msgstr "relações parada de tour ⇔ lugar"
+msgstr "relações parada de visita ⇔ lugar"
 
 #: ../../app/models/ca_editor_ui_bundle_placements.php:46
 msgid "Alternate label to place on bundle"
@@ -22232,11 +22232,11 @@ msgstr "Descrição da exibição"
 
 #: ../../app/models/ca_tour_stops_x_tour_stops.php:40
 msgid "tour stop ⇔ tour stop relationship"
-msgstr "relação parada de tour ⇔ parada de tour"
+msgstr "relação parada de visita ⇔ parada de visita"
 
 #: ../../app/models/ca_tour_stops_x_tour_stops.php:41
 msgid "tour stop ⇔ tour stop relationships"
-msgstr "relações parada de tour ⇔ parada de tour"
+msgstr "relações parada de visita ⇔ parada de visita"
 
 #: ../../app/models/ca_search_form_placements.php:54
 msgid "search form placement"
@@ -22928,7 +22928,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar objetos. Tags de código de elemento com o prefixo "
 "^ podem ser usadas para representar o valor no template. Por exemplo: "
-"<i>^ca_objects.numid</i>."
+"<i>^ca_objects.idno</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1099
 msgid "Lot display template"
@@ -22942,7 +22942,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar lotes. Tags de código de elemento com o prefixo "
 "^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_object_lots.numid_stub</i>."
+"exemplo: <i>^ca_object_lots.idno_stub</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1107
 msgid "Entity display template"
@@ -22956,7 +22956,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar entidades. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_entities.numid</i>."
+"exemplo: <i>^ca_entities.idno</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1115
 msgid "Place display template"
@@ -22970,7 +22970,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar lugares. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_places.numid</i>."
+"exemplo: <i>^ca_places.idno</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1123
 msgid "Occurrence display template"
@@ -22984,7 +22984,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar ocorrências. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_occurrences.numid</i>."
+"exemplo: <i>^ca_occurrences.idno</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1131
 msgid "Collection display template"
@@ -22998,7 +22998,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar coleções. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_collections.numid</i>."
+"exemplo: <i>^ca_collections.idno</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1139
 msgid "Loan display template"
@@ -23012,7 +23012,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar empréstimos. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_loans.numid</i>."
+"exemplo: <i>^ca_loans.idno</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1147
 msgid "Movement display template"
@@ -23026,7 +23026,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar movimentações. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_movements.numid</i>."
+"exemplo: <i>^ca_movements.idno</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1155
 msgid "Object representation display template"
@@ -23040,7 +23040,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar representações de objetos. Tags de código de "
 "elemento com o prefixo ^ podem ser usadas para representar o "
-"valor no template. Por exemplo: <i>^ca_object_representations.numid</i>."
+"valor no template. Por exemplo: <i>^ca_object_representations.idno</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1163
 msgid "List item display template"
@@ -23054,7 +23054,7 @@ msgid ""
 msgstr ""
 "Layout para referenciar itens de lista. Tags de código de elemento "
 "com o prefixo ^ podem ser usadas para representar o valor no "
-"template. Por exemplo: <i>^ca_list_items.numid</i>."
+"template. Por exemplo: <i>^ca_list_items.idno</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1178
 msgid ""
@@ -23076,7 +23076,7 @@ msgid ""
 msgstr ""
 "Layout para componente quando exibido em lista (pode incluir HTML). Tags de "
 "código de elemento com o prefixo ^ podem ser usadas para "
-"representar o valor no template. Por exemplo: <i>^ca_objects.numid</i>."
+"representar o valor no template. Por exemplo: <i>^ca_objects.idno</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1206
 #: ../../app/models/ca_editor_ui_screens.php:1290
@@ -23105,7 +23105,7 @@ msgstr ""
 "incluir HTML). O template é avaliado relativamente à relação objeto-"
 "movimento ou objeto-localização que for atual. Tags de código de elemento "
 "com o prefixo ^ podem ser usadas para representar o valor no "
-"template. Por exemplo: <i>^ca_movements.numid</i>."
+"template. Por exemplo: <i>^ca_movements.idno</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1228
 msgid "Object location history template"
@@ -23123,7 +23123,7 @@ msgstr ""
 "histórico (pode incluir HTML). O modelo é avaliado relativamente à relação "
 "objeto-movimento ou objeto-local de armazenamento. Tags de código de "
 "elemento com o prefixo ^ podem ser usadas para representar o "
-"valor no template. Por exemplo: <i>^ca_movements.numid</i>."
+"valor no template. Por exemplo: <i>^ca_movements.idno</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1237
 msgid "Color for current location"
@@ -23272,7 +23272,7 @@ msgstr ""
 "Layout para o lote quando exibido na lista de histórico (pode incluir HTML). "
 "O template é avaliado em relação ao lote. Tags de código de elemento "
 "com o prefixo ^ podem ser usadas para representar o valor no "
-"template. Por exemplo: <i>^ca_object_lots.numid_stub</i>."
+"template. Por exemplo: <i>^ca_object_lots.idno_stub</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1430
 msgid "Include history from lots (%1) related to child objects"
@@ -23301,7 +23301,7 @@ msgstr ""
 "histórico (pode incluir HTML). O template é avaliado em relação ao lote. "
 "Tags de código de elemento com o prefixo ^ podem ser usadas "
 "para representar o valor no template. Por exemplo: <i>^ca_object_lots."
-"numid_stub</i>."
+"idno_stub</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1456
 msgid "Show occurrences"
@@ -23331,7 +23331,7 @@ msgstr ""
 "Layout para %1 quando exibido na lista de histórico (pode incluir HTML). O "
 "template é avaliado em relação a %1. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_occurrences.numid</i>."
+"exemplo: <i>^ca_occurrences.idno</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1495
 #: ../../app/models/ca_editor_ui_screens.php:1561
@@ -23372,7 +23372,7 @@ msgstr ""
 "histórico (pode incluir HTML). O template é avaliado em relação ao lote. "
 "Tags de código de elemento com o prefixo ^ podem ser usadas "
 "para representar o valor no template. Por exemplo: <i>^ca_object_lots."
-"numid_stub</i>."
+"idno_stub</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1522
 msgid "Show collections"
@@ -23388,7 +23388,7 @@ msgstr ""
 "Layout para %1 quando exibido na lista de histórico (pode incluir HTML). O "
 "template é avaliado em relação a %1. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_collections.numid</i>."
+"exemplo: <i>^ca_collections.idno</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1587
 msgid "Show movements"
@@ -23404,7 +23404,7 @@ msgstr ""
 "Layout para %1 quando exibido na lista de histórico (pode incluir HTML). O "
 "template é avaliado em relação a %1. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_movements.numid</i>."
+"exemplo: <i>^ca_movements.idno</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1653
 msgid "Show loans"
@@ -23420,7 +23420,7 @@ msgstr ""
 "Layout para %1 quando exibido na lista de histórico (pode incluir HTML). O "
 "template é avaliado em relação a %1. Tags de código de elemento com o "
 "prefixo ^ podem ser usadas para representar o valor no template. Por "
-"exemplo: <i>^ca_loans.numid</i>."
+"exemplo: <i>^ca_loans.idno</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1721
 msgid "Show storage locations"
@@ -23459,7 +23459,7 @@ msgstr ""
 "(pode incluir HTML). O template é avaliado em relação à relação objeto-local "
 "de armazenamento. Tags de código de elemento com o prefixo ^ "
 "podem ser usadas para representar o valor no template. Por exemplo: "
-"<i>^ca_object_lots.numid_stub</i>."
+"<i>^ca_object_lots.idno_stub</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1759
 msgid "Include history from storage locations related to child objects"
@@ -23492,7 +23492,7 @@ msgstr ""
 "exibido na lista de histórico (pode incluir HTML). O template é avaliado em "
 "relação à relação objeto-local de armazenamento. Tags de código de elemento "
 "com o prefixo ^ podem ser usadas para representar o valor no "
-"template. Por exemplo: <i>^ca_object_lots.numid_stub</i>."
+"template. Por exemplo: <i>^ca_object_lots.idno_stub</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1776
 msgid "Show deaccession information"
@@ -23581,7 +23581,7 @@ msgstr ""
 "template é avaliado em relação a cada relação objeto-movimentação ou objeto-"
 "local de armazenamento. Tags de código de elemento com o prefixo ^ "
 "podem ser usadas para representar o valor no template. Por exemplo: "
-"<i>^ca_objects.numid</i>."
+"<i>^ca_objects.idno</i>."
 
 #: ../../app/models/ca_editor_ui_screens.php:1873
 msgid "Display template (%1)"
@@ -24009,7 +24009,7 @@ msgstr "Tipo de item que este editor UI opera."
 #: ../../app/models/ca_data_importers.php:90
 #: ../../app/models/ca_metadata_type_restrictions.php:103
 msgid "tours"
-msgstr "tours"
+msgstr "visitas guiadas"
 
 #: ../../app/models/ca_editor_uis.php:95
 #: ../../app/models/ca_data_exporters.php:88
@@ -25289,7 +25289,7 @@ msgid ""
 "recording (entered in the Original values column) maps to audio_digital, "
 "which is entered here in the Replacement values column."
 msgstr ""
-"Lista separada por return de numids de itens de lista do CollectiveAccess "
+"Lista separada por return de idnos de itens de lista do CollectiveAccess "
 "que correspondem aos valores mapeados da fonte de dados original. Por "
 "exemplo, gravação de som (digitado na coluna Valores originais) mapeia para "
 "audio_digital, que é insierido aqui na coluna Valores de substituição."
@@ -25629,8 +25629,8 @@ msgid ""
 "to match on idno and then label if the first match fails."
 msgstr ""
 "Lista indicando a sequência de verificações de um registro existente; "
-"valores da lista podem ser \"rótulo\" e \"numid\". Ex.: array(\"numid\", "
-"\"rótulo\") tentará primeiro corresponder ao numid e então ao rótulo, se a "
+"valores da lista podem ser \"rótulo\" e \"idno\". Ex.: array(\"idno\", "
+"\"rótulo\") tentará primeiro corresponder ao idno e então ao rótulo, se a "
 "primeira correspondência falhar."
 
 #: ../../app/models/ca_data_importer_items.php:522
@@ -25847,11 +25847,11 @@ msgstr "relações movimentos ⇔ termos de vocabulário"
 
 #: ../../app/models/ca_tour_stops_x_objects.php:40
 msgid "tour stop ⇔ objects relationship"
-msgstr "relação parada de tour ⇔ objetos"
+msgstr "relação parada de visita ⇔ objetos"
 
 #: ../../app/models/ca_tour_stops_x_objects.php:41
 msgid "tour stop ⇔ objects relationships"
-msgstr "relações parada de tour ⇔ objetos"
+msgstr "relações parada de visita ⇔ objetos"
 
 #: ../../app/models/ca_search_forms_x_users.php:40
 msgid "search forms ⇔ user association"
@@ -26848,13 +26848,13 @@ msgstr ""
 
 #: ../../app/models/ca_data_exporter_items.php:317
 msgid "Convert codes to idno"
-msgstr "Converter códigos para numid"
+msgstr "Converter códigos para idno"
 
 #: ../../app/models/ca_data_exporter_items.php:318
 msgid "If set, id values refering to foreign keys are returned as idno."
 msgstr ""
 "Se definido, os valores de id que se referem a chaves estrangeiras são "
-"retornados como numid."
+"retornados como idno."
 
 #: ../../app/models/ca_data_exporter_items.php:331
 msgid "Return id numbers for List attribute values"
@@ -26865,7 +26865,7 @@ msgid ""
 "If set, idnos are returned for List attribute values instead of primary key "
 "values. Do not combine this with convertCodesToDisplayText!"
 msgstr ""
-"Se definido, os numids são retornados para valores de atributos de Lista em "
+"Se definido, os idnos são retornados para valores de atributos de Lista em "
 "vez de valores de chave primária. Não combine isso com "
 "convertCodesToDisplayText!"
 
@@ -27078,11 +27078,11 @@ msgstr "relações lugar ⇔ termo de vocabulário"
 
 #: ../../app/models/ca_tour_stops_x_vocabulary_terms.php:40
 msgid "tour stop ⇔ vocabulary term relationship"
-msgstr "relação parada de tour ⇔ termo de vocabulário"
+msgstr "relação parada de visita ⇔ termo de vocabulário"
 
 #: ../../app/models/ca_tour_stops_x_vocabulary_terms.php:41
 msgid "tour stop ⇔ vocabulary term relationships"
-msgstr "relações parada de tour ⇔ termo de vocabulário"
+msgstr "relações parada de visita ⇔ termo de vocabulário"
 
 #: ../../app/models/ca_metadata_dictionary_rules.php:47
 msgid "Rule display label"
@@ -27423,11 +27423,11 @@ msgstr "relação de relações"
 
 #: ../../app/models/ca_tour_stops_x_collections.php:40
 msgid "tour stop ⇔ collection relationship"
-msgstr "relação parada de tour ⇔ coleção"
+msgstr "relação parada de visita ⇔ coleção"
 
 #: ../../app/models/ca_tour_stops_x_collections.php:41
 msgid "tour stop ⇔ collection relationships"
-msgstr "relações parada de tour ⇔ coleção"
+msgstr "relações parada de visita ⇔ coleção"
 
 #: ../../app/models/ca_lists.php:59
 msgid ""
@@ -27555,11 +27555,11 @@ msgstr ""
 
 #: ../../app/models/ca_tour_stop_labels.php:40
 msgid "tour stop name"
-msgstr "nome de parada de tour"
+msgstr "nome de parada de visita"
 
 #: ../../app/models/ca_tour_stop_labels.php:41
 msgid "tour stop names"
-msgstr "nomes de parada de tour"
+msgstr "nomes de parada de visita"
 
 #: ../../app/models/ca_data_import_events.php:49
 msgid "data import event"
@@ -27932,34 +27932,34 @@ msgstr "Intervalo inválido"
 
 #: ../../app/models/ca_tours.php:40
 msgid "tour"
-msgstr "tour"
+msgstr "visita guiada"
 
 #: ../../app/models/ca_tours.php:55
 msgid "Tour code"
-msgstr "Código de tour"
+msgstr "Código de visita guiada"
 
 #: ../../app/models/ca_tours.php:55
 msgid ""
 "Unique code for tour; used to identify the tour for configuration purposes."
 msgstr ""
-"Código único para o tour; usado para identificar o tour para fins de "
+"Código único para a visita; usado para identificar a visita guiada para fins de "
 "configuração."
 
 #: ../../app/models/ca_tours.php:67
 msgid "Indicates the type of the tour."
-msgstr "Indica o tipo do tour."
+msgstr "Indica o tipo da visita guiada."
 
 #: ../../app/models/ca_tours.php:88
 msgid "Color to identify the tour with"
-msgstr "Cor de identificação do tour"
+msgstr "Cor de identificação da visita"
 
 #: ../../app/models/ca_tours.php:96
 msgid "Optional icon to identify the tour with"
-msgstr "Ícone opcional para identificação do tour"
+msgstr "Ícone opcional para identificação da visita"
 
 #: ../../app/models/ca_tours.php:123
 msgid "Indicates the current state of the tour."
-msgstr "Indica o estado atual do tour."
+msgstr "Indica o estado atual da visita."
 
 #: ../../app/models/ca_tours.php:132
 msgid ""
@@ -27968,7 +27968,7 @@ msgid ""
 "originates, but can also be re-tasked for use as a simple classification "
 "tool if needed."
 msgstr ""
-"Fonte administrativa do tour. Este valor é frequentemente usado para indicar "
+"Fonte administrativa da visita. Este valor é frequentemente usado para indicar "
 "a subdivisão administrativa ou base de dados legado de origem do objeto, mas "
 "pode também ser reprogramado para uso como uma simples ferramenta de "
 "classificação, se necessário."
@@ -28783,7 +28783,7 @@ msgstr "Não foi possível inserir novo registro para %1: "
 
 #: ../../app/models/ca_data_importers.php:2374
 msgid "Created idno %1 at %2 seconds [id=%3]"
-msgstr "Criado numid %1 aos %2 segundos [id=%3]"
+msgstr "Criado idno %1 aos %2 segundos [id=%3]"
 
 #: ../../app/models/ca_data_importers.php:2389
 msgid "Could not update matched record"
@@ -28800,21 +28800,21 @@ msgstr ""
 
 #: ../../app/models/ca_data_importers.php:2449
 msgid "Updated idno %1 at %2 seconds"
-msgstr "Numid atualizado %1 aos %2 segundos"
+msgstr "idno %1 atualizado aos %2 segundos"
 
 #: ../../app/models/ca_data_importers.php:2461
 msgid "Could update idno"
-msgstr "Poderia atualizar numid"
+msgstr "Poderia atualizar idno"
 
 #: ../../app/models/ca_data_importers.php:2476
 msgid "Started insert of content tree for idno %1 at %2 seconds [id=%3]"
 msgstr ""
-"Iniciada inserção da árvore de conteúdo para numid %1 aos %2 segundos [id=%3]"
+"Iniciada inserção da árvore de conteúdo para idno %1 aos %2 segundos [id=%3]"
 
 #: ../../app/models/ca_data_importers.php:2482
 #: ../../app/models/ca_data_importers.php:2682
 msgid "Started insert of %1.%2 for idno %3 at %4 seconds [id=%3]"
-msgstr "Iniciada inserção de %1.%2 para numid %3 aos %4 segundos [id=%3]"
+msgstr "Iniciada inserção de %1.%2 para idno %3 aos %4 segundos [id=%3]"
 
 #: ../../app/models/ca_data_importers.php:2526
 msgid ""
@@ -32091,8 +32091,8 @@ msgid ""
 "to match on idno and then label if the first match fails"
 msgstr ""
 "Lista indicando a sequência de verificações para um registro existente; os "
-"valores do array podem ser \"rótulo\" e \"numid\". Ex.: array(\"numid\", "
-"\"rótulo\") tentará primeiro corresponder ao numid e então ao rótulo, se a "
+"valores do array podem ser \"rótulo\" e \"idno\". Ex.: array(\"idno\", "
+"\"rótulo\") tentará primeiro corresponder ao idno e então ao rótulo, se a "
 "primeira correspondência falhar"
 
 #: ../../app/refineries/objectRepresentationSplitter/objectRepresentationSplitterRefinery.php:99
@@ -32151,7 +32151,7 @@ msgid ""
 "or a reference to the location in the data source where the type can be "
 "found."
 msgstr ""
-"Aceita um numid constante de item de lista da lista "
+"Aceita um idno constante de item de lista da lista "
 "object_representation_types ou uma referência ao local na fonte de dados "
 "onde o tipo pode ser encontrado."
 
@@ -32339,7 +32339,7 @@ msgstr ""
 "Lista indicando a sequência de verificações para um registro existente; os "
 "valores do array podem ser \"preferred_labels\" (ou \"label\"), "
 "\"nonpreferred_labels\", \"idno\" ou um código de elemento de metadados. "
-"Ex.: array(\"idno\", \"label\") tentará primeiro corresponder ao numid e "
+"Ex.: array(\"idno\", \"label\") tentará primeiro corresponder ao idno e "
 "então ao rótulo, se a primeira correspondência falhar"
 
 #: ../../app/refineries/listItemHierarchyBuilder/listItemHierarchyBuilderRefinery.php:127
@@ -32483,7 +32483,7 @@ msgid ""
 "Accepts a constant list item idno from the list storage_location_types or a "
 "reference to the location in the data source where the type can be found."
 msgstr ""
-"Aceita um numid de item de lista constante da lista storage_location_types "
+"Aceita um idno de item de lista constante da lista storage_location_types "
 "ou uma referência ao local na fonte de dados onde o tipo pode ser encontrado."
 
 #: ../../app/refineries/storageLocationSplitter/storageLocationSplitterRefinery.php:166
@@ -32543,31 +32543,31 @@ msgstr "Lista de rótulos não preferidos a aplicar a locais de armazenamento."
 
 #: ../../app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:35
 msgid "Tour stop splitter"
-msgstr "Separador de parada de tour"
+msgstr "Separador de parada de visita"
 
 #: ../../app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:36
 msgid "Provides several tourstop location-related import functions."
 msgstr ""
 "Fornece várias funções de importação relacionadas com a localização de "
-"parada de tour."
+"parada de visita guiada."
 
 #: ../../app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:108
 msgid "[tourStopSplitterRefinery] No relationship type is set for tour stop %1"
 msgstr ""
 "[tourStopSplitterRefinery] Nenhum tipo de relação definido para parada de "
-"tour %1"
+"visita %1"
 
 #: ../../app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:123
 msgid "[tourStopSplitterRefinery] No collection type is set for tour stop %1"
 msgstr ""
 "[tourStopSplitterRefinery] Nenhum tipo de coleção definido para parada de "
-"tour %1"
+"visita %1"
 
 #: ../../app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:133
 msgid ""
 "[tourStopSplitterRefinery] Could not find tour %1 to relate stop stops to."
 msgstr ""
-"[tourStopSplitterRefinery] Não foi possível encontrar tour %1 para "
+"[tourStopSplitterRefinery] Não foi possível encontrar visita %1 com a qual "
 "relacionar paradas."
 
 #: ../../app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:150
@@ -32576,14 +32576,14 @@ msgstr "[tourStopSplitterRefinery] Nenhum pai encontrado para %1"
 
 #: ../../app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:233
 msgid "Tour stop type"
-msgstr "Tipo de parada de tour"
+msgstr "Tipo de parada de visita"
 
 #: ../../app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:234
 msgid ""
 "Accepts a constant list item idno from the list tour_stop_types or a "
 "reference to the location in the data source where the type can be found."
 msgstr ""
-"Aceita um numid de item de lista constante da lista tour_stop_types ou uma "
+"Aceita um idno de item de lista constante da lista tour_stop_types ou uma "
 "referência ao local na fonte de dados onde o tipo pode ser encontrado."
 
 #: ../../app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:243
@@ -32592,17 +32592,17 @@ msgid ""
 "metadataElement code and the location in the data source where the data "
 "values can be found."
 msgstr ""
-"Define ou mapeia metadados para o registro de parada de tour, referenciando "
+"Define ou mapeia metadados para o registro de parada de visita, referenciando "
 "o código de metadataElement e o local na fonte de dados onde os valores de "
 "dados podem ser encontrados."
 
 #: ../../app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:252
 msgid "Identifies the tour to add the stop to."
-msgstr "Identifica o tour ao qual adicionar a parada."
+msgstr "Identifica a visita à qual adicionar a parada."
 
 #: ../../app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:269
 msgid "Tour stop type default"
-msgstr "Padrão de tipo de parada de tour"
+msgstr "Padrão de tipo de parada de visita"
 
 #: ../../app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:270
 msgid ""
@@ -32610,7 +32610,7 @@ msgid ""
 "the data source values do not match any values in the CollectiveAccess list "
 "tour_stop_types"
 msgstr ""
-"Define o tipo de parada de tour padrão que será usado se nenhum for definido "
+"Define o tipo de parada de visita padrão que será usado se nenhum for definido "
 "ou se os valores da fonte de dados não corresponderem a nenhum valor na "
 "lista CollectiveAccess tour_stop_types"
 
@@ -32621,12 +32621,12 @@ msgid ""
 "source where the data values can be found."
 msgstr ""
 "Define ou mapeia metadados para o registro de <em>relação</em> de parada de "
-"tour intermediária, referenciando o código de metadataElement e o local na "
+"visita intermediária, referenciando o código de metadataElement e o local na "
 "fonte de dados onde os valores de dados podem ser encontrados."
 
 #: ../../app/refineries/tourStopSplitter/tourStopSplitterRefinery.php:288
 msgid "List of non-preferred labels to apply to tour stops."
-msgstr "Lista de rótulos não preferidos a aplicar a paradas de tour."
+msgstr "Lista de rótulos não preferidos a aplicar a paradas de visita."
 
 #: ../../app/refineries/entityHierarchyBuilder/entityHierarchyBuilderRefinery.php:37
 msgid "Entity hierarchy builder"
@@ -32694,7 +32694,7 @@ msgid ""
 "Accepts a constant list item idno from the list place_types or a reference "
 "to the location in the data source where the type can be found."
 msgstr ""
-"Aceita um numid de item de lista constante da lista place_types ou uma "
+"Aceita um idno de item de lista constante da lista place_types ou uma "
 "referência ao local na fonte de dados onde o tipo pode ser encontrado."
 
 #: ../../app/refineries/placeSplitter/placeSplitterRefinery.php:167
@@ -32916,7 +32916,7 @@ msgid ""
 "Accepts a constant list item idno from the list object_lot_types or a "
 "reference to the location in the data source where the type can be found."
 msgstr ""
-"Aceita um numid de item de lista constante da lista object_lot_types ou uma "
+"Aceita um idno de item de lista constante da lista object_lot_types ou uma "
 "referência ao local na fonte de dados onde o tipo pode ser encontrado."
 
 #: ../../app/refineries/objectLotSplitter/objectLotSplitterRefinery.php:144
@@ -32928,7 +32928,7 @@ msgid ""
 "Accepts a constant list item idno from the list object_lot_statuses or a "
 "reference to the location in the data source where the status can be found."
 msgstr ""
-"Aceita um numid de item de lista constante da lista object_lot_statuses ou "
+"Aceita um idno de item de lista constante da lista object_lot_statuses ou "
 "uma referência ao local na fonte de dados onde o status pode ser encontrado."
 
 #: ../../app/refineries/objectLotSplitter/objectLotSplitterRefinery.php:154
@@ -33008,7 +33008,7 @@ msgid ""
 "Accepts a constant list item idno from the list object_types or a reference "
 "to the location in the data source where the type can be found."
 msgstr ""
-"Aceita um numid de item de lista constante da lista object_types ou uma "
+"Aceita um idno de item de lista constante da lista object_types ou uma "
 "referência ao local na fonte de dados onde o tipo pode ser encontrado."
 
 #: ../../app/refineries/objectSplitter/objectSplitterRefinery.php:154
@@ -33095,7 +33095,7 @@ msgid ""
 "Accepts a constant list item idno from the list collection_types or a "
 "reference to the location in the data source where the type can be found."
 msgstr ""
-"Aceita um numid de item de lista constante da lista collection_types ou uma "
+"Aceita um idno de item de lista constante da lista collection_types ou uma "
 "referência ao local na fonte de dados onde o tipo pode ser encontrado."
 
 #: ../../app/refineries/collectionSplitter/collectionSplitterRefinery.php:147
@@ -33233,7 +33233,7 @@ msgid ""
 "Accepts a constant list item idno from the list entity_types or a reference "
 "to the location in the data source where the type can be found"
 msgstr ""
-"Aceita um numid de item de lista constante da lista entity_types ou uma "
+"Aceita um idno de item de lista constante da lista entity_types ou uma "
 "referência ao local na fonte de dados onde o tipo pode ser encontrado"
 
 #: ../../app/refineries/entityJoiner/entityJoinerRefinery.php:293
@@ -33363,7 +33363,7 @@ msgid ""
 "Accepts a constant list item idno from the list movement_types or a "
 "reference to the location in the data source where the type can be found."
 msgstr ""
-"Aceita um numid de item de lista constante da lista movement_types ou uma "
+"Aceita um idno de item de lista constante da lista movement_types ou uma "
 "referência ao local na fonte de dados onde o tipo pode ser encontrado."
 
 #: ../../app/refineries/movementSplitter/movementSplitterRefinery.php:144
@@ -33474,7 +33474,7 @@ msgid ""
 "Accepts a constant list item idno from the list loan_types or a reference to "
 "the location in the data source where the type can be found."
 msgstr ""
-"Aceita um numid de item de lista constante da lista loan_types ou uma "
+"Aceita um idno de item de lista constante da lista loan_types ou uma "
 "referência ao local na fonte de dados onde o tipo pode ser encontrado."
 
 #: ../../app/refineries/loanSplitter/loanSplitterRefinery.php:145
@@ -33543,9 +33543,9 @@ msgid ""
 "field"
 msgstr ""
 "Lista indicando a sequência de verificações para um registro existente; os "
-"valores do array podem ser \"rótulo\", \"numid\" ou \"nomedeexibição\". Ex.: "
-"array(\"numid\", \"rótulo\", \"nomedeexibição\") tentará primeiro "
-"corresponder ao numid e ao rótulo [nome próprio, sobrenome], se a primeira "
+"valores do array podem ser \"rótulo\", \"idno\" ou \"nomedeexibição\". Ex.: "
+"array(\"idno\", \"rótulo\", \"nomedeexibição\") tentará primeiro "
+"corresponder ao idno e ao rótulo [nome próprio, sobrenome], se a primeira "
 "correspondência falhar, então finalmente o campo nomedeexibição"
 
 #: ../../app/refineries/entitySplitter/entitySplitterRefinery.php:120
@@ -33596,7 +33596,7 @@ msgid ""
 "Accepts a constant list item idno from the list list_item_types or a "
 "reference to the location in the data source where the type can be found."
 msgstr ""
-"Aceita um numid constante de item de lista da lista list_item_types ou uma "
+"Aceita um idno constante de item de lista da lista list_item_types ou uma "
 "referência ao local na fonte de dados onde o tipo pode ser encontrado."
 
 #: ../../app/refineries/listItemSplitter/listItemSplitterRefinery.php:159
@@ -33667,7 +33667,7 @@ msgstr "[placeHierarchyBuilderRefinery] Nenhuma hierarquia de lugar definida"
 #: ../../app/refineries/placeHierarchyBuilder/placeHierarchyBuilderRefinery.php:146
 msgid "Identifies the hierarchy (list_item id or idno) to add items to."
 msgstr ""
-"Identifica a hierarquia (numid ou id de item de lista) à qual adicionar "
+"Identifica a hierarquia (idno ou id de item de lista) à qual adicionar "
 "itens."
 
 #: ../../app/refineries/placeHierarchyBuilder/placeHierarchyBuilderRefinery.php:155
@@ -33818,38 +33818,38 @@ msgstr "Pais de coleção a criar"
 
 #: ../../app/refineries/tourMaker/tourMakerRefinery.php:39
 msgid "Tour maker"
-msgstr "Criador de tour"
+msgstr "Criador de visita"
 
 #: ../../app/refineries/tourMaker/tourMakerRefinery.php:40
 msgid "Creates tour records as required during import."
-msgstr "Cria registros de tour conforme necessário durante a importação."
+msgstr "Cria registros de visita conforme necessário durante a importação."
 
 #: ../../app/refineries/tourMaker/tourMakerRefinery.php:77
 msgid "[tourMakerRefinery] No value set for tour"
-msgstr "[tourMakerRefinery] Nenhum valor definido para tour"
+msgstr "[tourMakerRefinery] Nenhum valor definido para visita"
 
 #: ../../app/refineries/tourMaker/tourMakerRefinery.php:96
 msgid "[tourMakerRefinery] No tour type is set for tour %1"
-msgstr "[tourMakerRefinery] Nenhum tipo de tour definido para tour %1"
+msgstr "[tourMakerRefinery] Nenhum tipo de visita definido para visita %1"
 
 #: ../../app/refineries/tourMaker/tourMakerRefinery.php:115
 msgid "[tourMakerRefinery] Could not create tour %1: %2"
-msgstr "[tourMakerRefinery] Não foi possível criar tour %1: %2"
+msgstr "[tourMakerRefinery] Não foi possível criar visita %1: %2"
 
 #: ../../app/refineries/tourMaker/tourMakerRefinery.php:123
 msgid "[tourMakerRefinery] Could not add label for tour %1: %2"
-msgstr "[tourMakerRefinery] Não foi possível adicionar rótulo para tour %1: %2"
+msgstr "[tourMakerRefinery] Não foi possível adicionar rótulo para visita %1: %2"
 
 #: ../../app/refineries/tourMaker/tourMakerRefinery.php:142
 msgid "[tourMakerRefinery] Could not save data for tour %1: %2"
-msgstr "[tourMakerRefinery] Não foi possível salvar dados para tour %1: %2"
+msgstr "[tourMakerRefinery] Não foi possível salvar dados para visita %1: %2"
 
 #: ../../app/refineries/tourMaker/tourMakerRefinery.php:170
 msgid ""
 "Accepts a constant list item idno from the list tour_types or a reference to "
 "the location in the data source where the type can be found."
 msgstr ""
-"Aceita um numid de item de lista constante da lista tour_types ou uma "
+"Aceita um idno de item de lista constante da lista tour_types ou uma "
 "referência à localização na fonte de dados onde o tipo pode ser encontrado."
 
 #: ../../app/refineries/tourMaker/tourMakerRefinery.php:179
@@ -33857,7 +33857,7 @@ msgid ""
 "Sets or maps metadata for the tour record by referencing the metadataElement "
 "code or the location in the data source where the data values can be found."
 msgstr ""
-"Define ou mapeia metadados para o registro de tour referenciando o código "
+"Define ou mapeia metadados para o registro de visita referenciando o código "
 "metadataElement ou o local na fonte de dados onde os valores de dados podem "
 "ser encontrados."
 
@@ -33867,7 +33867,7 @@ msgid ""
 "data source values do not match any values in the CollectiveAccess list "
 "tour_types."
 msgstr ""
-"Define o tipo de tour padrão que será usado se nenhum for definido ou se os "
+"Define o tipo de visita padrão que será usado se nenhum for definido ou se os "
 "valores da fonte de dados não corresponderem a nenhum valor na lista "
 "tour_types do CollectiveAccess."
 
@@ -33930,7 +33930,7 @@ msgid ""
 "Accepts a constant list item idno from the list occurrence_types or a "
 "reference to the location in the data source where the type can be found."
 msgstr ""
-"Aceita um numid de item de lista constante da lista occurrence_types ou uma "
+"Aceita um idno de item de lista constante da lista occurrence_types ou uma "
 "referência à localização na fonte de dados onde o tipo pode ser encontrado."
 
 #: ../../app/refineries/occurrenceSplitter/occurrenceSplitterRefinery.php:144
@@ -34136,23 +34136,23 @@ msgstr "Atualizado com sucesso ou inserido em lista %1"
 
 #: ../../install/inc/Installer.php:670
 msgid "Processing list item with idno %1"
-msgstr "Processando item de lista com numid %1"
+msgstr "Processando item de lista com idno %1"
 
 #: ../../install/inc/Installer.php:673
 msgid "List item with idno %1 already exists"
-msgstr "Item de lista com numid %1 já existe"
+msgstr "Item de lista com idno %1 já existe"
 
 #: ../../install/inc/Installer.php:675
 msgid "Deleting list item with idno %1"
-msgstr "Excluindo item de lista com numid %1"
+msgstr "Excluindo item de lista com idno %1"
 
 #: ../../install/inc/Installer.php:683
 msgid "List item with idno %1 is a new item"
-msgstr "Item de lista com numid %1 é um novo item"
+msgstr "Item de lista com idno %1 é um novo item"
 
 #: ../../install/inc/Installer.php:691
 msgid "Successfully updated/inserted list item with idno %1"
-msgstr "Atualizado/inserido com sucesso item de lista com numid %1"
+msgstr "Atualizado/inserido com sucesso item de lista com idno %1"
 
 #: ../../install/inc/Installer.php:746
 msgid "Successfully nuked all type restrictions for element %1"
@@ -35718,12 +35718,12 @@ msgstr "Seleciona que interface de usuário usar ao editar movimentações."
 #: ../../app/conf/user_pref_defs.conf:305
 #: ../../app/conf/user_pref_defs.conf:443
 msgid "Selects which user interface to use when editing tours."
-msgstr "Seleciona que interface de usuário usar ao editar tours."
+msgstr "Seleciona que interface de usuário usar ao editar visitas."
 
 #: ../../app/conf/user_pref_defs.conf:312
 #: ../../app/conf/user_pref_defs.conf:450
 msgid "Selects which user interface to use when editing tour stops."
-msgstr "Seleciona que interface de usuário usar ao editar paradas de tour."
+msgstr "Seleciona que interface de usuário usar ao editar paradas de visita."
 
 #: ../../app/conf/user_pref_defs.conf:318
 msgid "Search form editor user interface"
@@ -35795,11 +35795,11 @@ msgstr ""
 
 #: ../../app/conf/user_pref_defs.conf:442
 msgid "Tour editor user interface"
-msgstr "Interface de usuário do editor de tour"
+msgstr "Interface de usuário do editor de visita"
 
 #: ../../app/conf/user_pref_defs.conf:449
 msgid "Tour stop editor user interface"
-msgstr "Interface de usuário do editor de paradas de tour"
+msgstr "Interface de usuário do editor de paradas de visita"
 
 #: ../../app/conf/user_pref_defs.conf:461
 msgid "Selects which user interface to use when quick-adding entities."
@@ -36206,37 +36206,37 @@ msgstr ""
 
 #: ../../app/conf/user_pref_defs.conf:1138
 msgid "If set alternate names for the tour will be duplicated."
-msgstr "Se definido, os nomes alternativos para o tour serão duplicados."
+msgstr "Se definido, os nomes alternativos para a visita serão duplicados."
 
 #: ../../app/conf/user_pref_defs.conf:1148
 msgid "Duplicate tour metadata?"
-msgstr "Duplicar metadados de tour?"
+msgstr "Duplicar metadados de visita?"
 
 #: ../../app/conf/user_pref_defs.conf:1149
 msgid "If set all selected fields in the tour will be duplicated."
-msgstr "Se definido, todos os campos selecionados no tour serão duplicados."
+msgstr "Se definido, todos os campos selecionados na visita serão duplicados."
 
 #: ../../app/conf/user_pref_defs.conf:1170
 msgid "Duplicate tour stops?"
-msgstr "Duplicar paradas de tour?"
+msgstr "Duplicar paradas de visita?"
 
 #: ../../app/conf/user_pref_defs.conf:1171
 msgid "If checked all stops in the tour will be included."
-msgstr "Se marcado, todas as paradas no tour serão incluídas."
+msgstr "Se marcado, todas as paradas na visita serão incluídas."
 
 #: ../../app/conf/user_pref_defs.conf:1189
 msgid "If set alternate names for the tour stop will be duplicated."
 msgstr ""
-"Se definido, os nomes alternativos para a parada do tour serão duplicados."
+"Se definido, os nomes alternativos para a parada da visita serão duplicados."
 
 #: ../../app/conf/user_pref_defs.conf:1199
 msgid "Duplicate tour stop metadata?"
-msgstr "Duplicar metadados de parada de tour?"
+msgstr "Duplicar metadados de parada de visita?"
 
 #: ../../app/conf/user_pref_defs.conf:1200
 msgid "If set all selected fields in the tour stop will be duplicated."
 msgstr ""
-"Se definido, todos os campos selecionados na parada do tour serão duplicados."
+"Se definido, todos os campos selecionados na parada de visita serão duplicados."
 
 #: ../../app/conf/user_pref_defs.conf:1245
 msgid "If set alternate names for the list will be duplicated."
@@ -38061,127 +38061,127 @@ msgstr "Permitir ao usuário ver change logs de movimentações"
 
 #: ../../app/conf/user_actions.conf:888
 msgid "Tours editing"
-msgstr "Edição de tours"
+msgstr "Edição de visitas"
 
 #: ../../app/conf/user_actions.conf:889
 msgid "Actions allowing creation, editing and deletion of tours."
-msgstr "Ações que permitem criação, edição e exclusão de tours."
+msgstr "Ações que permitem criação, edição e exclusão de visitas."
 
 #: ../../app/conf/user_actions.conf:892
 msgid "Create tours"
-msgstr "Criar tours"
+msgstr "Criar visitas"
 
 #: ../../app/conf/user_actions.conf:893
 msgid "Allow user to create new tours"
-msgstr "Permitir ao usuário criar novos tours"
+msgstr "Permitir ao usuário criar novas visitas"
 
 #: ../../app/conf/user_actions.conf:896
 msgid "Edit tours"
-msgstr "Editar tours"
+msgstr "Editar visitas"
 
 #: ../../app/conf/user_actions.conf:897
 msgid "Allow user to edit existing tours"
-msgstr "Permitir ao usuário editar tours existentes"
+msgstr "Permitir ao usuário editar visitas existentes"
 
 #: ../../app/conf/user_actions.conf:900
 msgid "Delete tours"
-msgstr "Excluir tours"
+msgstr "Excluir visitas"
 
 #: ../../app/conf/user_actions.conf:901
 msgid "Allow user to delete tours"
-msgstr "Permitir ao usuário excluir tours"
+msgstr "Permitir ao usuário excluir visitas"
 
 #: ../../app/conf/user_actions.conf:904
 msgid "Search tours"
-msgstr "Pesquisar tours"
+msgstr "Pesquisar visitas"
 
 #: ../../app/conf/user_actions.conf:905
 msgid "Allow user to search tours"
-msgstr "Permitir ao usuário pesquisar tours"
+msgstr "Permitir ao usuário pesquisar visitas"
 
 #: ../../app/conf/user_actions.conf:908
 msgid "Browse tours"
-msgstr "Navegar por tours"
+msgstr "Navegar por visitas"
 
 #: ../../app/conf/user_actions.conf:909
 msgid "Allow user to browse tours"
-msgstr "Permitir ao usuário navegar por tours"
+msgstr "Permitir ao usuário navegar por visitas"
 
 #: ../../app/conf/user_actions.conf:912
 msgid "Duplicate tours"
-msgstr "Duplicar tours"
+msgstr "Duplicar visitas"
 
 #: ../../app/conf/user_actions.conf:913
 msgid "Allow user to duplicate tours"
-msgstr "Permitir ao usuário duplicar as tours"
+msgstr "Permitir ao usuário duplicar as visitas"
 
 #: ../../app/conf/user_actions.conf:916
 msgid "Export tours"
-msgstr "Exportar tours"
+msgstr "Exportar visitas"
 
 #: ../../app/conf/user_actions.conf:917
 msgid "Allow user to export tours"
-msgstr "Permitir ao usuário exportar tours"
+msgstr "Permitir ao usuário exportar visitas"
 
 #: ../../app/conf/user_actions.conf:921
 msgid "Allow user to change types of existing tours"
-msgstr "Permitir ao usuário alterar os tipos de tours existentes"
+msgstr "Permitir ao usuário alterar os tipos de visita existentes"
 
 #: ../../app/conf/user_actions.conf:924
 msgid "Manage access control lists for tours"
-msgstr "Gerenciar listas de controle de acesso para tours"
+msgstr "Gerenciar listas de controle de acesso para visitas"
 
 #: ../../app/conf/user_actions.conf:925
 msgid "Allow user to manage access control lists for tours"
 msgstr ""
 "Permitir ao usuário fazer a gestão das listas de controle de acesso para "
-"tours"
+"visitas"
 
 #: ../../app/conf/user_actions.conf:928
 msgid "Manage access control lists for tour stops"
-msgstr "Gerenciar listas de controle de acesso para paradas de tours"
+msgstr "Gerenciar listas de controle de acesso para paradas de visita"
 
 #: ../../app/conf/user_actions.conf:929
 msgid "Allow user to manage access control lists for tour stops"
 msgstr ""
 "Permitir ao usuário fazer a gestão das listas de controle de acesso para "
-"paradas de tours"
+"paradas de visita"
 
 #: ../../app/conf/user_actions.conf:932
 msgid "Batch edit tours"
-msgstr "Editar tours em lote"
+msgstr "Editar visitas em lote"
 
 #: ../../app/conf/user_actions.conf:933
 msgid "Allow user to edit batches of tours"
-msgstr "Permitir ao usuário editar tours em lote"
+msgstr "Permitir ao usuário editar visitas em lote"
 
 #: ../../app/conf/user_actions.conf:936
 msgid "Batch edit tour stops"
-msgstr "Editar paradas de tours em lote"
+msgstr "Editar paradas de visita em lote"
 
 #: ../../app/conf/user_actions.conf:937
 msgid "Allow user to edit batches of tour stops"
-msgstr "Permitir ao usuário editar paradas de tours em lote"
+msgstr "Permitir ao usuário editar paradas de visita em lote"
 
 #: ../../app/conf/user_actions.conf:940
 msgid "Batch delete tours"
-msgstr "Excluir tours em lote"
+msgstr "Excluir visitas em lote"
 
 #: ../../app/conf/user_actions.conf:941
 msgid "Allow user to delete batches of tours"
-msgstr "Permitir ao usuário excluir tours em lote"
+msgstr "Permitir ao usuário excluir visitas em lote"
 
 #: ../../app/conf/user_actions.conf:944
 msgid "Batch delete tour stops"
-msgstr "Excluir paradas de tours em lote"
+msgstr "Excluir paradas de visita em lote"
 
 #: ../../app/conf/user_actions.conf:945
 msgid "Allow user to delete batches of tour stops"
-msgstr "Permitir ao usuário excluir paradas de tours em lote"
+msgstr "Permitir ao usuário excluir paradas de visita em lote"
 
 #: ../../app/conf/user_actions.conf:949
 msgid "Allow user to view tour change logs"
-msgstr "Permitir ao usuário ver os change logs de tours"
+msgstr "Permitir ao usuário ver os change logs de visitas"
 
 #: ../../app/conf/user_actions.conf:955
 msgid "List &amp; vocabulary editing"

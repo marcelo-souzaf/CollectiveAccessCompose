@@ -281,7 +281,7 @@ class ExternalCache {
 		
 		$options = array('servers' => [[__CA_REDIS_HOST__, __CA_REDIS_PORT__]], 'database' => __CA_REDIS_DB__);
 		
-		# Uses password if defined
+		#! Uses password if defined, this is the modification of the original code
 		if(defined('__CA_REDIS_PASSWORD__') && __CA_REDIS_PASSWORD__) {
 			$options['password'] = __CA_REDIS_PASSWORD__;
 		}

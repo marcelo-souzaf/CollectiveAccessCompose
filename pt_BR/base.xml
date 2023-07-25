@@ -495,7 +495,7 @@
           <name>Object types</name>
         </label>
         <label locale="pt_BR">
-          <name>Tipos de objetos</name>
+          <name>Tipos de objeto</name>
         </label>
         <label locale="en_CA">
           <name>Object types</name>
@@ -515,7 +515,7 @@
           <name>Object sources</name>
         </label>
         <label locale="pt_BR">
-          <name>Fontes de objetos</name>
+          <name>Fontes de objeto</name>
         </label>
         <label locale="en_CA">
           <name>Object sources</name>
@@ -535,7 +535,7 @@
           <name>Object statuses</name>
         </label>
         <label locale="pt_BR">
-          <name>Status de objetos</name>
+          <name>Status de objeto</name>
         </label>
         <label locale="en_CA">
           <name>Object statuses</name>
@@ -1027,7 +1027,7 @@
           <name>Object access statuses</name>
         </label>
         <label locale="pt_BR">
-          <name>Estados de acesso de objeto</name>
+          <name>Status de acesso de objeto</name>
         </label>
         <label locale="en_CA">
           <name>Object access statuses</name>
@@ -2522,7 +2522,7 @@
           <name>Tour types</name>
         </label>
         <label locale="pt_BR">
-          <name>Tipos de tour</name>
+          <name>Tipos de visita</name>
         </label>
         <label locale="en_CA">
           <name>Tour types</name>
@@ -2542,8 +2542,8 @@
 				  <name_plural>full tours</name_plural>
 				</label>
         <label locale="pt_BR" preferred="1">
-          <name_singular>tour completo</name_singular>
-          <name_plural>tours completos</name_plural>
+          <name_singular>visita completa</name_singular>
+          <name_plural>visitas completas</name_plural>
         </label>
 				<label locale="en_CA" preferred="1">
 				  <name_singular>full tour</name_singular>
@@ -2566,8 +2566,8 @@
 				  <name_plural>short tours</name_plural>
 				</label>
         <label locale="pt_BR" preferred="1">
-          <name_singular>tour curto</name_singular>
-          <name_plural>tours curtos</name_plural>
+          <name_singular>visita curta</name_singular>
+          <name_plural>visitas curtas</name_plural>
         </label>
 				<label locale="en_CA" preferred="1">
 				  <name_singular>short tour</name_singular>
@@ -2591,7 +2591,7 @@
           <name>Tour sources</name>
         </label>
         <label locale="pt_BR">
-          <name>Fontes de tour</name>
+          <name>Fontes de visita</name>
         </label>
         <label locale="en_CA">
           <name>Tour sources</name>
@@ -2605,7 +2605,7 @@
           <name>Tour stop types</name>
         </label>
         <label locale="pt_BR">
-          <name>Tipos de parada de tour</name>
+          <name>Tipos de parada de visita</name>
         </label>
         <label locale="en_CA">
           <name>Tour stop types</name>
@@ -3396,7 +3396,7 @@
         </label>
         <label locale="pt_BR">
           <name>Introdução</name>
-          <description>Descrição narrativa do tour. Este é o texto primário usado quando o tour é apresentado publicamente.</description>
+          <description>Descrição narrativa da visita guiada. Este é o texto primário usado quando a visita é apresentada publicamente.</description>
         </label>
         <label locale="en_CA">
           <name>Introduction</name>
@@ -3436,7 +3436,7 @@
         </label>
         <label locale="pt_BR">
           <name>Introdução</name>
-          <description>Descrição narrativa do tour. Este é o texto primário usado quando o tour é apresentado publicamente.</description>
+          <description>Descrição narrativa da visita guiada. Este é o texto primário usado quando a visita é apresentada publicamente.</description>
         </label>
         <label locale="en_CA">
           <name>Introduction</name>
@@ -4401,7 +4401,7 @@
           <name>Tour editor</name>
         </label>
         <label locale="pt_BR">
-          <name>Editor de tour</name>
+          <name>Editor de visita</name>
         </label>
         <label locale="en_CA">
           <name>Tour editor</name>
@@ -4437,7 +4437,7 @@
               <bundle>preferred_labels</bundle>
               <settings>
                 <setting name="label" locale="en_US">Tour title</setting>
-                <setting name="label" locale="pt_BR">Título de tour</setting>
+                <setting name="label" locale="pt_BR">Título de visita</setting>
                 <setting name="label" locale="en_CA">Tour title</setting>
                 <setting name="label" locale="fr_FR">Tour title</setting>
                 <setting name="label" locale="sv_SE">Tur titel</setting>
@@ -4476,7 +4476,7 @@
           <name>Tour stop editor</name>
         </label>
         <label locale="pt_BR">
-          <name>Editor de parada de tour</name>
+          <name>Editor de parada de visita</name>
         </label>
         <label locale="en_CA">
           <name>Tour stop editor</name>
@@ -4512,7 +4512,7 @@
               <bundle>preferred_labels</bundle>
               <settings>
                 <setting name="label" locale="en_US">Tour stop title</setting>
-                <setting name="label" locale="pt_BR">Título de parada de tour</setting>
+                <setting name="label" locale="pt_BR">Título de parada de visita</setting>
                 <setting name="label" locale="en_CA">Tour stop title</setting>
                 <setting name="label" locale="fr_FR">Tour stop title</setting>
                 <setting name="label" locale="sv_SE">Tur stopp titel</setting>
