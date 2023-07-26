@@ -354,14 +354,14 @@
         </item>
         <item idno="bequest" enabled="1" default="0">
           <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>bequest</name_singular>
+              <name_plural>bequests</name_plural>
+            </label>
             <!-- fuzzy -->
             <label locale="pt_BR" preferred="1">
               <name_singular>herança</name_singular>
               <name_plural>heranças</name_plural>
-            </label>
-            <label locale="en_US" preferred="1">
-              <name_singular>bequest</name_singular>
-              <name_plural>bequests</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>leg</name_singular>

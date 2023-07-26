@@ -5,7 +5,7 @@ Todo o processo foi pensado para um sistema operacional baseado em Unix, capaz d
 
 O repositório também conta com uma tradução feita por uma única pessoa com ajuda do GitHub Copilot em uma semana (portanto cheia de defeitos) para o português brasileiro. Sua instalação é feita nas últimas linhas do arquivo `download_and_install_ca.sh.sh`.
 
-Também está disponível o arquivo `install_docker.sh`, que instala o Docker e o Docker Compose no sistema operacional.
+Também está disponível o arquivo `install_docker.sh`, que instala o Docker e o Docker Compose no sistema operacional. Para executar os containers, basta executar o comando `docker-compose up -d` na pasta raiz do projeto (-d é opcional e executa em segundo plano).
 
 ## Importante
 Defina as variáveis de ambiente no arquivo `.env`.
