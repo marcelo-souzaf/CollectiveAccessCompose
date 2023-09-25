@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CollectiveAccess Pawtucket2\n"
 "POT-Creation-Date: 2016-10-10 23:03-0400\n"
-"PO-Revision-Date: 2023-09-22 04:28-0300\n"
+"PO-Revision-Date: 2023-09-25 00:35-0300\n"
 "Last-Translator: Seth <Seth@collectiveacess.org>\n"
 "Language-Team: CollectiveAccess <info@collectiveaccess.org>\n"
 "Language: pt_BR\n"
@@ -166,8 +166,8 @@ msgstr "Obrigado por contribuir."
 #: controllers/DetailController.php:868 controllers/DetailController.php:872
 #: lib/ca/BaseDetailController.php:389 lib/pawtucket/BaseDetailController.php:411
 msgid ""
-"Thank you for contributing.  Your comments will be posted on this page after review "
-"by site staff."
+"Thank you for contributing.  Your comments will be posted on this page after review by "
+"site staff."
 msgstr ""
 "Obrigado por contribuir. Seus comentários serão publicados nesta página após revisão "
 "pela equipe do site."
@@ -684,14 +684,12 @@ msgid "Please complete all key fields before saving."
 msgstr "Por favor, preencha todos os campos-chave antes de salvar."
 
 #: helpers/batchHelpers.php:48 helpers/batchHelpers.php:80 helpers/batchHelpers.php:112
-#: helpers/batchHelpers.php:144 helpers/batchHelpers.php:176
-#: helpers/batchHelpers.php:204
+#: helpers/batchHelpers.php:144 helpers/batchHelpers.php:176 helpers/batchHelpers.php:204
 msgid "In batch"
 msgstr "Em lote"
 
 #: helpers/batchHelpers.php:50 helpers/batchHelpers.php:82 helpers/batchHelpers.php:114
-#: helpers/batchHelpers.php:146 helpers/batchHelpers.php:178
-#: helpers/batchHelpers.php:206
+#: helpers/batchHelpers.php:146 helpers/batchHelpers.php:178 helpers/batchHelpers.php:206
 msgid "do not use"
 msgstr "não usam"
 
@@ -799,7 +797,7 @@ msgstr "Ao excluir este(a) %1:"
 
 #: helpers/displayHelpers.php:357
 msgid "This %1 is referenced %2 times"
-msgstr "Este %1 é referenciado(a) %2 vezes"
+msgstr "Este(a) %1 é referenciado(a) %2 vezes"
 
 #: helpers/displayHelpers.php:359
 msgid "remove all references"
@@ -887,8 +885,8 @@ msgstr "nova tela"
 #: lib/ca/BundlableLabelableBaseModelWithAttributes.php:3645
 #: lib/ca/BundlableLabelableBaseModelWithAttributes.php:3695
 #: lib/ca/BundlableLabelableBaseModelWithAttributes.php:3779
-#: lib/ca/LabelableBaseModelWithAttributes.php:1688
-#: lib/ca/RepresentableBaseModel.php:571 lib/core/ApplicationChangeLog.php:277
+#: lib/ca/LabelableBaseModelWithAttributes.php:1688 lib/ca/RepresentableBaseModel.php:571
+#: lib/core/ApplicationChangeLog.php:277
 msgid "BLANK"
 msgstr "VAZIO"
 
@@ -1245,16 +1243,14 @@ msgid "Back to record"
 msgstr "De volta ao registro"
 
 #: helpers/displayHelpers.php:2461 lib/ca/Attributes/Values/MediaAttributeValue.php:198
-#: models/ca_object_representations.php:1663
-#: models/ca_representation_annotations.php:641 models/ca_set_items.php:385
-#: models/ca_user_representation_annotations.php:619
+#: models/ca_object_representations.php:1663 models/ca_representation_annotations.php:641
+#: models/ca_set_items.php:385 models/ca_user_representation_annotations.php:619
 msgid "page"
 msgstr "página"
 
 #: helpers/displayHelpers.php:2461 lib/ca/Attributes/Values/MediaAttributeValue.php:198
-#: models/ca_object_representations.php:1663
-#: models/ca_representation_annotations.php:641 models/ca_set_items.php:385
-#: models/ca_user_representation_annotations.php:619
+#: models/ca_object_representations.php:1663 models/ca_representation_annotations.php:641
+#: models/ca_set_items.php:385 models/ca_user_representation_annotations.php:619
 msgid "pages"
 msgstr "páginas"
 
@@ -2719,8 +2715,8 @@ msgid ""
 "[importHelpers:caGenericImportSplitter] Only media paths can be mapped for object "
 "representations."
 msgstr ""
-"[importHelpers:caGenericImportSplitter] Apenas os caminhos de mídia podem ser "
-"mapeados para as representações de objetos."
+"[importHelpers:caGenericImportSplitter] Apenas os caminhos de mídia podem ser mapeados "
+"para as representações de objetos."
 
 #: helpers/importHelpers.php:768 helpers/importHelpers.php:843
 #: helpers/importHelpers.php:875
@@ -3020,9 +3016,8 @@ msgstr "Não é uma medida válida [%1]"
 msgid "Not a valid unit of weight [%2]"
 msgstr "Não é uma unidade de peso válida [%2]"
 
-#: lib/ca/AppNavigation.php:468 lib/ca/AppNavigation.php:473
-#: lib/ca/AppNavigation.php:499 lib/ca/AppNavigation.php:519
-#: lib/core/Controller/RequestDispatcher.php:225
+#: lib/ca/AppNavigation.php:468 lib/ca/AppNavigation.php:473 lib/ca/AppNavigation.php:499
+#: lib/ca/AppNavigation.php:519 lib/core/Controller/RequestDispatcher.php:225
 msgid "Invalid controller path"
 msgstr "Caminho de controlador inválido"
 
@@ -3275,11 +3270,11 @@ msgstr "Pode ser usado em formulário de pesquisa"
 #: lib/ca/Attributes/Values/UrlAttributeValue.php:134
 #: lib/ca/Attributes/Values/WeightAttributeValue.php:91
 msgid ""
-"Check this option if this attribute value can be used in search forms. (The default "
-"is to be.)"
+"Check this option if this attribute value can be used in search forms. (The default is "
+"to be.)"
 msgstr ""
-"Marque esta opção se este valor de atributo pode ser usado em formulários de "
-"pesquisa. (O padrão é poder.)"
+"Marque esta opção se este valor de atributo pode ser usado em formulários de pesquisa. "
+"(O padrão é poder.)"
 
 #: lib/ca/Attributes/Values/CollectionsAttributeValue.php:89
 #: lib/ca/Attributes/Values/ContainerAttributeValue.php:74
@@ -3410,9 +3405,9 @@ msgstr "Template de exibição"
 #: lib/ca/Attributes/Values/UrlAttributeValue.php:167
 #: lib/ca/Attributes/Values/WeightAttributeValue.php:124
 msgid ""
-"Layout for value when used in a display (can include HTML). Element code tags "
-"prefixed with the ^ character can be used to represent the value in the template. For "
-"example: <i>^my_element_code</i>."
+"Layout for value when used in a display (can include HTML). Element code tags prefixed "
+"with the ^ character can be used to represent the value in the template. For example: "
+"<i>^my_element_code</i>."
 msgstr ""
 "Layout para o valor quando usado numa exibição (pode incluir HTML). Tags de código de "
 "elemento com o prefixo ^ podem ser usadas para representar o valor no modelo. Por "
@@ -3645,10 +3640,10 @@ msgid ""
 "existing values are always displayed in read-only mode until you click to edit. This "
 "can be used to preserve screen space for large containers."
 msgstr ""
-"Layout usado quando um valor de contêiner está em modo somente leitura. Se este "
-"modelo estiver definido, os valores existentes são sempre exibidos em modo somente "
-"leitura até você clicar para editar. Isto pode ser usado para preservar espaço de "
-"tela para contêineres grandes."
+"Layout usado quando um valor de contêiner está em modo somente leitura. Se este modelo "
+"estiver definido, os valores existentes são sempre exibidos em modo somente leitura "
+"até você clicar para editar. Isto pode ser usado para preservar espaço de tela para "
+"contêineres grandes."
 
 #: lib/ca/Attributes/Values/CurrencyAttributeValue.php:56
 #: lib/ca/Attributes/Values/IntegerAttributeValue.php:66
@@ -3764,8 +3759,7 @@ msgstr "%1 não pode ser vazio"
 #: lib/ca/Attributes/Values/CurrencyAttributeValue.php:242
 #: lib/core/Plugins/CurrencyConversion/EuroBank.php:76
 msgid "%1 is not a valid currency value; be sure to include a currency symbol"
-msgstr ""
-"%1 não é um valor monetário válido; certifique-se de incluir um símbolo de moeda"
+msgstr "%1 não é um valor monetário válido; certifique-se de incluir um símbolo de moeda"
 
 #: lib/ca/Attributes/Values/CurrencyAttributeValue.php:262
 msgid "%1 does not use a valid decimal notation for your locale"
@@ -3871,9 +3865,9 @@ msgstr "É um tempo de vida"
 
 #: lib/ca/Attributes/Values/DateRangeAttributeValue.php:117
 msgid ""
-"Check this option if this attribute value represents a persons lifespan. Lifespans "
-"are displayed in a slightly different format in many languages than standard dates. "
-"(The default is not to be.)"
+"Check this option if this attribute value represents a persons lifespan. Lifespans are "
+"displayed in a slightly different format in many languages than standard dates. (The "
+"default is not to be.)"
 msgstr ""
 "Marque esta opção se o valor deste atributo representa o tempo de vida de uma pessoa. "
 "Tempos de vida são exibidos num formato ligeiramente diferente das datas padrão em "
@@ -3912,14 +3906,14 @@ msgstr "Ordenar valores sugeridos por?"
 #: lib/ca/Attributes/Values/TextAttributeValue.php:122
 #: lib/ca/Attributes/Values/UrlAttributeValue.php:122
 msgid ""
-"If suggestion of existing values is enabled this option determines how returned "
-"values are sorted. Choose <i>value</i> to sort alphabetically. Choose <i>most "
-"recently added </i> to sort with most recently entered values first."
+"If suggestion of existing values is enabled this option determines how returned values "
+"are sorted. Choose <i>value</i> to sort alphabetically. Choose <i>most recently added "
+"</i> to sort with most recently entered values first."
 msgstr ""
-"Se a sugestão de valores existentes está ativada, esta opção determina como os "
-"valores retornados são ordenados. Escolha <i>valor</i> para ordenar alfabeticamente. "
-"Escolha <i>adicionado mais recentemente</i> para ordenar com os valores mais recentes "
-"em primeiro."
+"Se a sugestão de valores existentes está ativada, esta opção determina como os valores "
+"retornados são ordenados. Escolha <i>valor</i> para ordenar alfabeticamente. Escolha "
+"<i>adicionado mais recentemente</i> para ordenar com os valores mais recentes em "
+"primeiro."
 
 #: lib/ca/Attributes/Values/DateRangeAttributeValue.php:143
 #: lib/ca/Attributes/Values/TextAttributeValue.php:124
@@ -3971,8 +3965,8 @@ msgid ""
 "Check this option if you don't want your FloorPlan values to be locale-specific. (The "
 "default is to not be.)"
 msgstr ""
-"Marque esta opção se não desejar que os seus valores de FloorPlan sejam específicos "
-"de idioma. (O padrão é não serem.)"
+"Marque esta opção se não desejar que os seus valores de FloorPlan sejam específicos de "
+"idioma. (O padrão é não serem.)"
 
 #: lib/ca/Attributes/Values/FloorplanAttributeValue.php:79
 #: lib/ca/Attributes/Values/GeoNamesAttributeValue.php:79
@@ -3995,8 +3989,8 @@ msgstr "Pode ser vazio"
 #: lib/ca/Attributes/Values/FloorplanAttributeValue.php:87
 #: lib/ca/Attributes/Values/GeoNamesAttributeValue.php:95
 msgid ""
-"Check this option if you want to allow empty attribute values. This - of course - "
-"only makes sense if you bundle several elements in a container."
+"Check this option if you want to allow empty attribute values. This - of course - only "
+"makes sense if you bundle several elements in a container."
 msgstr ""
 "Marque esta opção se desejar permitir valores de atributos vazios. Isso - claro - só "
 "faz sentido se você agrupar vários elementos em um contêiner."
@@ -4059,8 +4053,8 @@ msgid ""
 "Determines the maximum number of results returned by GeoNames. Tweak this number if "
 "you want to speed up lookups."
 msgstr ""
-"Determina o número máximo de resultados apresentados pelo GeoNames. Ajuste este "
-"número se deseja que as pesquisas sejam mais rápidas."
+"Determina o número máximo de resultados apresentados pelo GeoNames. Ajuste este número "
+"se deseja que as pesquisas sejam mais rápidas."
 
 #: lib/ca/Attributes/Values/GeoNamesAttributeValue.php:160
 msgid "GeoNames elements"
@@ -4068,8 +4062,8 @@ msgstr "Elementos do GeoNames"
 
 #: lib/ca/Attributes/Values/GeoNamesAttributeValue.php:161
 msgid ""
-"Comma-separated list of GeoNames attributes to be pulled from the service to build "
-"the text representation for the selected location. See http://www.geonames.org/export/"
+"Comma-separated list of GeoNames attributes to be pulled from the service to build the "
+"text representation for the selected location. See http://www.geonames.org/export/"
 "geonames-search.html for further reference, including the available element names. "
 "Note that latitude and longitude are always added to the text value to enable map "
 "display."
@@ -4148,19 +4142,19 @@ msgstr "O tipo de serviço de informação a ser acessado."
 
 #: lib/ca/Attributes/Values/InformationServiceAttributeValue.php:79
 msgid ""
-"Check this option if you don't want your values to be locale-specific. (The default "
-"is to not be.)"
+"Check this option if you don't want your values to be locale-specific. (The default is "
+"to not be.)"
 msgstr ""
 "Marque esta opção se deseja que os seus valores não sejam específicos de idioma. (O "
 "padrão é não serem.)"
 
 #: lib/ca/Attributes/Values/InformationServiceAttributeValue.php:264
 msgid ""
-"Value for InformationService lookup has to be an ID or URL that returns exactly 1 "
-"hit. We got more or no hits. Value was %1"
+"Value for InformationService lookup has to be an ID or URL that returns exactly 1 hit. "
+"We got more or no hits. Value was %1"
 msgstr ""
-"Valor para lookup de InformationService deve ser um ID ou URL que retorna exatamente "
-"1 hit. Foram recebidos mais ou nenhum hit. O valor era %1"
+"Valor para lookup de InformationService deve ser um ID ou URL que retorna exatamente 1 "
+"hit. Foram recebidos mais ou nenhum hit. O valor era %1"
 
 #: lib/ca/Attributes/Values/InformationServiceAttributeValue.php:330
 #: lib/ca/Attributes/Values/InformationServiceAttributeValue.php:358
@@ -4200,8 +4194,7 @@ msgstr "Número máximo de caracteres"
 #: lib/ca/Attributes/Values/TextAttributeValue.php:58
 #: lib/ca/Attributes/Values/UrlAttributeValue.php:58
 msgid ""
-"The maximum number of characters to allow. Input longer than required will be "
-"rejected."
+"The maximum number of characters to allow. Input longer than required will be rejected."
 msgstr "Número máximo de caracteres autorizados. Inserções maiores serão rejeitadas."
 
 #: lib/ca/Attributes/Values/IntegerAttributeValue.php:67
@@ -4210,8 +4203,7 @@ msgid ""
 msgstr "O valor numérico mínimo autorizado. Valores menores serão rejeitados."
 
 #: lib/ca/Attributes/Values/IntegerAttributeValue.php:75
-msgid ""
-"The maximum numeric value to allow. Values larger than required will be rejected."
+msgid "The maximum numeric value to allow. Values larger than required will be rejected."
 msgstr "O valor numérico máximo autorizado. Valores maiores serão rejeitados."
 
 #: lib/ca/Attributes/Values/IntegerAttributeValue.php:82
@@ -4233,8 +4225,8 @@ msgid ""
 msgstr ""
 "Uma expressão regular no formato Perl com a qual se valida a entrada. Entradas não "
 "correspondentes à expressão serão rejeitadas. Não inclui os caracteres delimitadores "
-"iniciais e finais (tipicamente \"/\") na sua expressão. Deixe vazio se você não "
-"quiser usar validação baseada em expressão regular."
+"iniciais e finais (tipicamente \"/\") na sua expressão. Deixe vazio se você não quiser "
+"usar validação baseada em expressão regular."
 
 #: lib/ca/Attributes/Values/IntegerAttributeValue.php:107
 msgid ""
@@ -4252,8 +4244,7 @@ msgstr "Deve ser único"
 #: lib/ca/Attributes/Values/IntegerAttributeValue.php:131
 #: lib/ca/Attributes/Values/TextAttributeValue.php:210
 msgid "Check this option to enforce uniqueness across all values for this attribute."
-msgstr ""
-"Marque esta opção para aplicar unicidade em todos os valores para este atributo."
+msgstr "Marque esta opção para aplicar unicidade em todos os valores para este atributo."
 
 #: lib/ca/Attributes/Values/IntegerAttributeValue.php:212
 #: lib/ca/Attributes/Values/NumericAttributeValue.php:203
@@ -4331,7 +4322,7 @@ msgstr "Todos os vocabulários"
 
 #: lib/ca/Attributes/Values/LCSHAttributeValue.php:141
 msgid "LC Subject Headings"
-msgstr "Cabeçalhos de Assunto LC"
+msgstr "Títulos de Assunto LC"
 
 #: lib/ca/Attributes/Values/LCSHAttributeValue.php:142
 msgid "LC Name Authority File"
@@ -4339,7 +4330,7 @@ msgstr "Nome do Arquivo de Autoridade"
 
 #: lib/ca/Attributes/Values/LCSHAttributeValue.php:143
 msgid "LC Subject Headings for Children"
-msgstr "Cabeçalhos de Assunto LC para Crianças"
+msgstr "Títulos de Assunto LC para Crianças"
 
 #: lib/ca/Attributes/Values/LCSHAttributeValue.php:144
 msgid "LC Genre/Forms File"
@@ -4468,8 +4459,8 @@ msgid ""
 "Check this option if the list default value should be used when the item value is "
 "null. (The default is to disregard the default value and show the null value.)"
 msgstr ""
-"Marque esta opção se desejar que o valor padrão de lista seja usando quando o valor "
-"do item for nulo. (O padrão é ignorar o valor padrão e mostrar o valor nulo.)"
+"Marque esta opção se desejar que o valor padrão de lista seja usando quando o valor do "
+"item for nulo. (O padrão é ignorar o valor padrão e mostrar o valor nulo.)"
 
 #: lib/ca/Attributes/Values/ListAttributeValue.php:106
 msgid "Render list as"
@@ -4477,8 +4468,7 @@ msgstr "Renderizar lista como"
 
 #: lib/ca/Attributes/Values/ListAttributeValue.php:107
 msgid ""
-"Set the presentation of the list to select, checkboxes, radio buttons, look or "
-"browser."
+"Set the presentation of the list to select, checkboxes, radio buttons, look or browser."
 msgstr ""
 "Definir a apresentação da lista para: select, checkboxes, radio buttons, look ou "
 "browser."
@@ -4565,8 +4555,8 @@ msgstr "Selecione pacotes da lista abaixo"
 #: lib/ca/Attributes/Values/ListAttributeValue.php:616
 msgid "The list must have exactly two items to be used as a yes/no checkbox"
 msgstr ""
-"A lista deve ter exatamente dois itens para serem usados como uma caixa de seleção "
-"sim/não"
+"A lista deve ter exatamente dois itens para serem usados como uma caixa de seleção sim/"
+"não"
 
 #: lib/ca/Attributes/Values/ListAttributeValue.php:623
 msgid "Sub-elements may not be used as checklists"
@@ -4601,16 +4591,16 @@ msgid ""
 "The minimum numeric value to allow. Values smaller than required will be rejected. "
 "Leave blank to indicate no lower limit."
 msgstr ""
-"Valor numérico mínimo permitido. Valores menores que o exigido serão rejeitados. "
-"Deixe vazio para indicar ausência de limite mínimo."
+"Valor numérico mínimo permitido. Valores menores que o exigido serão rejeitados. Deixe "
+"vazio para indicar ausência de limite mínimo."
 
 #: lib/ca/Attributes/Values/NumericAttributeValue.php:74
 msgid ""
 "The maximum numeric value to allow. Values larger than required will be rejected. "
 "Leave blank to indicate no upper limit."
 msgstr ""
-"Valor numérico máximo permitido. Valores maiores que o exigido serão rejeitados. "
-"Deixe vazioem branco para indicar ausência de limite máximo."
+"Valor numérico máximo permitido. Valores maiores que o exigido serão rejeitados. Deixe "
+"vazioem branco para indicar ausência de limite máximo."
 
 #: lib/ca/Attributes/Values/NumericAttributeValue.php:106
 msgid ""
@@ -4655,43 +4645,43 @@ msgid ""
 "Check this option if you don't want your Taxonomy values to be locale-specific. (The "
 "default is to not be.)"
 msgstr ""
-"Marque esta opção se não desejar que os seus valores de Taxonomia sejam específicos "
-"de idioma. (O padrão é não serem.)"
+"Marque esta opção se não desejar que os seus valores de Taxonomia sejam específicos de "
+"idioma. (O padrão é não serem.)"
 
 #: lib/ca/Attributes/Values/TaxonomyAttributeValue.php:214
 #: plugins/NovaMuse/themes/novastory/views/member_map_balloon_html.php:47
 msgid "More"
 msgstr "Mais"
 
-#: lib/ca/Attributes/Values/TextAttributeValue.php:89
-#: models/ca_editor_ui_screens.php:466 models/ca_editor_ui_screens.php:524
+#: lib/ca/Attributes/Values/TextAttributeValue.php:89 models/ca_editor_ui_screens.php:466
+#: models/ca_editor_ui_screens.php:524
 msgid "Use rich text editor"
 msgstr "Utilizar editor de texto rico"
 
-#: lib/ca/Attributes/Values/TextAttributeValue.php:90
-#: models/ca_editor_ui_screens.php:467 models/ca_editor_ui_screens.php:525
+#: lib/ca/Attributes/Values/TextAttributeValue.php:90 models/ca_editor_ui_screens.php:467
+#: models/ca_editor_ui_screens.php:525
 msgid ""
 "Check this option if you want to use a word-processor like editor with this text "
-"field. If you expect users to enter rich text (italic, bold, underline) then you "
-"might want to enable this."
+"field. If you expect users to enter rich text (italic, bold, underline) then you might "
+"want to enable this."
 msgstr ""
 "Marque esta opção se deseja utilizar um processador de texto neste campo de texto. Se "
-"espera que os usuários utilizem o formato rico de texto (itálico, negrito, "
-"sublinhado) então deve permitir esta opção."
+"espera que os usuários utilizem o formato rico de texto (itálico, negrito, sublinhado) "
+"então deve permitir esta opção."
 
 #: lib/ca/Attributes/Values/TextAttributeValue.php:98
 msgid ""
 "Check this option if you don't want your text to be locale-specific. (The default is "
 "to be.)"
 msgstr ""
-"Marque esta opção se não deseja que o seu texto seja específico de idioma. (O padrão "
-"é ser.)"
+"Marque esta opção se não deseja que o seu texto seja específico de idioma. (O padrão é "
+"ser.)"
 
 #: lib/ca/Attributes/Values/TextAttributeValue.php:114
 msgid ""
 "Check this option if you want this attribute to suggest previously saved values as "
-"text is entered. This option is only effective if the display height of the text "
-"entry is equal to 1."
+"text is entered. This option is only effective if the display height of the text entry "
+"is equal to 1."
 msgstr ""
 "Marque esta opção se quiser que este atributo faça sugestão de valores salvos "
 "anteriormente conforme texto é inserido. Esta opção tem efeito apenas se a altura da "
@@ -4760,8 +4750,8 @@ msgstr ""
 #: lib/ca/Attributes/Values/UrlAttributeValue.php:114
 msgid ""
 "Check this option if you want this attribute to suggest previously saved values as "
-"text is entered. This option is only effective if the display height of the element "
-"is equal to 1."
+"text is entered. This option is only effective if the display height of the element is "
+"equal to 1."
 msgstr ""
 "Marque esta opção se quiser que este atributo faça sugestões de valores salvos "
 "anteriormente conforme o texto é inserido. Esta opção só tem efeito se a altura de "
@@ -4845,8 +4835,8 @@ msgstr "Alterações a %1 salvas"
 
 #: lib/ca/BaseEditorController.php:363
 msgid ""
-"There are errors preventing <strong>ALL</strong> information from being saved. "
-"Correct the problems and click \"save\" again.\n"
+"There are errors preventing <strong>ALL</strong> information from being saved. Correct "
+"the problems and click \"save\" again.\n"
 "<ul>"
 msgstr ""
 "Existem erros impedindo que <strong>TODA</strong> a informação seja salva. Corrija os "
@@ -4993,8 +4983,8 @@ msgid ""
 "<em>%1</em> doesn't exist with this filter but %2 record(s) match overall. Create "
 "<em>%1</em>?"
 msgstr ""
-"<em>%1</em> não existe com este filtro mas %2 registro(s) correspondem no geral. "
-"Criar <em>%1</em>?"
+"<em>%1</em> não existe com este filtro mas %2 registro(s) correspondem no geral. Criar "
+"<em>%1</em>?"
 
 #: lib/ca/BaseLookupController.php:186
 msgid ""
@@ -5028,8 +5018,7 @@ msgstr "Você não tem permissão para fazer a adição rápida de %1"
 msgid "Related %1 does not exist"
 msgstr "Relacionado(a) %1 não existe"
 
-#: lib/ca/BaseRepresentationRelationship.php:244
-#: models/ca_object_representations.php:497
+#: lib/ca/BaseRepresentationRelationship.php:244 models/ca_object_representations.php:497
 msgid "Could not update primary flag for representation: %1"
 msgstr "Não foi possível atualizar marcador primário para representação: %1"
 
@@ -5147,8 +5136,8 @@ msgstr "Houve um erro em preg_replace durante processamento da substituição %1
 
 #: lib/ca/BatchProcessor.php:768
 msgid ""
-"The result for replacement with code %1 applied to value '%2' is '%3' and was added "
-"to the list of file names used for matching."
+"The result for replacement with code %1 applied to value '%2' is '%3' and was added to "
+"the list of file names used for matching."
 msgstr ""
 "O resultado para a substituição de código %1 aplicado ao valor '%2' é '%3' foi "
 "adicionado à lista de nomes de arquivos utilizados nas correspondências."
@@ -5230,14 +5219,14 @@ msgstr "arquivos"
 #: lib/ca/BatchProcessor.php:1152
 msgid "[%1] Media import processing for directory %2 with %3 %4 begun at %5 is complete"
 msgstr ""
-"[%1] Processamento de importação de mídia para o diretório %2 com %3 %4 iniciado em "
-"%5 está completo"
+"[%1] Processamento de importação de mídia para o diretório %2 com %3 %4 iniciado em %5 "
+"está completo"
 
 #: lib/ca/BatchProcessor.php:1154
 msgid "Media import processing for directory %1 with %2 %3 begun at %4 is complete"
 msgstr ""
-"Processamento de importação de mídia para o diretório %1 com %2 %3 iniciado em %4 "
-"está completo"
+"Processamento de importação de mídia para o diretório %1 com %2 %3 iniciado em %4 está "
+"completo"
 
 #: lib/ca/BatchProcessor.php:1193
 msgid "Importer %1 does not exist"
@@ -5552,36 +5541,34 @@ msgstr "Identificador %1 já existe e duplicados não são permitidos"
 msgid ""
 "The CollectiveAccess <i>app/tmp</i> directory is NOT writeable by the installer. This "
 "may result in installation errors. It is recommended that you change permissions on "
-"this directory (<i>%1</i>) to allow write access prior to installation. You can "
-"reload the installer to verify that the changed permissions are correct."
+"this directory (<i>%1</i>) to allow write access prior to installation. You can reload "
+"the installer to verify that the changed permissions are correct."
 msgstr ""
-"O diretório <i>app/tmp</i> CollectiveAccess não pode ser gravado pelo instalador. "
-"Isto pode resultar em erros de instalação. É recomendável que altere as permissões "
-"neste diretório (<i>%1</i>) para permitir o acesso de gravação antes da instalação. "
-"Você pode recarregar o instalador para verificar se as permissões alteradas estão "
-"corretas."
+"O diretório <i>app/tmp</i> CollectiveAccess não pode ser gravado pelo instalador. Isto "
+"pode resultar em erros de instalação. É recomendável que altere as permissões neste "
+"diretório (<i>%1</i>) para permitir o acesso de gravação antes da instalação. Você "
+"pode recarregar o instalador para verificar se as permissões alteradas estão corretas."
 
 #: lib/ca/ConfigurationCheck.php:153
 msgid ""
 "The CollectiveAccess <i>Lucene search index</i> directory is NOT writeable by the "
 "installer. This may result in installation errors. It is recommended that you change "
-"permissions on this directory (<i>%1</i>) to allow write access prior to "
-"installation. You can reload the installer to verify that the changed permissions are "
-"correct."
+"permissions on this directory (<i>%1</i>) to allow write access prior to installation. "
+"You can reload the installer to verify that the changed permissions are correct."
 msgstr ""
 "O diretório <i>índice de pesquisa Lucene</i> do CollectiveAccess não pode ser gravado "
 "pelo instalador. Isto pode resultar em erros de instalação. É recomendável que você "
 "altere as permissões neste diretório (<i>%1</i>) para permitir o acesso de gravação "
-"antes da instalação. Você pode recarregar o instalador para verificar se as "
-"permissões alteradas estão corretas."
+"antes da instalação. Você pode recarregar o instalador para verificar se as permissões "
+"alteradas estão corretas."
 
 #: lib/ca/ConfigurationCheck.php:186
 msgid ""
 "The CollectiveAccess media directory is NOT writeable by the installer. This will "
 "prevent proper creation of the media directory structure and result in installation "
-"errors. It is recommended that you change permissions on this directory (<i>%1</i>) "
-"to allow write access prior to installation. You can reload the installer to verify "
-"that the changed permissions are correct."
+"errors. It is recommended that you change permissions on this directory (<i>%1</i>) to "
+"allow write access prior to installation. You can reload the installer to verify that "
+"the changed permissions are correct."
 msgstr ""
 "O diretório multimédia do CollectiveAccess não pode ser gravado pelo instalador. Isto "
 "irá prevenir a criação da estrutura do diretório multimédia e resultar em erros de "
@@ -5591,8 +5578,8 @@ msgstr ""
 
 #: lib/ca/ConfigurationCheck.php:208 lib/pawtucket/ConfigurationCheck.php:126
 msgid ""
-"Your MySQL installation doesn't support the InnoDB storage engine which is required "
-"by CollectiveAccess. For more information also see %1."
+"Your MySQL installation doesn't support the InnoDB storage engine which is required by "
+"CollectiveAccess. For more information also see %1."
 msgstr ""
 "A sua instalação MySQL não suporta o motor de armazenamento InnoDB, que é requerido "
 "pelo CollectiveAccess. Para mais informações, veja também %1."
@@ -5623,10 +5610,9 @@ msgstr ""
 #: lib/ca/ConfigurationCheck.php:245 lib/pawtucket/ConfigurationCheck.php:163
 msgid ""
 "Your database is extremely out-of-date. Please install all database migrations "
-"starting with migration #1 or contact support@collectiveaccess.org for assistance. "
-"See the <a href=\"http://docs.collectiveaccess.org/wiki/"
-"Applying_Database_Updates\">update HOW-TO</a> for instructions on applying database "
-"updates manually."
+"starting with migration #1 or contact support@collectiveaccess.org for assistance. See "
+"the <a href=\"http://docs.collectiveaccess.org/wiki/Applying_Database_Updates\">update "
+"HOW-TO</a> for instructions on applying database updates manually."
 msgstr ""
 "A sua base de dados está extremamente desatualizada. Por favor, instale todas as "
 "migrações da base de dados a partir da migração #1 ou entre em contato com "
@@ -5647,10 +5633,10 @@ msgstr ""
 "A sua base de dados está desatualizada. Por favor, instale todas as migrações da base "
 "de dados a partir da migração #%1. <a href='index.php?updateSchema=1'><strong>Clique "
 "aqui</strong></a> para aplicar automaticamente as atualizações necessárias, ou veja o "
-"<a href=\"http://docs.collectiveaccess.org/wiki/Applying_Database_Updates\">update "
-"HOW-TO</a> para instruções sobre como aplicar atualizações manuais da base de dados."
-"<br/><br/><div align='center'><strong>NOTA: você deve fazer backup da sua base de "
-"dados antes de aplicar atualizações!</strong></div>"
+"<a href=\"http://docs.collectiveaccess.org/wiki/Applying_Database_Updates\">update HOW-"
+"TO</a> para instruções sobre como aplicar atualizações manuais da base de dados.<br/"
+"><br/><div align='center'><strong>NOTA: você deve fazer backup da sua base de dados "
+"antes de aplicar atualizações!</strong></div>"
 
 #: lib/ca/ConfigurationCheck.php:250
 msgid ""
@@ -5663,9 +5649,8 @@ msgstr ""
 "A sua base de dados está desatualizada. Por favor, instale todas as migrações da base "
 "de dados a partir da migração #%1. Veja o <a href=\"http://docs.collectiveaccess.org/"
 "wiki/Applying_Database_Updates\">update HOW-TO</a> para instruções sobre como aplicar "
-"atualizações manuais da base de dados.<br/><br/><div align='center'><strong>NOTA: "
-"você deve fazer backup da sua base de dados antes de aplicar atualizações!</strong></"
-"div>"
+"atualizações manuais da base de dados.<br/><br/><div align='center'><strong>NOTA: você "
+"deve fazer backup da sua base de dados antes de aplicar atualizações!</strong></div>"
 
 #: lib/ca/ConfigurationCheck.php:255 lib/ca/ConfigurationCheck.php:607
 #: lib/ca/ConfigurationCheck.php:610
@@ -5686,28 +5671,27 @@ msgid ""
 "Please change the permissions of %1 and enable the user which runs the webserver to "
 "write this directory."
 msgstr ""
-"Parece que o diretório para arquivos temporários não é gravável pelo servidor web. "
-"Por favor, altere as permissões de %1 e permita que o usuário que executa o servidor "
-"web escreva neste diretório."
+"Parece que o diretório para arquivos temporários não é gravável pelo servidor web. Por "
+"favor, altere as permissões de %1 e permita que o usuário que executa o servidor web "
+"escreva neste diretório."
 
 #: lib/ca/ConfigurationCheck.php:296 lib/pawtucket/ConfigurationCheck.php:203
 msgid ""
 "It looks like the cache directory is not writable by the webserver. Please change the "
-"permissions of %1 and enable the user which runs the webserver to write this "
-"directory."
+"permissions of %1 and enable the user which runs the webserver to write this directory."
 msgstr ""
-"Parece que o diretório de cache não é gravável pelo servidor web. Por favor, altere "
-"as permissões de %1 e permita que o usuário que executa o servidor web escreva neste "
+"Parece que o diretório de cache não é gravável pelo servidor web. Por favor, altere as "
+"permissões de %1 e permita que o usuário que executa o servidor web escreva neste "
 "diretório."
 
 #: lib/ca/ConfigurationCheck.php:306 lib/pawtucket/ConfigurationCheck.php:213
 msgid ""
 "It looks like the media directory is not writable by the webserver. Please change the "
-"permissions of %1 (or create it if it doesn't exist already) and enable the user "
-"which runs the webserver to write this directory."
+"permissions of %1 (or create it if it doesn't exist already) and enable the user which "
+"runs the webserver to write this directory."
 msgstr ""
-"Parece que o diretório de mídia não é gravável pelo servidor web. Por favor, altere "
-"as permissões de %1 (ou crie-o se ele ainda não existir) e permita que o usuário que "
+"Parece que o diretório de mídia não é gravável pelo servidor web. Por favor, altere as "
+"permissões de %1 (ou crie-o se ele ainda não existir) e permita que o usuário que "
 "executa o servidor web escreva neste diretório."
 
 #: lib/ca/ConfigurationCheck.php:318 lib/pawtucket/ConfigurationCheck.php:225
@@ -5716,9 +5700,9 @@ msgid ""
 "webserver. Please change the permissions of %1 and enable the user which runs the "
 "webserver to write this directory."
 msgstr ""
-"Parece que o diretório para caches de filtragem HTML não é gravável pelo servidor "
-"web. Por favor, altere as permissões de %1 e permita que o usuário que executa o "
-"servidor web escreva neste diretório."
+"Parece que o diretório para caches de filtragem HTML não é gravável pelo servidor web. "
+"Por favor, altere as permissões de %1 e permita que o usuário que executa o servidor "
+"web escreva neste diretório."
 
 #: lib/ca/ConfigurationCheck.php:329 lib/pawtucket/ConfigurationCheck.php:240
 msgid ""
@@ -5727,20 +5711,20 @@ msgid ""
 "accessed this script via &quot;&lt;your_hostname&gt;%2&quot;."
 msgstr ""
 "Parece que a variável __CA_URL_ROOT__ no seu setup.php não está configurada "
-"corretamente. Por favor, tente configurá-la para &quot;%1&quot;. Fizemos essa "
-"sugestão porque você acessou este script via &quot;&lt;seu_hostname&gt;%2&quot;."
+"corretamente. Por favor, tente configurá-la para &quot;%1&quot;. Fizemos essa sugestão "
+"porque você acessou este script via &quot;&lt;seu_hostname&gt;%2&quot;."
 
 #: lib/ca/ConfigurationCheck.php:333 lib/pawtucket/ConfigurationCheck.php:244
 msgid ""
 "It looks like the __CA_URL_ROOT__ variable in your setup.php is not set correctly. "
 "Please try to set it to &quot;%1&quot;. We came up with this suggestion because you "
-"accessed this script via &quot;&lt;your_hostname&gt;%2&quot;. Note that paths are "
-"case sensitive."
+"accessed this script via &quot;&lt;your_hostname&gt;%2&quot;. Note that paths are case "
+"sensitive."
 msgstr ""
 "Parece que a variável __CA_URL_ROOT__ no seu setup.php não está configurada "
-"corretamente. Por favor, tente configurá-la para &quot;%1&quot;. Fizemos essa "
-"sugestão porque você acessou este script via &quot;&lt;seu_hostname&gt;%2&quot;. Note "
-"que os caminhos são sensíveis a maiúsculas e minúsculas."
+"corretamente. Por favor, tente configurá-la para &quot;%1&quot;. Fizemos essa sugestão "
+"porque você acessou este script via &quot;&lt;seu_hostname&gt;%2&quot;. Note que os "
+"caminhos são sensíveis a maiúsculas e minúsculas."
 
 #: lib/ca/ConfigurationCheck.php:348 lib/pawtucket/ConfigurationCheck.php:261
 msgid ""
@@ -5749,8 +5733,8 @@ msgid ""
 "location of this script is &quot;%2&quot;."
 msgstr ""
 "Parece que a variável __CA_BASE_DIR__ no seu setup.php não está configurada "
-"corretamente. Por favor, tente configurá-la para &quot;%1&quot;. Fizemos essa "
-"sugestão porque o local deste script é &quot;%2&quot;."
+"corretamente. Por favor, tente configurá-la para &quot;%1&quot;. Fizemos essa sugestão "
+"porque o local deste script é &quot;%2&quot;."
 
 #: lib/ca/ConfigurationCheck.php:352 lib/pawtucket/ConfigurationCheck.php:265
 msgid ""
@@ -5759,15 +5743,14 @@ msgid ""
 "location of this script is &quot;%2&quot;. Note that paths are case sensitive."
 msgstr ""
 "Parece que a variável __CA_BASE_DIR__ no seu setup.php não está configurada "
-"corretamente. Por favor, tente configurá-la para &quot;%1&quot;. Fizemos essa "
-"sugestão porque o local deste script é &quot;%2&quot;. Note que os caminhos são "
-"sensíveis a maiúsculas e minúsculas."
+"corretamente. Por favor, tente configurá-la para &quot;%1&quot;. Fizemos essa sugestão "
+"porque o local deste script é &quot;%2&quot;. Note que os caminhos são sensíveis a "
+"maiúsculas e minúsculas."
 
 #: lib/ca/ConfigurationCheck.php:361 lib/pawtucket/ConfigurationCheck.php:274
 msgid "PHP JSON module is required for CollectiveAccess to run. Please install it."
 msgstr ""
-"Módulo PHP JSON é necessário para a execução do CollectiveAccess. Por favor, instale-"
-"o."
+"Módulo PHP JSON é necessário para a execução do CollectiveAccess. Por favor, instale-o."
 
 #: lib/ca/ConfigurationCheck.php:364 lib/pawtucket/ConfigurationCheck.php:277
 msgid "PHP mbstring module is required for CollectiveAccess to run. Please install it."
@@ -5791,19 +5774,17 @@ msgstr ""
 #: lib/ca/ConfigurationCheck.php:373 lib/pawtucket/ConfigurationCheck.php:286
 msgid "PHP zlib module is required for CollectiveAccess to run. Please install it."
 msgstr ""
-"Módulo PHP zlib é necessário para a execução do CollectiveAccess. Por favor, instale-"
-"o."
+"Módulo PHP zlib é necessário para a execução do CollectiveAccess. Por favor, instale-o."
 
 #: lib/ca/ConfigurationCheck.php:376 lib/pawtucket/ConfigurationCheck.php:289
 msgid "PHP PCRE module is required for CollectiveAccess to run. Please install it."
 msgstr ""
-"Módulo PHP PCRE é necessário para a execução do CollectiveAccess. Por favor, instale-"
-"o."
+"Módulo PHP PCRE é necessário para a execução do CollectiveAccess. Por favor, instale-o."
 
 #: lib/ca/ConfigurationCheck.php:379 lib/pawtucket/ConfigurationCheck.php:292
 msgid ""
-"PHP Document Object Model (DOM) module is required for CollectiveAccess to run. "
-"Please install it."
+"PHP Document Object Model (DOM) module is required for CollectiveAccess to run. Please "
+"install it."
 msgstr ""
 "Módulo PHP Document Object Model (DOM) é necessário para a execução do "
 "CollectiveAccess. Por favor, instale-o."
@@ -5835,22 +5816,22 @@ msgstr ""
 #: lib/ca/ConfigurationCheck.php:391 lib/pawtucket/ConfigurationCheck.php:304
 msgid "The PHP phar module is required for CollectiveAccess to run. Please install it."
 msgstr ""
-"O módulo PHP phar é necessário para a execução do CollectiveAccess. Por favor, "
-"instale-o."
+"O módulo PHP phar é necessário para a execução do CollectiveAccess. Por favor, instale-"
+"o."
 
 #: lib/ca/ConfigurationCheck.php:394 lib/pawtucket/ConfigurationCheck.php:307
 msgid "The PHP cURL module is required for CollectiveAccess to run. Please install it."
 msgstr ""
-"O módulo PHP cURL é necessário para a execução do CollectiveAccess. Por favor, "
-"instale-o."
+"O módulo PHP cURL é necessário para a execução do CollectiveAccess. Por favor, instale-"
+"o."
 
 #: lib/ca/ConfigurationCheck.php:398 lib/pawtucket/ConfigurationCheck.php:311
 msgid ""
 "Your version of the PHP PCRE module lacks unicode features. Please install a module "
 "version with UTF-8 support."
 msgstr ""
-"A sua versão do módulo PHP PCRE não possui alguns recursos unicode. Por favor, "
-"instale uma versão do módulo com suporte UTF-8."
+"A sua versão do módulo PHP PCRE não possui alguns recursos unicode. Por favor, instale "
+"uma versão do módulo com suporte UTF-8."
 
 #: lib/ca/ConfigurationCheck.php:408 lib/pawtucket/ConfigurationCheck.php:321
 msgid ""
@@ -5866,9 +5847,9 @@ msgid ""
 "Please change the permissions for %1 and enable the user which runs the webserver to "
 "write this directory."
 msgstr ""
-"Parece que um subdiretório no diretório de mídia não é gravável pelo servidor web. "
-"Por favor, altere as permissões para %1 e ative o usuário que executa o servidor web "
-"para gravar este diretório."
+"Parece que um subdiretório no diretório de mídia não é gravável pelo servidor web. Por "
+"favor, altere as permissões para %1 e ative o usuário que executa o servidor web para "
+"gravar este diretório."
 
 #: lib/ca/ConfigurationCheck.php:441 lib/pawtucket/ConfigurationCheck.php:354
 msgid ""
@@ -5876,29 +5857,28 @@ msgid ""
 "incorrectly. If you experience any troubles with image display try setting this to "
 "&quot;%1&quot;. We came up with this suggestion because this is the hostname you used "
 "to access this script. It may only be valid for you (and not for other users of the "
-"system) though (e.g. if you use 'localhost' or a feature like /etc/hosts on UNIX-"
-"based operating systems) so you have to be very careful when editing this."
+"system) though (e.g. if you use 'localhost' or a feature like /etc/hosts on UNIX-based "
+"operating systems) so you have to be very careful when editing this."
 msgstr ""
 "Parece que a configuração __CA_SITE_HOSTNAME__ no seu setup.php pode estar incorreta. "
 "Se tiver quaisquer problemas com a exibição da imagem, tente definir esta opção para "
-"&quot;%1&quot;. Fizemos essa sugestão, porque este é o nome do host usado para "
-"acessar este script. Pode ser válida apenas para você (e não para outros usuários do "
-"sistema) embora (por exemplo, se usar o 'localhost' ou um recurso como/etc/hosts em "
-"sistemas operacionais baseados em UNIX) então tenha muito cuidado ao editar este "
-"campo."
+"&quot;%1&quot;. Fizemos essa sugestão, porque este é o nome do host usado para acessar "
+"este script. Pode ser válida apenas para você (e não para outros usuários do sistema) "
+"embora (por exemplo, se usar o 'localhost' ou um recurso como/etc/hosts em sistemas "
+"operacionais baseados em UNIX) então tenha muito cuidado ao editar este campo."
 
 #: lib/ca/ConfigurationCheck.php:460 lib/pawtucket/ConfigurationCheck.php:373
 msgid ""
 "The memory limit for your PHP installation may not be sufficient to run "
-"CollectiveAccess correctly. Please consider adjusting the \"memory_limit\" variable "
-"in your PHP configuration (usually a file named) &quot;php.ini&quot;. See <a "
+"CollectiveAccess correctly. Please consider adjusting the \"memory_limit\" variable in "
+"your PHP configuration (usually a file named) &quot;php.ini&quot;. See <a "
 "href=\"http://us.php.net/manual/en/ini.core.php#ini.memory-limit\" "
 "target=\"_blank\">http://us.php.net/manual/en/ini.core.php</a> for more details. The "
 "value in your config is &quot;%1&quot;, the recommended value is &quot;128M&quot; or "
 "higher."
 msgstr ""
-"O limite de memória para sua instalação de PHP pode não ser suficiente para executar "
-"o CollectiveAccess corretamente. Por favor, considere ajustar a variável "
+"O limite de memória para sua instalação de PHP pode não ser suficiente para executar o "
+"CollectiveAccess corretamente. Por favor, considere ajustar a variável "
 "\"memory_limit\" na sua configuração do PHP (geralmente um arquivo chamado) &quot;php."
 "ini&quot;. Veja <a href=\"http://us.php.net/manual/en/ini.core.php#ini.memory-limit\" "
 "target=\"_blank\">http://us.php.net/manual/en/ini.core.php</a> para obter mais "
@@ -5957,18 +5937,18 @@ msgstr ""
 #: lib/ca/ConfigurationCheck.php:505 lib/pawtucket/ConfigurationCheck.php:418
 msgid ""
 "In particular, you have to set the configuration value \"suhosin.request."
-"max_varname_length\" to 256 or higher to ensure that CA works correctly. Your value "
-"is %1"
+"max_varname_length\" to 256 or higher to ensure that CA works correctly. Your value is "
+"%1"
 msgstr ""
 "Em particular, você tem que definir o valor da configuração \"suhosin.request."
-"max_varname_length\" para 256 ou maior para garantir que o CA funcione corretamente. "
-"O seu valor é %1"
+"max_varname_length\" para 256 ou maior para garantir que o CA funcione corretamente. O "
+"seu valor é %1"
 
 #: lib/ca/ConfigurationCheck.php:512 lib/pawtucket/ConfigurationCheck.php:425
 msgid ""
 "In particular, you have to set the configuration value \"suhosin.post."
-"max_totalname_length\" to 5012 or higher to ensure that CA works correctly. Your "
-"value is %1"
+"max_totalname_length\" to 5012 or higher to ensure that CA works correctly. Your value "
+"is %1"
 msgstr ""
 "Em particular, você tem que definir o valor da configuração \"suhosin.post."
 "max_totalname_length\" para 5012 ou maior para garantir que a CA funcione "
@@ -5977,8 +5957,8 @@ msgstr ""
 #: lib/ca/ConfigurationCheck.php:519 lib/pawtucket/ConfigurationCheck.php:432
 msgid ""
 "In particular, you have to set the configuration value \"suhosin.request."
-"max_totalname_length\" to 5012 or higher to ensure that CA works correctly. Your "
-"value is %1"
+"max_totalname_length\" to 5012 or higher to ensure that CA works correctly. Your value "
+"is %1"
 msgstr ""
 "Em particular, você tem que definir o valor da configuração \"suhosin.request."
 "max_totalname_length\" para 5012 ou maior para garantir que o CA funciona "
@@ -6099,8 +6079,8 @@ msgstr "Delimitação"
 
 #: lib/ca/Export/ExportFormats/ExportCSV.php:129
 msgid ""
-"Character used to enclose the text content in the export. Typical values are single "
-"or double quotes."
+"Character used to enclose the text content in the export. Typical values are single or "
+"double quotes."
 msgstr ""
 "Caratere usado para delimitar o conteúdo de texto na exportação. Os valores típicos "
 "são aspas simples ou duplas."
@@ -6192,9 +6172,8 @@ msgstr ""
 
 #: lib/ca/Export/ExportFormats/ExportXML.php:43
 msgid ""
-"Values prefixed with @ reference XML attributes. All other values define XML "
-"elements. The usual restrictions and naming conventions for XML elements and "
-"attributes apply."
+"Values prefixed with @ reference XML attributes. All other values define XML elements. "
+"The usual restrictions and naming conventions for XML elements and attributes apply."
 msgstr ""
 "Valores com o prefixo @ referenciam atributos XML. Todos os outros valores definem "
 "elementos XML. As restrições atuais e convenções de nomenclatura para elementos XML e "
@@ -6236,21 +6215,21 @@ msgstr "Remover CDATA"
 #: lib/ca/Export/ExportFormats/ExportXML.php:190
 msgid ""
 "By default the exporter wraps field content that contains invalid XML in CDATA "
-"sections to make sure the XML is valid regardless of the field content. If this "
-"option is set, the exporter explicitly strips the CDATA tags before returning the XML "
-"text. Use only if you know what you're doing!"
+"sections to make sure the XML is valid regardless of the field content. If this option "
+"is set, the exporter explicitly strips the CDATA tags before returning the XML text. "
+"Use only if you know what you're doing!"
 msgstr ""
-"Por padrão, o exportador envolve o conteúdo do campo que contém XML inválido em "
-"seções CDATA para garantir que o XML seja válido, independentemente do conteúdo do "
-"campo. Se esta opção estiver definida, o exportador explicitamente remove as tags "
-"CDATA antes de retornar o texto XML. Use apenas se você souber o que está fazendo!"
+"Por padrão, o exportador envolve o conteúdo do campo que contém XML inválido em seções "
+"CDATA para garantir que o XML seja válido, independentemente do conteúdo do campo. Se "
+"esta opção estiver definida, o exportador explicitamente remove as tags CDATA antes de "
+"retornar o texto XML. Use apenas se você souber o que está fazendo!"
 
 #: lib/ca/HierarchicalReindexingProgress.php:80
 msgid "Rebuilding hierarchical index for %1"
 msgstr "Reconstruindo índice hierárquico para %1"
 
-#: lib/ca/HierarchicalReindexingProgress.php:93
-#: lib/ca/SortValueReloadingProgress.php:174 lib/core/Search/SearchIndexer.php:305
+#: lib/ca/HierarchicalReindexingProgress.php:93 lib/ca/SortValueReloadingProgress.php:174
+#: lib/core/Search/SearchIndexer.php:305
 msgid "Index rebuild complete!"
 msgstr "Reconstrução de índice completa!"
 
@@ -7049,8 +7028,8 @@ msgid ""
 "\tE\n"
 "\t\tF\n"
 "\n"
-"\tIf your Excel document has column headers you can skip them by specifying the "
-"number of rows to skip using the \"skip\" option."
+"\tIf your Excel document has column headers you can skip them by specifying the number "
+"of rows to skip using the \"skip\" option."
 msgstr ""
 "Crie um elemento <lista> de perfil a partir de uma planilha do Excel. Sua lista deve "
 "ter um item de lista por linha, com o nível hierárquico indicado pela indentação. Por "
@@ -7104,16 +7083,16 @@ msgid ""
 "Analyzes a directory of images and returns a tab-delimited list of import-mapping "
 "compatible EXIF and IPTC tags containing data."
 msgstr ""
-"Analisa um diretório de imagens e retorna uma lista delimitada por tabs compatível "
-"com o mapeamento de importação de tags EXIF e IPTC contendo dados."
+"Analisa um diretório de imagens e retorna uma lista delimitada por tabs compatível com "
+"o mapeamento de importação de tags EXIF e IPTC contendo dados."
 
 #: lib/ca/Utils/CLITools.php:279
 msgid ""
 "Analyzes a directory of images and returns a tab-delimited  list of import-mapping "
 "compatible EXIF and IPTC tags containing data."
 msgstr ""
-"Analisa um diretório de imagens e retorna uma lista delimitada por tabs compatível "
-"com o mapeamento de importação de tags EXIF e IPTC contendo dados."
+"Analisa um diretório de imagens e retorna uma lista delimitada por tabs compatível com "
+"o mapeamento de importação de tags EXIF e IPTC contendo dados."
 
 #: lib/ca/Utils/CLIUtils.php:56
 msgid "Missing required parameter: profile-name"
@@ -7280,8 +7259,8 @@ msgstr "Configuração"
 
 #: lib/ca/Utils/CLIUtils.php:203
 msgid ""
-"Performs a fresh installation of CollectiveAccess using the configured values in "
-"setup.php.\n"
+"Performs a fresh installation of CollectiveAccess using the configured values in setup."
+"php.\n"
 "\n"
 "\tThe profile name and administrator email address must be given as per the web-based "
 "installer.\n"
@@ -7302,8 +7281,8 @@ msgstr ""
 
 #: lib/ca/Utils/CLIUtils.php:214
 msgid ""
-"Performs a fresh installation of CollectiveAccess using the configured values in "
-"setup.php."
+"Performs a fresh installation of CollectiveAccess using the configured values in setup."
+"php."
 msgstr ""
 "Realiza uma nova instalação do CollectiveAccess usando os valores configurados no "
 "setup.php."
@@ -7314,8 +7293,8 @@ msgstr "Atualiza a configuração para corresponder a algum nome do perfil forne
 
 #: lib/ca/Utils/CLIUtils.php:241
 msgid ""
-"This function only creates new values and is useful if you want to append changes "
-"from one profile onto another."
+"This function only creates new values and is useful if you want to append changes from "
+"one profile onto another."
 msgstr ""
 "Esta função apenas cria novos valores e é útil se você quiser anexar alterações de um "
 "perfil a outro."
@@ -7325,9 +7304,8 @@ msgid ""
 "Your new profile must exist in a directory that contains the profile.xsd schema and "
 "must validate against that schema in order for the update to apply successfully."
 msgstr ""
-"Seu novo perfil deve existir em um diretório que contenha o esquema profile.xsd e "
-"deve ser validado com base nesse esquema para que a atualização seja aplicada com "
-"sucesso."
+"Seu novo perfil deve existir em um diretório que contenha o esquema profile.xsd e deve "
+"ser validado com base nesse esquema para que a atualização seja aplicada com sucesso."
 
 #: lib/ca/Utils/CLIUtils.php:249
 msgid ""
@@ -7368,17 +7346,17 @@ msgstr ""
 "O CollectiveAccess depende de índices ao pesquisar seus dados. Os índices são "
 "simplesmente resumos de seus dados projetados para acelerar o processamento de "
 "consultas. A forma e as características exatas dos índices usados variarão com o tipo "
-"de motor de busca que você estiver usnado. Eles podem ser armazenados em disco, em "
-"uma base de dados ou em outro servidor, mas seu propósito é sempre o mesmo: fazer com "
-"que as pesquisas sejam executadas mais rapidamente.\n"
+"de motor de busca que você estiver usnado. Eles podem ser armazenados em disco, em uma "
+"base de dados ou em outro servidor, mas seu propósito é sempre o mesmo: fazer com que "
+"as pesquisas sejam executadas mais rapidamente.\n"
 "\n"
 "\tPara que os resultados da pesquisa sejam precisos, a base de dados e os índices "
-"devem estar sincronizados. O CollectiveAccess atualiza simultaneamente a base de "
-"dados e os índices à medida que você adiciona, edita e exclui dados, mantendo a base "
-"de dados e os índices em acordo. Ocasionalmente, as coisas ficam fora de sincronia, "
-"no entanto. Se as pesquisas básicas e avançadas estiverem retornando resultados "
-"inesperados com frequência, você pode usar esta ferramenta para reconstruir os "
-"índices a partir da base de dados e trazer as coisas de volta para o alinhamento.\n"
+"devem estar sincronizados. O CollectiveAccess atualiza simultaneamente a base de dados "
+"e os índices à medida que você adiciona, edita e exclui dados, mantendo a base de "
+"dados e os índices em acordo. Ocasionalmente, as coisas ficam fora de sincronia, no "
+"entanto. Se as pesquisas básicas e avançadas estiverem retornando resultados "
+"inesperados com frequência, você pode usar esta ferramenta para reconstruir os índices "
+"a partir da base de dados e trazer as coisas de volta para o alinhamento.\n"
 "\n"
 "\tObserve que, dependendo do tamanho da sua base de dados, a reconstrução pode levar "
 "de alguns minutos a várias horas. Durante o processo de reconstrução, o sistema "
@@ -7424,24 +7402,23 @@ msgid ""
 "\n"
 "\tSort values are derived from corresponding values in your database. The internal "
 "format of sort values can vary between versions of CollectiveAccess causing erroneous "
-"sorting behavior after an upgrade. If you notice values such as titles and "
-"identifiers are sorting incorrectly, you may need to reload sort values from your "
-"data.\n"
+"sorting behavior after an upgrade. If you notice values such as titles and identifiers "
+"are sorting incorrectly, you may need to reload sort values from your data.\n"
 "\n"
 "\tNote that depending upon the size of your database reloading sort values can take "
 "from a few minutes to an hour or more. During the reloading process the system will "
 "remain usable but search and browse functions may return incorrectly sorted results."
 msgstr ""
 "CollectiveAccess depende de valores de ordenação quando ordena valores que não devem "
-"ser ordenados alfabeticamente, como títulos com artigos (por exemplo, O Homem Que "
-"Caiu da Terra deve ser ordenado como Homem Que Caiu da Terra, O) e identificadores "
+"ser ordenados alfabeticamente, como títulos com artigos (por exemplo, O Homem Que Caiu "
+"da Terra deve ser ordenado como Homem Que Caiu da Terra, O) e identificadores "
 "alfanuméricos (por exemplo, 2011.001 e 2011.2 devem ser ordenados ao lado um do outro "
 "com zeros à esquerda ignorados).\n"
 "\n"
 "\tOs valores de ordenação são derivados dos valores correspondentes na sua base de "
 "dados. O formato interno dos valores de ordenação pode variar entre versões do "
-"CollectiveAccess, causando comportamento de ordenação errôneo após uma atualização. "
-"Se você notar que valores como títulos e identificadores estão sendo ordenados "
+"CollectiveAccess, causando comportamento de ordenação errôneo após uma atualização. Se "
+"você notar que valores como títulos e identificadores estão sendo ordenados "
 "incorretamente, você pode precisar recarregar os valores de ordenação a partir dos "
 "seus dados.\n"
 "\n"
@@ -7495,8 +7472,8 @@ msgid ""
 "Detects and, optionally, removes media present in the media directories but not "
 "referenced in the database."
 msgstr ""
-"Detecta e, opcionalmente, remove as imagens presentes nos diretórios de imagem mas "
-"não referenciados na base de dados."
+"Detecta e, opcionalmente, remove as imagens presentes nos diretórios de imagem mas não "
+"referenciados na base de dados."
 
 #: lib/ca/Utils/CLIUtils.php:480
 msgid "Help text to come"
@@ -7535,9 +7512,9 @@ msgstr ""
 
 #: lib/ca/Utils/CLIUtils.php:538
 msgid ""
-"Removes representations marked as deleted. Default is false. Note that the system "
-"user that runs this script has to be able to write/delete the referenced media files "
-"if you want them to be removed."
+"Removes representations marked as deleted. Default is false. Note that the system user "
+"that runs this script has to be able to write/delete the referenced media files if you "
+"want them to be removed."
 msgstr ""
 "Remove representações marcadas como excluídas. O padrão é falso. Note que que o "
 "usuário do sistema que executa este script tem que ser capaz de escrever/excluir os "
@@ -7594,8 +7571,7 @@ msgstr "Descrição do perfil, usada para o elemento \"profileDescription\". (Op
 
 #: lib/ca/Utils/CLIUtils.php:606
 msgid ""
-"File to output profile to. If omitted profile is printed to standard output. "
-"(Optional)"
+"File to output profile to. If omitted profile is printed to standard output. (Optional)"
 msgstr ""
 "Arquivo para a saída de perfil. Se for omitido, o perfil é exibido na saída padrão "
 "(standard output). (Opcional)"
@@ -7632,10 +7608,10 @@ msgstr "Executar sem saída de informações sobre progresso."
 
 #: lib/ca/Utils/CLIUtils.php:658
 msgid ""
-"Restart/reset unfinished tasks before queue processing. This option can be useful "
-"when the task queue script (or the whole machine) crashed and you have 'zombie' "
-"entries in your task queue. This option shouldn't interfere with any existing task "
-"queue processes that are actually running."
+"Restart/reset unfinished tasks before queue processing. This option can be useful when "
+"the task queue script (or the whole machine) crashed and you have 'zombie' entries in "
+"your task queue. This option shouldn't interfere with any existing task queue "
+"processes that are actually running."
 msgstr ""
 "Reiniciar/redefinir tarefas não concluídas antes do processamento da fila. Esta opção "
 "pode ser útil quando o script de fila de tarefas (ou a própria máquina) falhou e você "
@@ -7786,12 +7762,12 @@ msgstr "Reindexar mídia de PDF para busca de conteúdo no visualizador."
 msgid ""
 "The CollectiveAccess document viewer can search text within PDFs and highlight "
 "matches. To enable this feature PDF content must be analyzed and indexed. If your "
-"database predates the introduction of in-viewer PDF search in CollectiveAccess 1.4, "
-"or search is otherwise failing to work properly, you can use this command to analyze "
-"and index PDFs in the database."
+"database predates the introduction of in-viewer PDF search in CollectiveAccess 1.4, or "
+"search is otherwise failing to work properly, you can use this command to analyze and "
+"index PDFs in the database."
 msgstr ""
-"O visualizador de documentos do CollectiveAccess pode pesquisar texto dentro de PDFs "
-"e destacar correspondências. Para habilitar esse recurso, o conteúdo do PDF deve ser "
+"O visualizador de documentos do CollectiveAccess pode pesquisar texto dentro de PDFs e "
+"destacar correspondências. Para habilitar esse recurso, o conteúdo do PDF deve ser "
 "analisado e indexado. Se sua base de dados é anterior à introdução da busca de PDF no "
 "visualizador no CollectiveAccess 1.4, ou a busca não está funcionando corretamente, "
 "você pode usar este comando para analisar e indexar PDFs na base de dados."
@@ -7848,8 +7824,8 @@ msgstr "Arquivo Excel XLSX para carregar."
 msgid ""
 "Path to directory in which to log import details. If not set no logs will be recorded."
 msgstr ""
-"Caminho para o diretório no qual registrar detalhes de importação. Se não for "
-"definido nenhum registro (log) será gravado."
+"Caminho para o diretório no qual registrar detalhes de importação. Se não for definido "
+"nenhum registro (log) será gravado."
 
 #: lib/ca/Utils/CLIUtils.php:1168 lib/ca/Utils/CLIUtils.php:1277
 #: lib/ca/Utils/CLIUtils.php:2972 lib/ca/Utils/CLIUtils.php:3737
@@ -7857,8 +7833,8 @@ msgid ""
 "Logging threshold. Possible values are, in ascending order of important: DEBUG, INFO, "
 "NOTICE, WARN, ERR, CRIT, ALERT. Default is INFO."
 msgstr ""
-"Limite de logging. Os valores possíveis são, em ordem crescente de importância: "
-"DEBUG, INFO, NOTICE, WARN, ERR, CRIT, ALERT. O padrão é INFO."
+"Limite de logging. Os valores possíveis são, em ordem crescente de importância: DEBUG, "
+"INFO, NOTICE, WARN, ERR, CRIT, ALERT. O padrão é INFO."
 
 #: lib/ca/Utils/CLIUtils.php:1176 lib/ca/Utils/CLIUtils.php:1289
 #: lib/ca/Utils/CLIUtils.php:1355 lib/ca/Utils/CLIUtils.php:1471
@@ -7910,8 +7886,8 @@ msgstr "Mapeamento com o qual importar os dados."
 #: lib/ca/Utils/CLIUtils.php:1275
 msgid ""
 "The format of the data to import. (Ex. XLSX, tab, CSV, mysql, OAI, Filemaker XML, "
-"ExcelXML, MARC). If omitted an attempt will be made to automatically identify the "
-"data format."
+"ExcelXML, MARC). If omitted an attempt will be made to automatically identify the data "
+"format."
 msgstr ""
 "O formato dos dados a serem importados. (Ex. XLSX, guia, CSV, mysql, OAI, Filemaker "
 "XML, ExcelXML, MARC). Se omitido, será feita uma tentativa de identificar "
@@ -7933,9 +7909,9 @@ msgstr ""
 
 #: lib/ca/Utils/CLIUtils.php:1280
 msgid ""
-"If set import is performed without a transaction. This allows viewing of imported "
-"data during the import, which may be useful during debugging/development. It may also "
-"lead to data corruption and should only be used for testing."
+"If set import is performed without a transaction. This allows viewing of imported data "
+"during the import, which may be useful during debugging/development. It may also lead "
+"to data corruption and should only be used for testing."
 msgstr ""
 "Se definido, a importação é realizada sem uma transação. Isso permite a visualização "
 "dos dados importados durante a importação, o que pode ser útil durante depuração/"
@@ -7995,8 +7971,8 @@ msgid ""
 "You must specify either an idno or a search expression to select a record or record "
 "set for export or activate RDF mode."
 msgstr ""
-"Você deve especificar um idno ou uma expressão de busca para selecionar um registro "
-"ou conjunto de registros para exportação ou ativar o modo RDF."
+"Você deve especificar um idno ou uma expressão de busca para selecionar um registro ou "
+"conjunto de registros para exportação ou ativar o modo RDF."
 
 #: lib/ca/Utils/CLIUtils.php:1384
 msgid "You must specify a file to write export output to."
@@ -8107,11 +8083,10 @@ msgstr "Id de anotação onde terminar de recarregar"
 
 #: lib/ca/Utils/CLIUtils.php:1551 lib/ca/Utils/CLIUtils.php:1558
 msgid ""
-"Regenerates annotation preview media for some or all object representation "
-"annotations."
+"Regenerates annotation preview media for some or all object representation annotations."
 msgstr ""
-"Regenera mídia de pré-visualização de anotação para algumas ou para todas as "
-"anotações de representação de objeto."
+"Regenera mídia de pré-visualização de anotação para algumas ou para todas as anotações "
+"de representação de objeto."
 
 #: lib/ca/Utils/CLIUtils.php:1579
 msgid "Path to AAT XML file."
@@ -8201,8 +8176,8 @@ msgstr ""
 #: lib/ca/Utils/CLIUtils.php:1754
 msgid ""
 "Set ownership of directories to specifed user. If not set, an attempt will be made to "
-"determine the name of the web server user automatically. If the web server user "
-"cannot be determined the current user will be used."
+"determine the name of the web server user automatically. If the web server user cannot "
+"be determined the current user will be used."
 msgstr ""
 "Defina propriedade de diretórios para o usuário especificado. Se não definido, será "
 "feita uma tentativa de determinar o nome do usuário do servidor web automaticamente. "
@@ -8230,22 +8205,22 @@ msgid ""
 "directory (app/tmp), media directory (media) and HTMLPurifier definition cache (app/"
 "lib/core/Parsers/htmlpurifier/standalone/HTMLPurifier/DefinitionCache). A run-time "
 "error will be displayed if any of these locations is not accessible to the "
-"application. To change these permissions to allow CollectiveAccess to run normally "
-"run this command while logged in with administrative/root privileges. You are "
-"currently logged in as %1 (uid %2). You can specify which user will be given "
-"ownership of the directories using the --user option. If you do not specify a user, "
-"the web server user for your server will be automatically determined and used."
+"application. To change these permissions to allow CollectiveAccess to run normally run "
+"this command while logged in with administrative/root privileges. You are currently "
+"logged in as %1 (uid %2). You can specify which user will be given ownership of the "
+"directories using the --user option. If you do not specify a user, the web server user "
+"for your server will be automatically determined and used."
 msgstr ""
 "CollectiveAccess deve ter acesso de leitura e gravação ao diretório de armazenamento "
 "temporário (app/tmp), diretório de mídia (media) e cache de definição HTMLPurifier "
 "(app/lib/core/Parsers/htmlpurifier/standalone/HTMLPurifier/DefinitionCache). Um erro "
-"de execução será exibido se qualquer um desses locais não for acessível ao "
-"aplicativo. Para alterar essas permissões para permitir que o CollectiveAccess seja "
-"executado normalmente, execute este comando enquanto estiver logado com privilégios "
+"de execução será exibido se qualquer um desses locais não for acessível ao aplicativo. "
+"Para alterar essas permissões para permitir que o CollectiveAccess seja executado "
+"normalmente, execute este comando enquanto estiver logado com privilégios "
 "administrativos/root. Você está logado como %1 (uid %2). Você pode especificar qual "
-"usuário receberá a posse dos diretórios usando a opção --user. Se você não "
-"especificar um usuário, o usuário do servidor web para o seu servidor será "
-"determinado automaticamente e usado."
+"usuário receberá a posse dos diretórios usando a opção --user. Se você não especificar "
+"um usuário, o usuário do servidor web para o seu servidor será determinado "
+"automaticamente e usado."
 
 #: lib/ca/Utils/CLIUtils.php:1789 lib/ca/Utils/CLIUtils.php:1818
 msgid "You must specify a user"
@@ -8546,8 +8521,8 @@ msgstr "Recarrega valores de local atuais para todos os registros de objetos."
 msgid ""
 "CollectiveAccess supports browse on current locations of collection objects using "
 "values cached in the object records. From time to time these values may become out of "
-"date. Use this command to regenerate the cached values based upon the current state "
-"of the database."
+"date. Use this command to regenerate the cached values based upon the current state of "
+"the database."
 msgstr ""
 "CollectiveAccess suporta navegação nas localizações atuais de objetos de coleção "
 "usando valores em cache nos registros de objetos. De tempos em tempos, esses valores "
@@ -8627,8 +8602,7 @@ msgstr "Verificando dependências de código de barras..."
 #: lib/ca/Utils/CLIUtils.php:2803
 msgid "GD is a graphics processing library required for all barcode generation."
 msgstr ""
-"GD é uma biblioteca de processamento gráfico necessária à criação de códigos de "
-"barras."
+"GD é uma biblioteca de processamento gráfico necessária à criação de códigos de barras."
 
 #: lib/ca/Utils/CLIUtils.php:2805
 msgid "GD is not installed; barcode printing will not be possible."
@@ -8654,13 +8628,13 @@ msgstr "Realiza verificação de configuração na instalação do CollectiveAcc
 msgid ""
 "CollectiveAccess requires certain PHP configuration options to be set and for file "
 "permissions in several directories to be web-server writable. This command will check "
-"these settings and file permissions and return warnings if configuration appears to "
-"be incorrect."
+"these settings and file permissions and return warnings if configuration appears to be "
+"incorrect."
 msgstr ""
 "O CollectiveAccess requer que certas opções de configuração do PHP sejam definidas e "
 "que as permissões de arquivo em vários diretórios sejam graváveis ​​pelo servidor web. "
-"Este comando verificará essas configurações e permissões de arquivo e retornará "
-"avisos se a configuração parecer incorreta."
+"Este comando verificará essas configurações e permissões de arquivo e retornará avisos "
+"se a configuração parecer incorreta."
 
 #: lib/ca/Utils/CLIUtils.php:2881
 msgid "There were errors updating an attribute row: "
@@ -8674,8 +8648,8 @@ msgstr "Recarregar valores de atributos InformationService de URLs referenciadas
 msgid ""
 "InformationService attribute values store all the data CollectiveAccess needs to "
 "operate locally while keeping a reference to the referenced record at the remote web "
-"service. That means that potential changes at the remote data source are not pulled "
-"in automatically. This script explicitly performs a lookup for all existing "
+"service. That means that potential changes at the remote data source are not pulled in "
+"automatically. This script explicitly performs a lookup for all existing "
 "InformationService attribute values and updates the local copy of the data with the "
 "latest values."
 msgstr ""
@@ -8701,17 +8675,17 @@ msgid ""
 "records are matched properly. It will create duplicates if it does not match existing "
 "records so be sure to test your mapping first!"
 msgstr ""
-"Recarregar registros importados do ULAN com o mapeamento especificado. Este "
-"utilitário presume que o mapeamento esteja configurado com um existingRecordPolicy "
-"que garanta que os registros existentes sejam corretamente correspondidos. Ele criará "
-"duplicatas se não corresponder aos registros existentes, portanto, certifique-se de "
-"testar seu mapeamento primeiro!"
+"Recarregar registros importados do ULAN com o mapeamento especificado. Este utilitário "
+"presume que o mapeamento esteja configurado com um existingRecordPolicy que garanta "
+"que os registros existentes sejam corretamente correspondidos. Ele criará duplicatas "
+"se não corresponder aos registros existentes, portanto, certifique-se de testar seu "
+"mapeamento primeiro!"
 
 #: lib/ca/Utils/CLIUtils.php:3075 lib/ca/Utils/CLIUtils.php:3082
 msgid "Regenerate date/time stamps for movement and object-based location tracking."
 msgstr ""
-"Regenerar rótulos de data/hora para movimentação e rastreamento de localização "
-"baseado em objetos."
+"Regenerar rótulos de data/hora para movimentação e rastreamento de localização baseado "
+"em objetos."
 
 #: lib/ca/Utils/CLIUtils.php:3092
 msgid "Preloading primary search index..."
@@ -8780,8 +8754,8 @@ msgid ""
 "Pre-loads content cache by loading each cached page url. Pre-caching may take a while "
 "depending upon the quantity of content configured for caching."
 msgstr ""
-"Pré-carrega o cache de conteúdo carregando cada url de página em cache. Pré-cache "
-"pode levar um tempo dependendo da quantidade de conteúdo configurado para o cache."
+"Pré-carrega o cache de conteúdo carregando cada url de página em cache. Pré-cache pode "
+"levar um tempo dependendo da quantidade de conteúdo configurado para o cache."
 
 #: lib/ca/Utils/CLIUtils.php:3281
 msgid "You must specify a list"
@@ -8854,12 +8828,12 @@ msgstr "Carregar Nomenclatura Chenhall AASLH de um arquivo Excel"
 #: lib/ca/Utils/CLIUtils.php:3466
 msgid ""
 "Loads Chenhall Nomenclature from Excel XLSX format file into the specified list. You "
-"can obtain a copy of the Nomenclature from the American Association of State and "
-"Local History (AASLH)."
+"can obtain a copy of the Nomenclature from the American Association of State and Local "
+"History (AASLH)."
 msgstr ""
-"Carrega Nomenclatura Chenhall de um arquivo no formato XLSX para a lista "
-"especificada. Você pode obter uma cópia da Nomenclatura da American Association of "
-"State and Local History (AASLH)."
+"Carrega Nomenclatura Chenhall de um arquivo no formato XLSX para a lista especificada. "
+"Você pode obter uma cópia da Nomenclatura da American Association of State and Local "
+"History (AASLH)."
 
 #: lib/ca/Utils/CLIUtils.php:3486
 msgid "Generating/verifying GUIDs for table %1"
@@ -9027,11 +9001,11 @@ msgstr "[push-config-changes] Terminado ..."
 
 #: lib/ca/Utils/CLIUtils.php:3732
 msgid ""
-"Comma- or semicolon separated list of target systems to push changes to. We assume "
-"the same service account exists on all of these systems"
+"Comma- or semicolon separated list of target systems to push changes to. We assume the "
+"same service account exists on all of these systems"
 msgstr ""
-"Lista separada por vírgula ou ponto e vírgula de sistemas alvo para enviar "
-"alterações. Supomos que a mesma conta de serviço exista em todos esses sistemas"
+"Lista separada por vírgula ou ponto e vírgula de sistemas alvo para enviar alterações. "
+"Supomos que a mesma conta de serviço exista em todos esses sistemas"
 
 #: lib/ca/Utils/CLIUtils.php:3733
 msgid ""
@@ -9043,8 +9017,8 @@ msgstr ""
 
 #: lib/ca/Utils/CLIUtils.php:3734
 msgid ""
-"Password to use to log into the targets. We assume the same credentials can be used "
-"to log into all target systems."
+"Password to use to log into the targets. We assume the same credentials can be used to "
+"log into all target systems."
 msgstr ""
 "Senha a usar para fazer login nos alvos. Supomos que as mesmas credenciais possam ser "
 "usadas para fazer login em todos os sistemas alvo."
@@ -9067,8 +9041,8 @@ msgstr "Envia as alterações de configuração deste sistema para outros sistem
 
 #: lib/ca/Utils/DataMigrationUtils.php:198
 msgid ""
-"Found existing list item %1 (member of list %2) in DataMigrationUtils::"
-"getListItemID() using idno"
+"Found existing list item %1 (member of list %2) in DataMigrationUtils::getListItemID() "
+"using idno"
 msgstr ""
 "Encontrado item existente de lista %1 (membro da lista %2) em DataMigrationUtils::"
 "getListItemID() usando idno"
@@ -9079,24 +9053,24 @@ msgstr "Não foi possível encontrar a lista com o código %1"
 
 #: lib/ca/Utils/DataMigrationUtils.php:233
 msgid ""
-"Found existing list item %1 (member of list %2) in DataMigrationUtils::"
-"getListItemID() using singular label %3"
+"Found existing list item %1 (member of list %2) in DataMigrationUtils::getListItemID() "
+"using singular label %3"
 msgstr ""
 "Encontrado item existente de lista %1 (membro da lista %2) em DataMigrationUtils::"
 "getListItemID() usando rótulo singular %3"
 
 #: lib/ca/Utils/DataMigrationUtils.php:238
 msgid ""
-"Found existing list item %1 (member of list %2) in DataMigrationUtils::"
-"getListItemID() using plural label %3"
+"Found existing list item %1 (member of list %2) in DataMigrationUtils::getListItemID() "
+"using plural label %3"
 msgstr ""
 "Encontrado item existente de lista %1 (membro da lista %2) em DataMigrationUtils::"
 "getListItemID() usando rótulo plural %3"
 
 #: lib/ca/Utils/DataMigrationUtils.php:249
 msgid ""
-"Found existing list item %1 (member of list %2) in DataMigrationUtils::"
-"getListItemID() using idno with %3"
+"Found existing list item %1 (member of list %2) in DataMigrationUtils::getListItemID() "
+"using idno with %3"
 msgstr ""
 "Encontrado item existente de lista %1 (membro da lista %2) em DataMigrationUtils::"
 "getListItemID() usando idno com %3"
@@ -9249,19 +9223,19 @@ msgstr ""
 
 #: lib/core/Auth/Adapters/ExternalDB.php:155
 msgid ""
-"Could not login user %1 using external database because external authentication "
-"failed [%2]"
+"Could not login user %1 using external database because external authentication failed "
+"[%2]"
 msgstr ""
 "Não foi possível fazer login de usuário %1 usando base de dados externa, porque a "
 "autenticação externa falhou [%2]"
 
 #: lib/core/Auth/Adapters/ExternalDB.php:195
 msgid ""
-"Could not login user %1 after authentication from external database because user "
-"class was not set."
+"Could not login user %1 after authentication from external database because user class "
+"was not set."
 msgstr ""
-"Não foi possível fazer login de usuário %1 após autenticação de base de dados "
-"externa, porque a classe de usuário não foi definida."
+"Não foi possível fazer login de usuário %1 após autenticação de base de dados externa, "
+"porque a classe de usuário não foi definida."
 
 #: lib/core/Auth/Adapters/OpenLDAP.php:53 lib/core/Auth/Adapters/OpenLDAP.php:83
 #: lib/core/Auth/Adapters/OpenLDAP.php:116
@@ -9288,11 +9262,10 @@ msgstr "Back-end de autenticação não suporta atualizar usuários programatica
 #: models/ca_data_importer_items.php:272 models/ca_data_importer_items.php:312
 #: models/ca_data_importers.php:346 models/ca_data_importers.php:359
 #: models/ca_editor_ui_screens.php:461 models/ca_editor_ui_screens.php:518
-#: models/ca_list_items.php:244 models/ca_list_items.php:259
-#: models/ca_list_items.php:274 models/ca_list_items.php:289
-#: models/ca_list_items.php:304 models/ca_list_items.php:319
-#: models/ca_list_items.php:334 models/ca_list_items.php:349
-#: models/ca_list_items.php:364 models/ca_list_items.php:379
+#: models/ca_list_items.php:244 models/ca_list_items.php:259 models/ca_list_items.php:274
+#: models/ca_list_items.php:289 models/ca_list_items.php:304 models/ca_list_items.php:319
+#: models/ca_list_items.php:334 models/ca_list_items.php:349 models/ca_list_items.php:364
+#: models/ca_list_items.php:379
 msgid "yes"
 msgstr "sim"
 
@@ -9304,11 +9277,10 @@ msgstr "sim"
 #: models/ca_data_importer_items.php:273 models/ca_data_importer_items.php:313
 #: models/ca_data_importers.php:347 models/ca_data_importers.php:360
 #: models/ca_editor_ui_screens.php:462 models/ca_editor_ui_screens.php:519
-#: models/ca_list_items.php:245 models/ca_list_items.php:260
-#: models/ca_list_items.php:275 models/ca_list_items.php:290
-#: models/ca_list_items.php:305 models/ca_list_items.php:320
-#: models/ca_list_items.php:335 models/ca_list_items.php:350
-#: models/ca_list_items.php:365 models/ca_list_items.php:380
+#: models/ca_list_items.php:245 models/ca_list_items.php:260 models/ca_list_items.php:275
+#: models/ca_list_items.php:290 models/ca_list_items.php:305 models/ca_list_items.php:320
+#: models/ca_list_items.php:335 models/ca_list_items.php:350 models/ca_list_items.php:365
+#: models/ca_list_items.php:380
 msgid "no"
 msgstr "não"
 
@@ -9418,8 +9390,8 @@ msgstr "Não é possível fazer update() num novo registro; use insert() em vez 
 
 #: lib/core/BaseModel.php:2622
 msgid ""
-"Changes have been made since you loaded this data. Save again to overwrite the "
-"changes or cancel to keep the changes."
+"Changes have been made since you loaded this data. Save again to overwrite the changes "
+"or cancel to keep the changes."
 msgstr ""
 "As alterações foram feitas desde que você carregou estes dados. Salve novamente para "
 "substituir as alterações ou cancele para mantê-las."
@@ -9429,16 +9401,16 @@ msgid ""
 "Changes have been made since you loaded this data by %1. Save again to overwrite the "
 "changes or cancel to keep the changes."
 msgstr ""
-"As alterações foram feitas desde que você carregou estes dados por %1. Salve "
-"novamente para substituir as alterações ou cancele para mantê-las."
+"As alterações foram feitas desde que você carregou estes dados por %1. Salve novamente "
+"para substituir as alterações ou cancele para mantê-las."
 
 #: lib/core/BaseModel.php:2628
 msgid ""
 "Changes have been made since you loaded this data by these users: %1. Save again to "
 "overwrite the changes or cancel to keep the changes."
 msgstr ""
-"As alterações foram feitas desde que você carregou estes dados por estes usuários: "
-"%1. Salve novamente para substituir as alterações ou cancele para mantê-las."
+"As alterações foram feitas desde que você carregou estes dados por estes usuários: %1. "
+"Salve novamente para substituir as alterações ou cancele para mantê-las."
 
 #: lib/core/BaseModel.php:2668
 msgid "Cannot move %1 under its sub-record"
@@ -9532,24 +9504,24 @@ msgstr "Mídia está sendo processado e estará disponível em breve."
 #: lib/core/BaseModel.php:4360
 msgid "File could not be copied for %1; can't convert mimetype '%2' to extension"
 msgstr ""
-"Arquivo não pôde ser copiado para %1; não é possível converter tipo de mídia '%2' "
-"para extensão"
+"Arquivo não pôde ser copiado para %1; não é possível converter tipo de mídia '%2' para "
+"extensão"
 
 #: lib/core/BaseModel.php:4369 lib/core/BaseModel.php:4523 lib/core/BaseModel.php:5639
 msgid ""
 "Could not create subdirectory for uploaded file in %1. Please ask your administrator "
 "to check the permissions of your media directory."
 msgstr ""
-"Não foi possível criar o subdiretório para arquivo carregado em %1. Por favor, peça "
-"ao seu administrador para verificar as permissões do diretório de mídia."
+"Não foi possível criar o subdiretório para arquivo carregado em %1. Por favor, peça ao "
+"seu administrador para verificar as permissões do diretório de mídia."
 
 #: lib/core/BaseModel.php:4404 lib/core/BaseModel.php:5673
 msgid ""
 "File could not be copied. Ask your administrator to check permissions and file space "
 "for %1"
 msgstr ""
-"Arquivo não pôde ser copiado. Peça ao seu administrador para verificar as permissões "
-"e espaço de arquivo para %1"
+"Arquivo não pôde ser copiado. Peça ao seu administrador para verificar as permissões e "
+"espaço de arquivo para %1"
 
 #: lib/core/BaseModel.php:4514
 msgid "File could not be processed for %1; can't convert mimetype '%2' to extension"
@@ -9564,8 +9536,8 @@ msgstr "Não foi possível gravar arquivo: %1"
 #: lib/core/BaseModel.php:4678
 msgid "Couldn't queue processing for version '%1' using handler '%2'"
 msgstr ""
-"Não foi possível adicionar à fila o processamento para a versão '%1' usando handler "
-"'% 2'"
+"Não foi possível adicionar à fila o processamento para a versão '%1' usando handler '% "
+"2'"
 
 #: lib/core/BaseModel.php:4762
 msgid "File could not be processed for %1: %2"
@@ -9580,8 +9552,8 @@ msgstr "Não foi possível adicionar mirror à fila usando '%1' para a versão '
 #: lib/core/Plugins/TaskQueueHandlers/mediaReplication.php:127
 msgid "Could not record replication status: %1 has no media description data"
 msgstr ""
-"Não foi possível registrar o status de replicação: %1 não possui dados de descrição "
-"de mídia"
+"Não foi possível registrar o status de replicação: %1 não possui dados de descrição de "
+"mídia"
 
 #: lib/core/BaseModel.php:5253
 #: lib/core/Plugins/TaskQueueHandlers/mediaReplication.php:155
@@ -9834,8 +9806,7 @@ msgstr ""
 "novamente..."
 
 #: lib/core/Db/mysql.php:264 lib/core/Db/mysql.php:265 lib/core/Db/mysqli.php:258
-#: lib/core/Db/mysqli.php:259 lib/core/Db/pdo_mysql.php:179
-#: lib/core/Db/pdo_mysql.php:180
+#: lib/core/Db/mysqli.php:259 lib/core/Db/pdo_mysql.php:179 lib/core/Db/pdo_mysql.php:180
 msgid "Query is empty"
 msgstr "Consulta está vazia"
 
@@ -10132,8 +10103,7 @@ msgid ""
 "html#nslsimplename."
 msgstr ""
 "Especifique campos adicionais para incluir no índice de pesquisa.\n"
-"\t\t\tOs nomes dos campos devem ser separados por um ou mais espaços ou novas "
-"linhas.\n"
+"\t\t\tOs nomes dos campos devem ser separados por um ou mais espaços ou novas linhas.\n"
 "\t\t\tQuaisquer valores que não correspondam aos campos disponíveis serão ignorados.\n"
 "\t\t\tOs campos disponíveis estão em https://biodiversity.org.au/nsl/docs/main."
 "html#nslsimplename."
@@ -10155,11 +10125,11 @@ msgstr "URL de consulta"
 msgid "URL used to query the information service."
 msgstr "URL usada para consultar o serviço de informação."
 
-#: lib/core/Plugins/InformationService/CollectiveAccess.php:58
-#: models/ca_bookmarks.php:65 models/ca_bundle_displays.php:85
-#: models/ca_data_exporters.php:80 models/ca_data_importers.php:82
-#: models/ca_editor_uis.php:84 models/ca_metadata_type_restrictions.php:87
-#: models/ca_objects.php:51 models/ca_search_forms.php:92
+#: lib/core/Plugins/InformationService/CollectiveAccess.php:58 models/ca_bookmarks.php:65
+#: models/ca_bundle_displays.php:85 models/ca_data_exporters.php:80
+#: models/ca_data_importers.php:82 models/ca_editor_uis.php:84
+#: models/ca_metadata_type_restrictions.php:87 models/ca_objects.php:51
+#: models/ca_search_forms.php:92
 msgid "objects"
 msgstr "objetos"
 
@@ -10167,70 +10137,65 @@ msgstr "objetos"
 msgid "lots"
 msgstr "lotes"
 
-#: lib/core/Plugins/InformationService/CollectiveAccess.php:60
-#: models/ca_bookmarks.php:67 models/ca_bundle_displays.php:87
-#: models/ca_data_exporters.php:82 models/ca_data_importers.php:84
-#: models/ca_editor_uis.php:86 models/ca_entities.php:43
+#: lib/core/Plugins/InformationService/CollectiveAccess.php:60 models/ca_bookmarks.php:67
+#: models/ca_bundle_displays.php:87 models/ca_data_exporters.php:82
+#: models/ca_data_importers.php:84 models/ca_editor_uis.php:86 models/ca_entities.php:43
 #: models/ca_metadata_type_restrictions.php:89 models/ca_search_forms.php:94
 msgid "entities"
 msgstr "entidades"
 
-#: lib/core/Plugins/InformationService/CollectiveAccess.php:61
-#: models/ca_bookmarks.php:68 models/ca_bundle_displays.php:88
-#: models/ca_data_exporters.php:83 models/ca_data_importers.php:85
-#: models/ca_editor_uis.php:87 models/ca_metadata_type_restrictions.php:90
-#: models/ca_places.php:45 models/ca_search_forms.php:95
+#: lib/core/Plugins/InformationService/CollectiveAccess.php:61 models/ca_bookmarks.php:68
+#: models/ca_bundle_displays.php:88 models/ca_data_exporters.php:83
+#: models/ca_data_importers.php:85 models/ca_editor_uis.php:87
+#: models/ca_metadata_type_restrictions.php:90 models/ca_places.php:45
+#: models/ca_search_forms.php:95
 msgid "places"
 msgstr "lugares"
 
-#: lib/core/Plugins/InformationService/CollectiveAccess.php:62
-#: models/ca_bookmarks.php:69 models/ca_bundle_displays.php:89
-#: models/ca_data_exporters.php:84 models/ca_data_importers.php:86
-#: models/ca_editor_uis.php:88 models/ca_metadata_type_restrictions.php:91
-#: models/ca_objects.php:174 models/ca_occurrences.php:44 models/ca_search_forms.php:96
+#: lib/core/Plugins/InformationService/CollectiveAccess.php:62 models/ca_bookmarks.php:69
+#: models/ca_bundle_displays.php:89 models/ca_data_exporters.php:84
+#: models/ca_data_importers.php:86 models/ca_editor_uis.php:88
+#: models/ca_metadata_type_restrictions.php:91 models/ca_objects.php:174
+#: models/ca_occurrences.php:44 models/ca_search_forms.php:96
 msgid "occurrences"
 msgstr "ocorrências"
 
-#: lib/core/Plugins/InformationService/CollectiveAccess.php:63
-#: models/ca_bookmarks.php:70 models/ca_bundle_displays.php:90
-#: models/ca_collections.php:44 models/ca_data_exporters.php:85
-#: models/ca_data_importers.php:87 models/ca_editor_uis.php:89
-#: models/ca_metadata_type_restrictions.php:92 models/ca_search_forms.php:97
+#: lib/core/Plugins/InformationService/CollectiveAccess.php:63 models/ca_bookmarks.php:70
+#: models/ca_bundle_displays.php:90 models/ca_collections.php:44
+#: models/ca_data_exporters.php:85 models/ca_data_importers.php:87
+#: models/ca_editor_uis.php:89 models/ca_metadata_type_restrictions.php:92
+#: models/ca_search_forms.php:97
 msgid "collections"
 msgstr "coleções"
 
-#: lib/core/Plugins/InformationService/CollectiveAccess.php:64
-#: models/ca_bookmarks.php:71 models/ca_bundle_displays.php:91
-#: models/ca_data_exporters.php:86 models/ca_data_importers.php:88
-#: models/ca_editor_uis.php:90 models/ca_objects.php:175 models/ca_search_forms.php:98
-#: models/ca_storage_locations.php:45
+#: lib/core/Plugins/InformationService/CollectiveAccess.php:64 models/ca_bookmarks.php:71
+#: models/ca_bundle_displays.php:91 models/ca_data_exporters.php:86
+#: models/ca_data_importers.php:88 models/ca_editor_uis.php:90 models/ca_objects.php:175
+#: models/ca_search_forms.php:98 models/ca_storage_locations.php:45
 msgid "storage locations"
 msgstr "locais de armazenamento"
 
-#: lib/core/Plugins/InformationService/CollectiveAccess.php:65
-#: models/ca_bookmarks.php:72 models/ca_bundle_displays.php:92
-#: models/ca_data_exporters.php:87 models/ca_data_importers.php:89
-#: models/ca_editor_uis.php:91 models/ca_loans.php:44
+#: lib/core/Plugins/InformationService/CollectiveAccess.php:65 models/ca_bookmarks.php:72
+#: models/ca_bundle_displays.php:92 models/ca_data_exporters.php:87
+#: models/ca_data_importers.php:89 models/ca_editor_uis.php:91 models/ca_loans.php:44
 #: models/ca_metadata_type_restrictions.php:94 models/ca_objects.php:176
 #: models/ca_search_forms.php:99
 msgid "loans"
 msgstr "empréstimos"
 
-#: lib/core/Plugins/InformationService/CollectiveAccess.php:66
-#: models/ca_bookmarks.php:73 models/ca_bundle_displays.php:93
-#: models/ca_data_exporters.php:88 models/ca_data_importers.php:90
-#: models/ca_editor_ui_screens.php:1013 models/ca_editor_ui_screens.php:1095
-#: models/ca_editor_ui_screens.php:1442 models/ca_editor_uis.php:92
-#: models/ca_metadata_type_restrictions.php:95 models/ca_movements.php:44
-#: models/ca_objects.php:177 models/ca_search_forms.php:100
+#: lib/core/Plugins/InformationService/CollectiveAccess.php:66 models/ca_bookmarks.php:73
+#: models/ca_bundle_displays.php:93 models/ca_data_exporters.php:88
+#: models/ca_data_importers.php:90 models/ca_editor_ui_screens.php:1013
+#: models/ca_editor_ui_screens.php:1095 models/ca_editor_ui_screens.php:1442
+#: models/ca_editor_uis.php:92 models/ca_metadata_type_restrictions.php:95
+#: models/ca_movements.php:44 models/ca_objects.php:177 models/ca_search_forms.php:100
 msgid "movements"
 msgstr "movimentações"
 
-#: lib/core/Plugins/InformationService/CollectiveAccess.php:67
-#: models/ca_bookmarks.php:78 models/ca_bundle_displays.php:99
-#: models/ca_data_exporters.php:94 models/ca_data_importers.php:96
-#: models/ca_editor_uis.php:100 models/ca_list_items.php:46
-#: models/ca_metadata_type_restrictions.php:101
+#: lib/core/Plugins/InformationService/CollectiveAccess.php:67 models/ca_bookmarks.php:78
+#: models/ca_bundle_displays.php:99 models/ca_data_exporters.php:94
+#: models/ca_data_importers.php:96 models/ca_editor_uis.php:100
+#: models/ca_list_items.php:46 models/ca_metadata_type_restrictions.php:101
 msgid "list items"
 msgstr "itens de lista"
 
@@ -10294,11 +10259,11 @@ msgstr "Idioma da Wikipédia"
 
 #: lib/core/Plugins/InformationService/Wikipedia.php:49
 msgid ""
-"2- or 3-letter language code for Wikipedia to use. Defaults to \"en\". See http://"
-"meta.wikimedia.org/wiki/List_of_Wikipedias"
+"2- or 3-letter language code for Wikipedia to use. Defaults to \"en\". See http://meta."
+"wikimedia.org/wiki/List_of_Wikipedias"
 msgstr ""
-"Código de idioma de 2 ou 3 letras que será usado pela Wikipédia. Padrão é \"en\". "
-"Veja http://meta.wikimedia.org/wiki/List_of_Wikipedias"
+"Código de idioma de 2 ou 3 letras que será usado pela Wikipédia. Padrão é \"en\". Veja "
+"http://meta.wikimedia.org/wiki/List_of_Wikipedias"
 
 #: lib/core/Plugins/InformationService/Wikipedia.php:67
 msgid "Provides access to Wikipedia service"
@@ -10514,8 +10479,7 @@ msgstr "Carregamento falhou porque Imagick/ImageMagick está disponível e é pr
 #: lib/core/Plugins/Media/GD.php:163
 msgid "Didn't load because ImageMagick (command-line) is available and preferred"
 msgstr ""
-"Carregamento falhou porque ImageMagick (linha de comando) está disponível e é "
-"preferido"
+"Carregamento falhou porque ImageMagick (linha de comando) está disponível e é preferido"
 
 #: lib/core/Plugins/Media/GD.php:167 lib/core/Plugins/Media/GraphicsMagick.php:258
 #: lib/core/Plugins/Media/ImageMagick.php:268 lib/core/Plugins/Media/Imagick.php:258
@@ -10606,8 +10570,8 @@ msgid ""
 "Provides image processing and conversion services using ImageMagick via the PECL "
 "Gmagick PHP extension"
 msgstr ""
-"Fornece serviços de processamento de imagens e conversão usando ImageMagick através "
-"da extensão Gmagick do PECL PHP"
+"Fornece serviços de processamento de imagens e conversão usando ImageMagick através da "
+"extensão Gmagick do PECL PHP"
 
 #: lib/core/Plugins/Media/Gmagick.php:260
 msgid "Didn't load because Gmagick is not available"
@@ -10709,8 +10673,7 @@ msgstr "Não foi possível ler arquivo de imagem"
 
 #: lib/core/Plugins/Media/GraphicsMagick.php:220
 msgid ""
-"Provides image processing and conversion services using GraphicsMagick via exec() "
-"calls"
+"Provides image processing and conversion services using GraphicsMagick via exec() calls"
 msgstr ""
 "Fornece serviços de processamento de imagens e conversão usando GraphicsMagick via "
 "chamadas exec()"
@@ -10746,8 +10709,8 @@ msgid ""
 "Provides image processing and conversion services using ImageMagick via the PECL "
 "Imagick PHP extension"
 msgstr ""
-"Fornece serviços de processamento e conversão de imagens usando ImageMagick através "
-"da extensão Imagick do PECL PHP"
+"Fornece serviços de processamento e conversão de imagens usando ImageMagick através da "
+"extensão Imagick do PECL PHP"
 
 #: lib/core/Plugins/Media/Imagick.php:261
 msgid "Didn't load because Imagick is not available"
@@ -10867,8 +10830,8 @@ msgstr ""
 
 #: lib/core/Plugins/Media/Spin360.php:118
 msgid ""
-"Accepts ZIP archives containing 360 spinnable images in SpinCar format (http://"
-"SpinCar.com)"
+"Accepts ZIP archives containing 360 spinnable images in SpinCar format (http://SpinCar."
+"com)"
 msgstr ""
 "Arquivos ZIP são aceitos contendo imagens 360º em formato SpinCar (http://SpinCar.com)"
 
@@ -10898,8 +10861,8 @@ msgid ""
 "Couldn't convert file to MPEG4 format [%1]; does the ffmpeg preset '%2' exist? "
 "(command was %3)"
 msgstr ""
-"Não foi possível converter o arquivo para o formato MPEG4 [%1]; a predefinição '%2' "
-"do ffmpeg existe? (comando foi %3)"
+"Não foi possível converter o arquivo para o formato MPEG4 [%1]; a predefinição '%2' do "
+"ffmpeg existe? (comando foi %3)"
 
 #: lib/core/Plugins/Media/Video.php:793
 msgid "Couldn't convert file to MPEG4 format [%1] (command was %2)"
@@ -11012,9 +10975,8 @@ msgid ""
 "Updating the ElasticSearch mapping failed. This is probably because of a type "
 "conflict. Try recreating the entire search index. The original error was %1"
 msgstr ""
-"A atualização do mapeamento do ElasticSearch falhou. Isso provavelmente é por causa "
-"de um conflito de tipo. Tente recriar todo o índice de pesquisa. O erro original foi "
-"%1"
+"A atualização do mapeamento do ElasticSearch falhou. Isso provavelmente é por causa de "
+"um conflito de tipo. Tente recriar todo o índice de pesquisa. O erro original foi %1"
 
 #: lib/core/Plugins/SearchEngine/ElasticSearch/Field.php:72
 msgid "Invalid table num %1"
@@ -11044,8 +11006,8 @@ msgid ""
 "CollectiveAccess uses only a single index in an ElasticSearch setup. The name of that "
 "index can be set in the CollectiveAccess configuration."
 msgstr ""
-"ColetiveAccess usa apenas um índice em uma configuração do ElasticSearch. O nome "
-"desse índice pode ser definido na configuração do ColetiveAccess."
+"ColetiveAccess usa apenas um índice em uma configuração do ElasticSearch. O nome desse "
+"índice pode ser definido na configuração do ColetiveAccess."
 
 #: lib/core/Plugins/SearchEngine/ElasticSearchConfigurationSettings.php:104
 msgid ""
@@ -11087,8 +11049,8 @@ msgid ""
 "The SqlSearch search engine requires that MySQL be the back-end database for your "
 "CollectiveAccess installation."
 msgstr ""
-"O mecanismo de pesquisa SqlSearch requer que o MySQL seja o banco de dados de back-"
-"end para sua instalação do CollectiveAccess."
+"O mecanismo de pesquisa SqlSearch requer que o MySQL seja o banco de dados de back-end "
+"para sua instalação do CollectiveAccess."
 
 #: lib/core/Plugins/SearchEngine/SqlSearchConfigurationSettings.php:90
 msgid ""
@@ -11354,9 +11316,9 @@ msgid ""
 "you have not installed your database yet. Check your configuration or run the "
 "<em>Providence</em> installer."
 msgstr ""
-"<em>Pawtucket</em> requer uma instalação funcional do <em>Providence</em> e parece "
-"que você ainda não instalou seu banco de dados. Verifique sua configuração ou execute "
-"o instalador do <em>Providence</em>."
+"<em>Pawtucket</em> requer uma instalação funcional do <em>Providence</em> e parece que "
+"você ainda não instalou seu banco de dados. Verifique sua configuração ou execute o "
+"instalador do <em>Providence</em>."
 
 #: lib/pawtucket/ConfigurationCheck.php:165
 msgid ""
@@ -11367,8 +11329,8 @@ msgid ""
 msgstr ""
 "Seu banco de dados está desatualizado. Por favor, instale todas as migrações de "
 "esquema a partir da migração #%1. Veja <a href=\"http://wiki.collectiveaccess.org/"
-"index.php?title=Upgrade\">http://wiki.collectiveaccess.org/index.php?title=Upgrade</"
-"a> para instruções de migração."
+"index.php?title=Upgrade\">http://wiki.collectiveaccess.org/index.php?title=Upgrade</a> "
+"para instruções de migração."
 
 #: models/ca_acl.php:44
 msgid "access control list"
@@ -11496,11 +11458,11 @@ msgstr "Conteúdo de mídia"
 #: models/ca_collections_x_storage_locations.php:92
 #: models/ca_collections_x_vocabulary_terms.php:92 models/ca_data_exporter_items.php:123
 #: models/ca_editor_ui_bundle_placements.php:170
-#: models/ca_editor_ui_screen_type_restrictions.php:97
-#: models/ca_editor_ui_screens.php:83 models/ca_editor_ui_type_restrictions.php:97
-#: models/ca_entities.php:180 models/ca_entities_x_collections.php:92
-#: models/ca_entities_x_entities.php:92 models/ca_entities_x_occurrences.php:92
-#: models/ca_entities_x_places.php:92 models/ca_entities_x_storage_locations.php:92
+#: models/ca_editor_ui_screen_type_restrictions.php:97 models/ca_editor_ui_screens.php:83
+#: models/ca_editor_ui_type_restrictions.php:97 models/ca_entities.php:180
+#: models/ca_entities_x_collections.php:92 models/ca_entities_x_entities.php:92
+#: models/ca_entities_x_occurrences.php:92 models/ca_entities_x_places.php:92
+#: models/ca_entities_x_storage_locations.php:92
 #: models/ca_entities_x_vocabulary_terms.php:92 models/ca_groups_x_roles.php:70
 #: models/ca_list_items.php:123 models/ca_list_items_x_list_items.php:91
 #: models/ca_loans.php:164 models/ca_loans_x_collections.php:92
@@ -11542,9 +11504,8 @@ msgstr "Conteúdo de mídia"
 #: models/ca_occurrences_x_vocabulary_terms.php:91 models/ca_place_labels.php:87
 #: models/ca_places.php:190 models/ca_places_x_collections.php:92
 #: models/ca_places_x_occurrences.php:92 models/ca_places_x_places.php:91
-#: models/ca_places_x_storage_locations.php:92
-#: models/ca_places_x_vocabulary_terms.php:92 models/ca_relationship_types.php:104
-#: models/ca_representation_annotation_labels.php:88
+#: models/ca_places_x_storage_locations.php:92 models/ca_places_x_vocabulary_terms.php:92
+#: models/ca_relationship_types.php:104 models/ca_representation_annotation_labels.php:88
 #: models/ca_representation_annotations_x_entities.php:92
 #: models/ca_representation_annotations_x_objects.php:92
 #: models/ca_representation_annotations_x_occurrences.php:92
@@ -11643,10 +11604,9 @@ msgstr "pastas de marcadores"
 #: models/ca_editor_uis.php:50 models/ca_entities.php:50 models/ca_guids.php:46
 #: models/ca_ips.php:46 models/ca_item_comments.php:50 models/ca_item_tags.php:49
 #: models/ca_list_items.php:53 models/ca_lists.php:59 models/ca_loans.php:51
-#: models/ca_locales.php:46 models/ca_metadata_elements.php:51
-#: models/ca_movements.php:51 models/ca_object_lots.php:52
-#: models/ca_object_representations.php:57 models/ca_objects.php:58
-#: models/ca_occurrences.php:51 models/ca_places.php:52
+#: models/ca_locales.php:46 models/ca_metadata_elements.php:51 models/ca_movements.php:51
+#: models/ca_object_lots.php:52 models/ca_object_representations.php:57
+#: models/ca_objects.php:58 models/ca_occurrences.php:51 models/ca_places.php:52
 #: models/ca_relationship_types.php:49 models/ca_replication_log.php:46
 #: models/ca_representation_annotations.php:51 models/ca_search_forms.php:55
 #: models/ca_search_indexing_queue.php:50 models/ca_set_items.php:49
@@ -11662,8 +11622,8 @@ msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this "
 "bookmark folder"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar esta pasta de marcadores"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"esta pasta de marcadores"
 
 #: models/ca_bookmark_folders.php:55
 msgid "Folder name"
@@ -11687,11 +11647,10 @@ msgstr "marcadores"
 
 #: models/ca_bookmarks.php:47
 msgid ""
-"Unique numeric identifier used by CollectiveAccess internally to identify this "
-"bookmark"
+"Unique numeric identifier used by CollectiveAccess internally to identify this bookmark"
 msgstr ""
-"Identificador numérico único usado internamente pelo CollectiveAccess para "
-"identificar este marcador"
+"Identificador numérico único usado internamente pelo CollectiveAccess para identificar "
+"este marcador"
 
 #: models/ca_bookmarks.php:56
 msgid "Folder"
@@ -11910,8 +11869,8 @@ msgstr "listas de exibição"
 msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this display"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar esta exibição"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"esta exibição"
 
 #: models/ca_bundle_displays.php:74
 msgid "Is system display?"
@@ -11919,8 +11878,7 @@ msgstr "É exibição do sistema?"
 
 #: models/ca_bundle_displays.php:74
 msgid ""
-"If set, display will be available to all users as part of the system-wide display "
-"list."
+"If set, display will be available to all users as part of the system-wide display list."
 msgstr ""
 "Se definido, a exibição estará disponível para todos os usuários como parte da lista "
 "de exibição do sistema."
@@ -12067,9 +12025,9 @@ msgid ""
 "to aggregate. Ex. ^SUM:dimensions_width"
 msgstr ""
 "Template para formatar dados agregados para exibição sob esta coluna. O template pode "
-"incluir essas tags de dados agregados: ^PAGEAVG, ^AVG, ^PAGESUM, ^SUM, ^PAGEMin, "
-"^MIN, ^PAGEMAX, ^MAX. Para contêineres, siga a tag com o código de elemento do "
-"subelemento a agregar. Ex. ^SUM:dimensions_width"
+"incluir essas tags de dados agregados: ^PAGEAVG, ^AVG, ^PAGESUM, ^SUM, ^PAGEMin, ^MIN, "
+"^PAGEMAX, ^MAX. Para contêineres, siga a tag com o código de elemento do subelemento a "
+"agregar. Ex. ^SUM:dimensions_width"
 
 #: models/ca_bundle_displays.php:1126
 msgid "Display currency conversion?"
@@ -12080,8 +12038,8 @@ msgid ""
 "Check this option if you want your currency values to be displayed in both the "
 "specified and local currency."
 msgstr ""
-"Marque esta opção se você deseja que os valores de moeda sejam exibidos tanto na "
-"moeda especificada quanto na local."
+"Marque esta opção se você deseja que os valores de moeda sejam exibidos tanto na moeda "
+"especificada quanto na local."
 
 #: models/ca_bundle_displays.php:1256 models/ca_bundle_displays.php:1257
 msgid "Library checkouts"
@@ -12120,8 +12078,8 @@ msgstr "Restringir a tipos de relação"
 
 #: models/ca_bundle_displays.php:1404
 msgid ""
-"Restricts display to items related using the specified relationship type(s). Leave "
-"all unchecked for no restriction."
+"Restricts display to items related using the specified relationship type(s). Leave all "
+"unchecked for no restriction."
 msgstr ""
 "Restringe exibição a itens relacionados usando o(s) tipo(s) de relação(ões) "
 "especificado(s). Deixe todos desmarcados para não impor restrições."
@@ -12150,9 +12108,8 @@ msgid ""
 "Override sort option for this field. Use this if you want result lists to sort on a "
 "different field when clicking on this bundle."
 msgstr ""
-"Sobrescrever opção de ordenação para este campo. Use isso se você deseja que as "
-"listas de resultados sejam ordenadas com base em um campo diferente ao clicar neste "
-"pacote."
+"Sobrescrever opção de ordenação para este campo. Use isso se você deseja que as listas "
+"de resultados sejam ordenadas com base em um campo diferente ao clicar neste pacote."
 
 #: models/ca_bundle_displays.php:1445 models/ca_editor_ui_screens.php:753
 msgid "Restrict to list"
@@ -12184,9 +12141,9 @@ msgid ""
 "will be omitted. For example, if set to 2, the root and first child of the hierarchy "
 "will be omitted."
 msgstr ""
-"Se definido como um valor diferente de zero, o número especificado de itens no topo "
-"da hierarquia será omitido. Por exemplo, se definido como 2, a raiz e o primeiro "
-"filho da hierarquia serão omitidos."
+"Se definido como um valor diferente de zero, o número especificado de itens no topo da "
+"hierarquia será omitido. Por exemplo, se definido como 2, a raiz e o primeiro filho da "
+"hierarquia serão omitidos."
 
 #: models/ca_bundle_displays.php:1475
 msgid "top first"
@@ -12401,8 +12358,8 @@ msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this "
 "collection"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar esta coleção"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"esta coleção"
 
 #: models/ca_collections.php:66
 msgid "The locale from which the collection originates."
@@ -12411,8 +12368,8 @@ msgstr "O idioma de origem da coleção."
 #: models/ca_collections.php:74
 msgid ""
 "The type of the collection. In CollectiveAccess every collection has a single "
-"\"instrinsic\" type that determines the set of descriptive and administrative "
-"metadata that can be applied to it."
+"\"instrinsic\" type that determines the set of descriptive and administrative metadata "
+"that can be applied to it."
 msgstr ""
 "O tipo da coleção. No CollectiveAccessm toda coleção tem um único tipo \"intrínseco\" "
 "que determina o conjunto de metadados descritivos e administrativos que podem ser-lhe "
@@ -12516,12 +12473,11 @@ msgstr "Indica o estado atual do registro de coleção."
 
 #: models/ca_collections.php:164 models/ca_data_importers.php:126
 #: models/ca_entities.php:172 models/ca_list_items.php:200 models/ca_lists.php:114
-#: models/ca_loans.php:156 models/ca_movements.php:128
-#: models/ca_object_checkouts.php:152 models/ca_object_lots.php:149
-#: models/ca_object_representations.php:194 models/ca_objects.php:285
-#: models/ca_occurrences.php:164 models/ca_places.php:168 models/ca_sets.php:167
-#: models/ca_storage_locations.php:150 models/ca_tour_stops.php:170
-#: models/ca_user_sorts.php:117
+#: models/ca_loans.php:156 models/ca_movements.php:128 models/ca_object_checkouts.php:152
+#: models/ca_object_lots.php:149 models/ca_object_representations.php:194
+#: models/ca_objects.php:285 models/ca_occurrences.php:164 models/ca_places.php:168
+#: models/ca_sets.php:167 models/ca_storage_locations.php:150
+#: models/ca_tour_stops.php:170 models/ca_user_sorts.php:117
 msgid "Is deleted?"
 msgstr "Foi excluído?"
 
@@ -12574,10 +12530,10 @@ msgstr "Entidades relacionadas"
 msgid "Related objects"
 msgstr "Objetos relacionados"
 
-#: models/ca_collections.php:356 models/ca_collections.php:357
-#: models/ca_entities.php:339 models/ca_entities.php:340 models/ca_list_items.php:545
-#: models/ca_list_items.php:546 models/ca_loans.php:327 models/ca_loans.php:328
-#: models/ca_movements.php:299 models/ca_movements.php:300 models/ca_object_lots.php:341
+#: models/ca_collections.php:356 models/ca_collections.php:357 models/ca_entities.php:339
+#: models/ca_entities.php:340 models/ca_list_items.php:545 models/ca_list_items.php:546
+#: models/ca_loans.php:327 models/ca_loans.php:328 models/ca_movements.php:299
+#: models/ca_movements.php:300 models/ca_object_lots.php:341
 #: models/ca_object_lots.php:342 models/ca_object_representations.php:372
 #: models/ca_object_representations.php:373 models/ca_objects.php:524
 #: models/ca_objects.php:525 models/ca_occurrences.php:336 models/ca_occurrences.php:337
@@ -12829,13 +12785,12 @@ msgstr "relações coleção ⇔ coleção"
 #: models/ca_objects_x_collections.php:85 models/ca_objects_x_entities.php:85
 #: models/ca_objects_x_objects.php:86 models/ca_objects_x_occurrences.php:85
 #: models/ca_objects_x_places.php:85 models/ca_objects_x_storage_locations.php:86
-#: models/ca_objects_x_vocabulary_terms.php:85
-#: models/ca_occurrences_x_collections.php:85 models/ca_occurrences_x_occurrences.php:85
+#: models/ca_objects_x_vocabulary_terms.php:85 models/ca_occurrences_x_collections.php:85
+#: models/ca_occurrences_x_occurrences.php:85
 #: models/ca_occurrences_x_storage_locations.php:85
 #: models/ca_occurrences_x_vocabulary_terms.php:84 models/ca_places_x_collections.php:85
 #: models/ca_places_x_occurrences.php:85 models/ca_places_x_places.php:84
-#: models/ca_places_x_storage_locations.php:85
-#: models/ca_places_x_vocabulary_terms.php:85
+#: models/ca_places_x_storage_locations.php:85 models/ca_places_x_vocabulary_terms.php:85
 #: models/ca_relationship_relationships.php:99
 #: models/ca_representation_annotations_x_entities.php:85
 #: models/ca_representation_annotations_x_objects.php:85
@@ -12892,13 +12847,12 @@ msgstr "Datas efetivas"
 #: models/ca_objects_x_collections.php:85 models/ca_objects_x_entities.php:85
 #: models/ca_objects_x_objects.php:86 models/ca_objects_x_occurrences.php:85
 #: models/ca_objects_x_places.php:85 models/ca_objects_x_storage_locations.php:86
-#: models/ca_objects_x_vocabulary_terms.php:85
-#: models/ca_occurrences_x_collections.php:85 models/ca_occurrences_x_occurrences.php:85
+#: models/ca_objects_x_vocabulary_terms.php:85 models/ca_occurrences_x_collections.php:85
+#: models/ca_occurrences_x_occurrences.php:85
 #: models/ca_occurrences_x_storage_locations.php:85
 #: models/ca_occurrences_x_vocabulary_terms.php:84 models/ca_places_x_collections.php:85
 #: models/ca_places_x_occurrences.php:85 models/ca_places_x_places.php:84
-#: models/ca_places_x_storage_locations.php:85
-#: models/ca_places_x_vocabulary_terms.php:85
+#: models/ca_places_x_storage_locations.php:85 models/ca_places_x_vocabulary_terms.php:85
 #: models/ca_relationship_relationships.php:99
 #: models/ca_representation_annotations_x_entities.php:85
 #: models/ca_representation_annotations_x_objects.php:85
@@ -12921,9 +12875,9 @@ msgid ""
 "qualification for the relationship. If left blank, this relationship is implied to "
 "have existed for as long as the related items have existed."
 msgstr ""
-"Período de tempo durante o qual esta relação esteve em efeito. Esta é uma "
-"qualificação opcional para a relação. Se deixado vazio, considera-se que esta relação "
-"existiu pelo mesmo tempo que os itens relacionados."
+"Período de tempo durante o qual esta relação esteve em efeito. Esta é uma qualificação "
+"opcional para a relação. Se deixado vazio, considera-se que esta relação existiu pelo "
+"mesmo tempo que os itens relacionados."
 
 #: models/ca_collections_x_collections.php:92
 #: models/ca_collections_x_storage_locations.php:92
@@ -12960,13 +12914,12 @@ msgstr ""
 #: models/ca_objects_x_collections.php:92 models/ca_objects_x_entities.php:92
 #: models/ca_objects_x_objects.php:93 models/ca_objects_x_occurrences.php:92
 #: models/ca_objects_x_places.php:92 models/ca_objects_x_storage_locations.php:93
-#: models/ca_objects_x_vocabulary_terms.php:92
-#: models/ca_occurrences_x_collections.php:92 models/ca_occurrences_x_occurrences.php:92
+#: models/ca_objects_x_vocabulary_terms.php:92 models/ca_occurrences_x_collections.php:92
+#: models/ca_occurrences_x_occurrences.php:92
 #: models/ca_occurrences_x_storage_locations.php:92
 #: models/ca_occurrences_x_vocabulary_terms.php:91 models/ca_places_x_collections.php:92
 #: models/ca_places_x_occurrences.php:92 models/ca_places_x_places.php:91
-#: models/ca_places_x_storage_locations.php:92
-#: models/ca_places_x_vocabulary_terms.php:92
+#: models/ca_places_x_storage_locations.php:92 models/ca_places_x_vocabulary_terms.php:92
 #: models/ca_representation_annotations_x_entities.php:92
 #: models/ca_representation_annotations_x_objects.php:92
 #: models/ca_representation_annotations_x_occurrences.php:92
@@ -13020,8 +12973,8 @@ msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this "
 "exporter item"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar este item do exportador"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"este item do exportador"
 
 #: models/ca_data_exporter_items.php:70 models/ca_data_importer_groups.php:73
 #: models/ca_data_importer_items.php:85
@@ -13030,8 +12983,8 @@ msgstr "Elemento externo"
 
 #: models/ca_data_exporter_items.php:70
 msgid ""
-"Name of the target element. For XML exports this would be the XML element or "
-"attribute name."
+"Name of the target element. For XML exports this would be the XML element or attribute "
+"name."
 msgstr ""
 "Nome do elemento de alvo. Para exportações XML, seria o nome do elemento XML ou do "
 "atributo."
@@ -13047,15 +13000,14 @@ msgid ""
 "element is automatically repeated for all selected related records. Leave empty to "
 "inherit context from parent item."
 msgstr ""
-"Esta configuração pode ser usada para alternar o contexto da exportação para este "
-"item do exportador e todos os seus filhos para uma tabela diferente, por exemplo, "
-"para entidades relacionadas. O elemento é automaticamente repetido para todos os "
-"registros relacionados selecionados. Deixe vazio para herdar o contexto do item pai."
+"Esta configuração pode ser usada para alternar o contexto da exportação para este item "
+"do exportador e todos os seus filhos para uma tabela diferente, por exemplo, para "
+"entidades relacionadas. O elemento é automaticamente repetido para todos os registros "
+"relacionados selecionados. Deixe vazio para herdar o contexto do item pai."
 
 #: models/ca_data_exporter_items.php:86
 msgid ""
-"Determines where the exported data is taken from. This will typically be a bundle "
-"name."
+"Determines where the exported data is taken from. This will typically be a bundle name."
 msgstr ""
 "Determina de onde os dados exportados são obtidos. Isso será normalmente um nome de "
 "pacote."
@@ -13114,8 +13066,8 @@ msgid ""
 "If the current selector/template returns multiple values, this setting determines if "
 "the element is repeated for each value."
 msgstr ""
-"Se o seletor/template atual retornar múltiplos valores, esta configuração determina "
-"se o elemento é repetido para cada valor."
+"Se o seletor/template atual retornar múltiplos valores, esta configuração determina se "
+"o elemento é repetido para cada valor."
 
 #: models/ca_data_exporter_items.php:313
 msgid "Convert codes to display text"
@@ -13123,11 +13075,11 @@ msgstr "Converter códigos para texto de exibição"
 
 #: models/ca_data_exporter_items.php:314
 msgid ""
-"If set, id values refering to foreign keys are returned as preferred label text in "
-"the current locale."
+"If set, id values refering to foreign keys are returned as preferred label text in the "
+"current locale."
 msgstr ""
-"Se definido, os valores de id que se referem a chaves estrangeiras são retornados "
-"como texto de rótulo preferido no idioma atual."
+"Se definido, os valores de id que se referem a chaves estrangeiras são retornados como "
+"texto de rótulo preferido no idioma atual."
 
 #: models/ca_data_exporter_items.php:327
 msgid "Convert codes to idno"
@@ -13136,8 +13088,8 @@ msgstr "Converter códigos para idno"
 #: models/ca_data_exporter_items.php:328
 msgid "If set, id values refering to foreign keys are returned as idno."
 msgstr ""
-"Se definido, os valores de id que se referem a chaves estrangeiras são retornados "
-"como idno."
+"Se definido, os valores de id que se referem a chaves estrangeiras são retornados como "
+"idno."
 
 #: models/ca_data_exporter_items.php:341
 msgid "Return id numbers for List attribute values"
@@ -13145,8 +13097,8 @@ msgstr "Retornar números de id para valores de atributos de Lista"
 
 #: models/ca_data_exporter_items.php:342
 msgid ""
-"If set, idnos are returned for List attribute values instead of primary key values. "
-"Do not combine this with convertCodesToDisplayText!"
+"If set, idnos are returned for List attribute values instead of primary key values. Do "
+"not combine this with convertCodesToDisplayText!"
 msgstr ""
 "Se definido, os idnos são retornados para valores de atributos de Lista em vez de "
 "valores de chave primária. Não combine isso com convertCodesToDisplayText!"
@@ -13249,8 +13201,8 @@ msgstr "Verificar acesso"
 
 #: models/ca_data_exporter_items.php:463
 msgid ""
-"Restricts the context of the mapping to only records with one of the designated "
-"access values. Only valid when context is set."
+"Restricts the context of the mapping to only records with one of the designated access "
+"values. Only valid when context is set."
 msgstr ""
 "Restringe o contexto do mapeamento a apenas registros com um dos valores de acesso. "
 "Somente válido quando o contexto é definido."
@@ -13286,8 +13238,8 @@ msgstr "Terminar como ISO8601"
 
 #: models/ca_data_exporter_items.php:501
 msgid ""
-"If set, only the beginning of a date range is exported for the current mapping. "
-"Format is ISO8601. Only applies to exports of DateRange attributes."
+"If set, only the beginning of a date range is exported for the current mapping. Format "
+"is ISO8601. Only applies to exports of DateRange attributes."
 msgstr ""
 "Se definido, somente o início de um intervalo de datas é exportado para o mapeamento "
 "atual. O formato é ISO8601. Somente se aplica a exportações de atributos de intervalo "
@@ -13303,8 +13255,8 @@ msgid ""
 "DateRange in question is on the same day as the start. Only applias to exports of "
 "DateRange attributes and only in conjunction with end_as_iso8601."
 msgstr ""
-"Se definido, o exportador não inserirá um valor para este mapeamento se o dia final "
-"do intervalo de datas em questão for no mesmo dia que o início. Somente se aplica a "
+"Se definido, o exportador não inserirá um valor para este mapeamento se o dia final do "
+"intervalo de datas em questão for no mesmo dia que o início. Somente se aplica a "
 "exportações de atributos de intervalo de datas e somente em conjunto com "
 "end_as_iso8601."
 
@@ -13346,11 +13298,10 @@ msgstr "exportadores de dados"
 
 #: models/ca_data_exporters.php:61
 msgid ""
-"Unique numeric identifier used by CollectiveAccess internally to identify this "
-"exporter"
+"Unique numeric identifier used by CollectiveAccess internally to identify this exporter"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar este exportador"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"este exportador"
 
 #: models/ca_data_exporters.php:68
 msgid "exporter code"
@@ -13402,9 +13353,9 @@ msgstr "Quebrando texto antes de exportação"
 #: models/ca_data_exporters.php:260
 msgid ""
 "If this exporter is used for an item set export (as opposed to a single item), the "
-"text set here will be inserted before the first item. This can for instance be used "
-"to wrap a repeating set of XML elements in a single global element. The text has to "
-"be valid for the current exporter format."
+"text set here will be inserted before the first item. This can for instance be used to "
+"wrap a repeating set of XML elements in a single global element. The text has to be "
+"valid for the current exporter format."
 msgstr ""
 "Se este exportador é usado para exportar um conjunto de itens (em oposição a um único "
 "item), o texto definido aqui será inserido antes do primeiro item. Isso pode, por "
@@ -13423,9 +13374,9 @@ msgid ""
 "valid for the current exporter format."
 msgstr ""
 "Se este exportador é usado para exportar um conjunto de itens (em oposição a um único "
-"item), o texto definido aqui será inserido após o último item. Isso pode, por "
-"exemplo, ser usado para envolver um conjunto repetitivo de elementos XML em um único "
-"elemento global. O texto tem que ser válido para o formato de exportador atual."
+"item), o texto definido aqui será inserido após o último item. Isso pode, por exemplo, "
+"ser usado para envolver um conjunto repetitivo de elementos XML em um único elemento "
+"global. O texto tem que ser válido para o formato de exportador atual."
 
 #: models/ca_data_exporters.php:279
 msgid "Wrapping text before record export"
@@ -13465,8 +13416,8 @@ msgid ""
 "Variable name %1 is invalid. It should only contain ASCII letters, numbers, hyphens "
 "and underscores. The variable was not created."
 msgstr ""
-"Nome de variável %1 é inválido. Ele deve conter apenas letras ASCII, números, hífens "
-"e sublinhados. A variável não foi criada."
+"Nome de variável %1 é inválido. Ele deve conter apenas letras ASCII, números, hífens e "
+"sublinhados. A variável não foi criada."
 
 #: models/ca_data_exporters.php:767
 msgid "Warning: options for element %1 are not in proper JSON"
@@ -13533,12 +13484,11 @@ msgstr "Exportação falhou: %1"
 #: models/ca_data_exporters.php:1217
 msgid "Starting SearchResult-based multi-record export for mapping %1."
 msgstr ""
-"Começando exportação multirregistro baseada em resultado de pesquisa para o "
-"mapeamento %1."
+"Começando exportação multirregistro baseada em resultado de pesquisa para o mapeamento "
+"%1."
 
 #: models/ca_data_exporters.php:1227
-msgid ""
-"SearchResult contains %1 results. Now calling single-item export for each record."
+msgid "SearchResult contains %1 results. Now calling single-item export for each record."
 msgstr ""
 "Resultado da pesquisa contém %1 resultados. Agora chamando exportação de item único "
 "para cada registro."
@@ -13614,9 +13564,9 @@ msgid ""
 "now tries to find matching records for the switch and calls itself for each of those "
 "items."
 msgstr ""
-"Iniciando mudança de contexto para '%1' para o mapeamento ID %2 e registro de ID %3. "
-"O processador agora tenta encontrar registros correspondentes para a mudança e chama "
-"a si mesmo para cada um desses itens."
+"Iniciando mudança de contexto para '%1' para o mapeamento ID %2 e registro de ID %3. O "
+"processador agora tenta encontrar registros correspondentes para a mudança e chama a "
+"si mesmo para cada um desses itens."
 
 #: models/ca_data_exporters.php:1653
 msgid "Calling getRelatedItems with options: %1."
@@ -13644,9 +13594,9 @@ msgid ""
 "code attached to the current row or the code is invalid. Mapping is ignored for "
 "current row."
 msgstr ""
-"A mudança de contexto para o elemento de código %1 falhou. Ou não há atributo com "
-"esse código anexado à linha atual ou o código é inválido. O mapeamento foi pulado "
-"para a linha atual."
+"A mudança de contexto para o elemento de código %1 falhou. Ou não há atributo com esse "
+"código anexado à linha atual ou o código é inválido. O mapeamento foi pulado para a "
+"linha atual."
 
 #: models/ca_data_exporters.php:1693
 msgid "The current mapping will now be repreated for these items: %1"
@@ -13801,8 +13751,7 @@ msgid "Log message"
 msgstr "Mensagem de registro"
 
 #: models/ca_data_import_event_log.php:96
-msgid ""
-"Text indicating source of log message - eg. what subsystem generated the message."
+msgid "Text indicating source of log message - eg. what subsystem generated the message."
 msgstr ""
 "Texto indicando a fonte da mensagem de log - por exemplo, o subsistema que gerou a "
 "mensagem."
@@ -13932,8 +13881,8 @@ msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this "
 "importer group"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar este grupo importador"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"este grupo importador"
 
 #: models/ca_data_importer_groups.php:64
 msgid "Group code"
@@ -13964,8 +13913,8 @@ msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this "
 "importer item"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar este item do importador"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"este item do importador"
 
 #: models/ca_data_importer_items.php:77
 msgid ""
@@ -13988,8 +13937,8 @@ msgstr "Refinamentos"
 
 #: models/ca_data_importer_items.php:205
 msgid ""
-"Select the refinery that preforms the correct function to alter your data source as "
-"it maps to CollectiveAccess."
+"Select the refinery that preforms the correct function to alter your data source as it "
+"maps to CollectiveAccess."
 msgstr ""
 "Selecione o refinamento que executa a função correta para alterar sua fonte de dados, "
 "conforme mapeia para CollectiveAccess."
@@ -14011,9 +13960,9 @@ msgid ""
 "Replacement values column."
 msgstr ""
 "Lista separada por return de idnos de itens de lista do CollectiveAccess que "
-"correspondem aos valores mapeados da fonte de dados original. Por exemplo, gravação "
-"de som (digitado na coluna Valores originais) mapeia para audio_digital, que é "
-"insierido aqui na coluna Valores de substituição."
+"correspondem aos valores mapeados da fonte de dados original. Por exemplo, gravação de "
+"som (digitado na coluna Valores originais) mapeia para audio_digital, que é insierido "
+"aqui na coluna Valores de substituição."
 
 #: models/ca_data_importer_items.php:235
 msgid "Skip mapping if empty"
@@ -14079,8 +14028,8 @@ msgstr "Ignorar grupo, se o valor não"
 
 #: models/ca_data_importer_items.php:294
 msgid ""
-"Skip all of the elements in the group if value for this element is not equal to any "
-"of the specified values(s)."
+"Skip all of the elements in the group if value for this element is not equal to any of "
+"the specified values(s)."
 msgstr ""
 "Ignorar todos os elementos do grupo se o valor para este elemento não for igual a "
 "nenhum do(s) valor(es) especificado(s)."
@@ -14196,8 +14145,8 @@ msgid ""
 "\"\"}] "
 msgstr ""
 "Uma lista de expressões regulares compatíveis com Perl. Cada expressão tem duas "
-"partes, uma expressão de correspondência e uma expressão de substituição, e é "
-"expressa como um objeto JSON com as chaves <em>match</em> e <em>replaceWith</em>. Ex. "
+"partes, uma expressão de correspondência e uma expressão de substituição, e é expressa "
+"como um objeto JSON com as chaves <em>match</em> e <em>replaceWith</em>. Ex. "
 "[{\"match\": \"([\\d]+)\\.([\\d]+)\", \"replaceWith\": \"\\1:\\2\"}, {\"match\": "
 "\"[^\\d:]+\", \"replaceWith\": \"\"}] "
 
@@ -14216,8 +14165,8 @@ msgstr "Política de erro"
 #: models/ca_data_importer_items.php:437
 msgid ""
 "Determines how errors are handled for the mapping.  Options are to ignore the error, "
-"stop the import when an error is encountered and to receive a prompt when the error "
-"is encountered."
+"stop the import when an error is encountered and to receive a prompt when the error is "
+"encountered."
 msgstr ""
 "Determina como lidar com os erros para o mapeamento. As opções são ignorar o erro, "
 "parar a importação quando um erro for encontrado e receber um prompt quando o erro é "
@@ -14254,12 +14203,12 @@ msgstr "Corresponder em"
 #: models/ca_data_importer_items.php:473
 msgid ""
 "List indicating sequence of checks for an existing record; values of array can be "
-"\"label\" and \"idno\". Ex. array(\"idno\", \"label\") will first try to match on "
-"idno and then label if the first match fails."
+"\"label\" and \"idno\". Ex. array(\"idno\", \"label\") will first try to match on idno "
+"and then label if the first match fails."
 msgstr ""
-"Lista indicando a sequência de verificações de um registro existente; valores da "
-"lista podem ser \"rótulo\" e \"idno\". Ex.: array(\"idno\", \"rótulo\") tentará "
-"primeiro corresponder ao idno e então ao rótulo, se a primeira correspondência falhar."
+"Lista indicando a sequência de verificações de um registro existente; valores da lista "
+"podem ser \"rótulo\" e \"idno\". Ex.: array(\"idno\", \"rótulo\") tentará primeiro "
+"corresponder ao idno e então ao rótulo, se a primeira correspondência falhar."
 
 #: models/ca_data_importer_items.php:481
 msgid "Truncate long labels?"
@@ -14269,8 +14218,8 @@ msgstr "Truncar rótulos longos?"
 msgid ""
 "Truncate preferred and non-preferred labels that exceed the maximum length to fit."
 msgstr ""
-"Truncar rótulos preferíveis e não preferíveis que excedam o comprimento máximo para "
-"se ajustar."
+"Truncar rótulos preferíveis e não preferíveis que excedam o comprimento máximo para se "
+"ajustar."
 
 #: models/ca_data_importer_items.php:490
 msgid "Lookahead"
@@ -14421,8 +14370,7 @@ msgstr "importadores de dados"
 
 #: models/ca_data_importers.php:63
 msgid ""
-"Unique numeric identifier used by CollectiveAccess internally to identify this "
-"importer"
+"Unique numeric identifier used by CollectiveAccess internally to identify this importer"
 msgstr ""
 "Identificador numérico exclusivo usado pelo CollectiveAccess internamente para "
 "identificar este importador"
@@ -14474,8 +14422,7 @@ msgstr "Tipos de dados do importador"
 #: models/ca_data_importers.php:260
 msgid "Set data types for which this importer is usable.  Ex. XLSX, XLS, MYSQL"
 msgstr ""
-"Definir tipos de dados para os quais este importador é utilizável. Ex. XLSX, XLS, "
-"MYSQL"
+"Definir tipos de dados para os quais este importador é utilizável. Ex. XLSX, XLS, MYSQL"
 
 #: models/ca_data_importers.php:268
 msgid "Record type"
@@ -14516,8 +14463,8 @@ msgstr "Identificador de mapeamento"
 
 #: models/ca_data_importers.php:296
 msgid ""
-"Arbitrary alphanumeric code for the import mapping (no special characters or "
-"spaces).  Pending implementation."
+"Arbitrary alphanumeric code for the import mapping (no special characters or spaces).  "
+"Pending implementation."
 msgstr ""
 "Código alfanumérico arbitrário para o mapeamento de importação (sem carateres "
 "especiais ou espaços). Implementação pendente."
@@ -14626,18 +14573,18 @@ msgid ""
 "Set to yes to save the data spreadsheet or no to delete it from the server after "
 "import.  Pending implementation."
 msgstr ""
-"Defina como sim para salvar a planilha de dados ou não para excluí-la do servidor "
-"após a importação. Implementação pendente."
+"Defina como sim para salvar a planilha de dados ou não para excluí-la do servidor após "
+"a importação. Implementação pendente."
 
 #: models/ca_data_importers.php:376
 msgid ""
 "Determines how errors are handled for the import.  Options are to ignore the error, "
-"stop the import when an error is encountered and to receive a prompt when the error "
-"is encountered."
+"stop the import when an error is encountered and to receive a prompt when the error is "
+"encountered."
 msgstr ""
 "Determina como os erros são tratados para a importação. As opções são para ignorar o "
-"erro, interromper a importação quando for encontrado um erro e receber um aviso "
-"quando o erro for encontrado."
+"erro, interromper a importação quando for encontrado um erro e receber um aviso quando "
+"o erro for encontrado."
 
 #: models/ca_data_importers.php:385
 msgid "Base path"
@@ -14657,9 +14604,9 @@ msgid ""
 "Set the locale used for all imported data. Leave on \"DEFAULT\" to use the system "
 "default locale. Otherwise set it to a valid locale code (Ex. en_US, es_MX, fr_CA)."
 msgstr ""
-"Define o idioma usado para todos os dados importados. Deixe em \"DEFAULT\" para usar "
-"o idioma padrão do sistema. Caso contrário, defina como um código de idioma válido "
-"(Ex. en_US, es_MX, fr_CA)."
+"Define o idioma usado para todos os dados importados. Deixe em \"DEFAULT\" para usar o "
+"idioma padrão do sistema. Caso contrário, defina como um código de idioma válido (Ex. "
+"en_US, es_MX, fr_CA)."
 
 #: models/ca_data_importers.php:813
 msgid "Warning: skipped mapping at row %1 because source was not defined"
@@ -14669,8 +14616,7 @@ msgstr "Aviso: mapeamento pulado na linha %1 porque a fonte não foi definida"
 msgid ""
 "[loadImporterFromFile:%1] Skipped mapping at row %2 because source was not defined"
 msgstr ""
-"[loadImporterFromFile:%1] Mapeamento pulado na linha %2 porque a fonte não foi "
-"definida"
+"[loadImporterFromFile:%1] Mapeamento pulado na linha %2 porque a fonte não foi definida"
 
 #: models/ca_data_importers.php:818
 msgid "Warning: skipped mapping at row %1 because destination was not defined"
@@ -14678,8 +14624,7 @@ msgstr "Aviso: mapeamento pulado na linha %1 porque o destino não foi definido"
 
 #: models/ca_data_importers.php:819
 msgid ""
-"[loadImporterFromFile:%1] Skipped mapping at row %2 because destination was not "
-"defined"
+"[loadImporterFromFile:%1] Skipped mapping at row %2 because destination was not defined"
 msgstr ""
 "[loadImporterFromFile:%1] Mapeamento pulado na linha %2 porque o destino não foi "
 "definido"
@@ -14710,8 +14655,7 @@ msgstr "Aviso: opções de refinamento inválidas para o grupo %1/fonte %2 = %3"
 #: models/ca_data_importers.php:848
 msgid "[loadImporterFromFile:%1] Invalid refinery options for group %2/source %3 = %4"
 msgstr ""
-"[loadImporterFromFile:%1] Opções de refinamento inválidas para o grupo %2/fonte %3 = "
-"%4"
+"[loadImporterFromFile:%1] Opções de refinamento inválidas para o grupo %2/fonte %3 = %4"
 
 #: models/ca_data_importers.php:950
 msgid "Warning: invalid options for environment %1."
@@ -14735,8 +14679,8 @@ msgstr "[loadImporterFromFile:%1] Você deve definir um código para o seu mapea
 
 #: models/ca_data_importers.php:974
 msgid ""
-"It looks like this is a mapping for the data export framework and you're trying to "
-"add it as import mapping!"
+"It looks like this is a mapping for the data export framework and you're trying to add "
+"it as import mapping!"
 msgstr ""
 "Parece que este é um mapeamento para o framework de exportação de dados e você está "
 "tentando adicioná-lo como mapeamento de importação!"
@@ -14871,8 +14815,7 @@ msgid "[%1] Skipped import because forced primary key '%1' does not exist"
 msgstr "[%1] Importação pulada, porque chave primária forçada '%1' não existe"
 
 #: models/ca_data_importers.php:1659
-msgid ""
-"[%1] Skipped import because of existing record matched on identifier by policy %2"
+msgid "[%1] Skipped import because of existing record matched on identifier by policy %2"
 msgstr ""
 "[%1] Importação pulada devido a registro existente correspondente no identificador "
 "pela diretriz %2"
@@ -14895,8 +14838,8 @@ msgstr "[%1] Fundido com registro existente correspondido no rótulo pela diretr
 #: models/ca_data_importers.php:1716
 msgid "[%1] Could not delete existing record matched on identifier by policy %2"
 msgstr ""
-"[%1] Não foi possível excluir o registro existente correspondido no identificador "
-"pela diretriz %2"
+"[%1] Não foi possível excluir o registro existente correspondido no identificador pela "
+"diretriz %2"
 
 #: models/ca_data_importers.php:1719
 msgid "[%1] Overwrote existing record matched on identifier by policy %2"
@@ -14906,8 +14849,8 @@ msgstr ""
 #: models/ca_data_importers.php:1737
 msgid "[%1] Could not delete existing record matched on label by policy %2"
 msgstr ""
-"[%1] Não foi possível excluir registro existente correspondido no rótulo pela "
-"diretriz %2"
+"[%1] Não foi possível excluir registro existente correspondido no rótulo pela diretriz "
+"%2"
 
 #: models/ca_data_importers.php:1740
 msgid "[%1] Overwrote existing record matched on label by policy %2"
@@ -14956,8 +14899,7 @@ msgstr "[%1] Mapeamento %2 pulado porque o valor para %3 corresponde com o valor
 
 #: models/ca_data_importers.php:1890
 msgid "[%1] Skipped mapping %2 because value %4 for %3 is not in list of values"
-msgstr ""
-"[%1] Mapeamento %2 pulado porque o valor %4 para %3 não está na lista de valores"
+msgstr "[%1] Mapeamento %2 pulado porque o valor %4 para %3 não está na lista de valores"
 
 #: models/ca_data_importers.php:1896
 msgid "[%1] Skipped group %2 because expression %3 is true"
@@ -15328,8 +15270,8 @@ msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this user "
 "interface screen"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar esta tela de interface de usuário"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"esta tela de interface de usuário"
 
 #: models/ca_editor_ui_screens.php:74
 msgid "Screen identifier"
@@ -15345,8 +15287,7 @@ msgstr "É a tela padrão?"
 
 #: models/ca_editor_ui_screens.php:91
 msgid ""
-"Indicates if this screen should be used as the default screen when creating a new "
-"item."
+"Indicates if this screen should be used as the default screen when creating a new item."
 msgstr "Indica se esta tela deve ser usada como tela padrão ao criar um novo item."
 
 #: models/ca_editor_ui_screens.php:98 models/ca_editor_uis.php:113
@@ -15389,8 +15330,8 @@ msgid ""
 "URL pointing to documentation for this field. Leave blank if no documentation URL "
 "exists."
 msgstr ""
-"URL apontando para documentação para este campo. Deixe vazio se não existir uma URL "
-"de documentação."
+"URL apontando para documentação para este campo. Deixe vazio se não existir uma URL de "
+"documentação."
 
 #: models/ca_editor_ui_screens.php:489
 msgid "Method used to sort repeating values."
@@ -15426,8 +15367,8 @@ msgstr "usar padrão"
 
 #: models/ca_editor_ui_screens.php:545 models/ca_editor_ui_screens.php:596
 msgid ""
-"Restricts display to items related using the specified relationship type(s). Leave "
-"all unselected for no restriction."
+"Restricts display to items related using the specified relationship type(s). Leave all "
+"unselected for no restriction."
 msgstr ""
 "Restringe exibição a itens relacionados usando o(s) tipo(s) de relacionamento "
 "especificado(s). Deixe todos desmarcados para não impor restrições."
@@ -15437,8 +15378,8 @@ msgid ""
 "Restricts display to items of the specified type(s). Leave all unselected for no "
 "restriction."
 msgstr ""
-"Restringe a exibição a itens do(s) tipo(s) especificado(s). Deixe tudo desmarcado "
-"para não impor restrições."
+"Restringe a exibição a itens do(s) tipo(s) especificado(s). Deixe tudo desmarcado para "
+"não impor restrições."
 
 #: models/ca_editor_ui_screens.php:562 models/ca_editor_ui_screens.php:613
 msgid "Restrict to search expression"
@@ -15483,12 +15424,12 @@ msgstr "Não incluee subtipos na restrição de tipo"
 #: models/ca_editor_ui_screens.php:623
 msgid ""
 "Normally restricting to type(s) automatically includes all sub-(child) types. If this "
-"option is checked then the lookup results will include items with the selected "
-"type(s) <b>only</b>."
+"option is checked then the lookup results will include items with the selected type(s) "
+"<b>only</b>."
 msgstr ""
 "Normalmente, restringir a tipo(s) automaticamente inclui todos os tipos de nível "
-"inferior (filhos). Se esta opção estiver marcadam, os resultados de consulta "
-"incluirão <b>apenas</b> itens com o(s) tipo(s) selecionado(s)."
+"inferior (filhos). Se esta opção estiver marcadam, os resultados de consulta incluirão "
+"<b>apenas</b> itens com o(s) tipo(s) selecionado(s)."
 
 #: models/ca_editor_ui_screens.php:629
 msgid "bubbles (draggable)"
@@ -15554,14 +15495,14 @@ msgstr "Número mínimo de relações deste tipo para ser associado a um item. "
 #: models/ca_editor_ui_screens.php:718
 msgid ""
 "If set to 0 a delete button will allow a cataloguer to clear all relationships.  If "
-"set to 1 or more, it will not be possible to delete all relationships once the "
-"minimum is established. Note that this is only a user interface limitations rather "
-"than constraints on the underlying data model."
+"set to 1 or more, it will not be possible to delete all relationships once the minimum "
+"is established. Note that this is only a user interface limitations rather than "
+"constraints on the underlying data model."
 msgstr ""
 "Se definido como 0, um botão excluir permitirá a um catalogador limpar todas as "
-"relações. Se definido como 1 ou mais, não será possível excluir todas as relações, "
-"uma vez que o mínimo esteja estabelecido. Note que isto são apenas limitações da "
-"interface de usuário em vez de restrições sobre o modelo de dados subjacente."
+"relações. Se definido como 1 ou mais, não será possível excluir todas as relações, uma "
+"vez que o mínimo esteja estabelecido. Note que isto são apenas limitações da interface "
+"de usuário em vez de restrições sobre o modelo de dados subjacente."
 
 #: models/ca_editor_ui_screens.php:725
 msgid "Maximum number of relationships of this kind that can be associated with an item"
@@ -15573,9 +15514,9 @@ msgid ""
 "Note that this is only a user interface limitations rather than constraints on the "
 "underlying data model."
 msgstr ""
-"O grau de repetibilidade para a relação vai coincidir com o número inserido aqui. "
-"Note-se que esta é apenas uma limitação da interface do usuário, em vez de restrições "
-"sobre o modelo de dados subjacente."
+"O grau de repetibilidade para a relação vai coincidir com o número inserido aqui. Note-"
+"se que esta é apenas uma limitação da interface do usuário, em vez de restrições sobre "
+"o modelo de dados subjacente."
 
 #: models/ca_editor_ui_screens.php:735
 msgid "If checked only the most recently dated relationship displayed."
@@ -15689,8 +15630,8 @@ msgstr "Template de exibição do objeto"
 
 #: models/ca_editor_ui_screens.php:900
 msgid ""
-"Layout for referencing objects. Element code tags prefixed with the ^ character can "
-"be used to represent the value in the template. For example: <i>^ca_objects.idno</i>."
+"Layout for referencing objects. Element code tags prefixed with the ^ character can be "
+"used to represent the value in the template. For example: <i>^ca_objects.idno</i>."
 msgstr ""
 "Layout para referenciar objetos. Tags de código de elemento com o prefixo ^ podem ser "
 "usadas para representar o valor no template. Por exemplo: <i>^ca_objects.idno</i>."
@@ -15719,8 +15660,7 @@ msgid ""
 "be used to represent the value in the template. For example: <i>^ca_entities.idno</i>."
 msgstr ""
 "Layout para referenciar entidades. Tags de código de elemento com o prefixo ^ podem "
-"ser usadas para representar o valor no template. Por exemplo: <i>^ca_entities.idno</"
-"i>."
+"ser usadas para representar o valor no template. Por exemplo: <i>^ca_entities.idno</i>."
 
 #: models/ca_editor_ui_screens.php:923
 msgid "Place display template"
@@ -15745,8 +15685,8 @@ msgid ""
 "idno</i>."
 msgstr ""
 "Layout para referenciar ocorrências. Tags de código de elemento com o prefixo ^ podem "
-"ser usadas para representar o valor no template. Por exemplo: <i>^ca_occurrences."
-"idno</i>."
+"ser usadas para representar o valor no template. Por exemplo: <i>^ca_occurrences.idno</"
+"i>."
 
 #: models/ca_editor_ui_screens.php:939
 msgid "Collection display template"
@@ -15758,9 +15698,8 @@ msgid ""
 "can be used to represent the value in the template. For example: <i>^ca_collections."
 "idno</i>."
 msgstr ""
-"Layout para referenciar coleções. Tags de código de elemento com o prefixo ^ podem "
-"ser usadas para representar o valor no template. Por exemplo: <i>^ca_collections."
-"idno</i>."
+"Layout para referenciar coleções. Tags de código de elemento com o prefixo ^ podem ser "
+"usadas para representar o valor no template. Por exemplo: <i>^ca_collections.idno</i>."
 
 #: models/ca_editor_ui_screens.php:947
 msgid "Loan display template"
@@ -15781,8 +15720,7 @@ msgstr "Template de exibição de movimentação"
 #: models/ca_editor_ui_screens.php:956
 msgid ""
 "Layout for referencing movements. Element code tags prefixed with the ^ character can "
-"be used to represent the value in the template. For example: <i>^ca_movements.idno</"
-"i>."
+"be used to represent the value in the template. For example: <i>^ca_movements.idno</i>."
 msgstr ""
 "Layout para referenciar movimentações. Tags de código de elemento com o prefixo ^ "
 "podem ser usadas para representar o valor no template. Por exemplo: <i>^ca_movements."
@@ -15808,9 +15746,9 @@ msgstr "Template de exibição de item de lista"
 
 #: models/ca_editor_ui_screens.php:972
 msgid ""
-"Layout for referencing list items. Element code tags prefixed with the ^ character "
-"can be used to represent the value in the template. For example: <i>^ca_list_items."
-"idno</i>."
+"Layout for referencing list items. Element code tags prefixed with the ^ character can "
+"be used to represent the value in the template. For example: <i>^ca_list_items.idno</"
+"i>."
 msgstr ""
 "Layout para referenciar itens de lista. Tags de código de elemento com o prefixo ^ "
 "podem ser usadas para representar o valor no template. Por exemplo: <i>^ca_list_items."
@@ -15862,9 +15800,9 @@ msgid ""
 "relationship that is current. Element code tags prefixed with the ^ character can be "
 "used to represent the value in the template. For example: <i>^ca_movements.idno</i>."
 msgstr ""
-"Layout para localização atual do objeto quando exibido em lista (pode incluir HTML). "
-"O template é avaliado relativamente à relação objeto-movimento ou objeto-localização "
-"que for atual. Tags de código de elemento com o prefixo ^ podem ser usadas para "
+"Layout para localização atual do objeto quando exibido em lista (pode incluir HTML). O "
+"template é avaliado relativamente à relação objeto-movimento ou objeto-localização que "
+"for atual. Tags de código de elemento com o prefixo ^ podem ser usadas para "
 "representar o valor no template. Por exemplo: <i>^ca_movements.idno</i>."
 
 #: models/ca_editor_ui_screens.php:1034
@@ -15913,8 +15851,8 @@ msgstr "Usar navegador de hierarquia para locais de armazenamento?"
 
 #: models/ca_editor_ui_screens.php:1071 models/ca_editor_ui_screens.php:1166
 msgid ""
-"If checked a hierarchical browser will be used to select storage location items "
-"rather than an auto-complete lookup."
+"If checked a hierarchical browser will be used to select storage location items rather "
+"than an auto-complete lookup."
 msgstr ""
 "Se marcado, um navegador de hierarquia será usado para selecionar itens de local de "
 "armazenamento em vez de uma pesquisa de autocompletar."
@@ -15928,8 +15866,8 @@ msgid ""
 "If checked all settings are taken from the main application configuration file (app."
 "conf)."
 msgstr ""
-"Se marcado, todas as configurações são obtidas do arquivo de configuração principal "
-"do aplicativo (app.conf)."
+"Se marcado, todas as configurações são obtidas do arquivo de configuração principal do "
+"aplicativo (app.conf)."
 
 #: models/ca_editor_ui_screens.php:1127
 msgid "Hide \"Add to loan\" controls"
@@ -16002,8 +15940,8 @@ msgid ""
 msgstr ""
 "Layout para o lote quando exibido na lista de histórico (pode incluir HTML). O "
 "template é avaliado em relação ao lote. Tags de código de elemento com o prefixo ^ "
-"podem ser usadas para representar o valor no template. Por exemplo: "
-"<i>^ca_object_lots.idno_stub</i>."
+"podem ser usadas para representar o valor no template. Por exemplo: <i>^ca_object_lots."
+"idno_stub</i>."
 
 #: models/ca_editor_ui_screens.php:1222
 msgid "Show occurrences"
@@ -16120,9 +16058,9 @@ msgid ""
 "^ character can be used to represent the value in the template. For example: "
 "<i>^ca_objects.deaccession_notes</i>."
 msgstr ""
-"Layout para informações de remoção quando exibidas na lista de histórico (pode "
-"incluir HTML). O template é avaliado em relação ao objeto. Tags de código de elemento "
-"com o prefixo ^ podem ser usadas para representar o valor no template. Por exemplo: "
+"Layout para informações de remoção quando exibidas na lista de histórico (pode incluir "
+"HTML). O template é avaliado em relação ao objeto. Tags de código de elemento com o "
+"prefixo ^ podem ser usadas para representar o valor no template. Por exemplo: "
 "<i>^ca_objects.deaccession_notes</i>."
 
 #: models/ca_editor_ui_screens.php:1430
@@ -16175,8 +16113,7 @@ msgstr ""
 
 #: models/ca_editor_ui_screens.php:1492
 msgid "URL pointing to documentation. Leave blank if no documentation URL exists."
-msgstr ""
-"URL apontando para documentação. Deixe vazio se não existir URL de documentação."
+msgstr "URL apontando para documentação. Deixe vazio se não existir URL de documentação."
 
 #: models/ca_editor_ui_screens.php:1511
 msgid "Display bundle for types"
@@ -16184,8 +16121,8 @@ msgstr "Pacote de exibição para tipos"
 
 #: models/ca_editor_ui_screens.php:1512
 msgid ""
-"Restrict which types this bundle is displayed for. If no types are selected the "
-"bundle will be displayed for <strong>all</strong> types."
+"Restrict which types this bundle is displayed for. If no types are selected the bundle "
+"will be displayed for <strong>all</strong> types."
 msgstr ""
 "Restringir para quais tipos este pacote é exibido. Se nenhum tipo for selecionado, o "
 "pacote será exibido para <strong>todos</strong> os tipos."
@@ -16243,8 +16180,8 @@ msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this user "
 "interface"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar esta interface de usuário"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"esta interface de usuário"
 
 #: models/ca_editor_uis.php:57
 msgid "Editor code"
@@ -16349,8 +16286,8 @@ msgstr "entidade"
 msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this entity"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar esta entidade"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"esta entidade"
 
 #: models/ca_entities.php:65
 msgid "The locale from which the entity originates."
@@ -16390,11 +16327,11 @@ msgstr "Informações de fonte de dados"
 
 #: models/ca_entities.php:106
 msgid ""
-"Serialized array used to store source information for entity information retrieved "
-"via web services [NOT IMPLEMENTED YET]."
+"Serialized array used to store source information for entity information retrieved via "
+"web services [NOT IMPLEMENTED YET]."
 msgstr ""
-"Array serializado usado para armazenar informações da fonte sobre entidade obtidas "
-"via serviços web [ainda não está implementado]."
+"Array serializado usado para armazenar informações da fonte sobre entidade obtidas via "
+"serviços web [ainda não está implementado]."
 
 #: models/ca_entities.php:115
 msgid "Lifetime"
@@ -16491,8 +16428,8 @@ msgstr "Exibir nome"
 #: models/ca_entity_labels.php:82
 msgid ""
 "Name as it should be formatted for display (eg. in catalogues and exhibition label "
-"text). If you leave this blank the display name will be automatically derived from "
-"the input of other, more specific, fields."
+"text). If you leave this blank the display name will be automatically derived from the "
+"input of other, more specific, fields."
 msgstr ""
 "O nome como deve ser formatado para visualização (por exemplo., em catálogos e texto "
 "de rótulo de exposições). Se deixado vazio, o nome exibido será automaticamente "
@@ -16512,9 +16449,9 @@ msgid ""
 msgstr ""
 "Um nome próprio que especifica e diferencia entre membros de um grupo de indivíduos, "
 "especialmente numa família, cujos membros geralmente compartilham o mesmo nome de "
-"família (sobrenome). Normalmente é um nome dado a uma pessoa, em oposição a um "
-"herdado como um nome de família. Você deve colocar o nomeprimário - em casos nos "
-"quais há mais de um, este é geralmente o primeiro listado - aqui."
+"família (sobrenome). Normalmente é um nome dado a uma pessoa, em oposição a um herdado "
+"como um nome de família. Você deve colocar o nomeprimário - em casos nos quais há mais "
+"de um, este é geralmente o primeiro listado - aqui."
 
 #: models/ca_entity_labels.php:98
 msgid "Other forenames"
@@ -16603,8 +16540,8 @@ msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this queue "
 "entry"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar esta entrada de fila"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"esta entrada de fila"
 
 #: models/ca_ips.php:39
 msgid "IP-based authentication block"
@@ -16619,8 +16556,8 @@ msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this IP "
 "address block"
 msgstr ""
-"Identificador numérico único usado internamente pelo CollectiveAccess para "
-"identificar este bloco de endereço IP"
+"Identificador numérico único usado internamente pelo CollectiveAccess para identificar "
+"este bloco de endereço IP"
 
 #: models/ca_ips.php:60
 msgid "IP1"
@@ -16663,15 +16600,15 @@ msgid ""
 "Ending IP address in Class C IP address range. Leave blank if you wish to specify a "
 "single address rather than a range."
 msgstr ""
-"Terminando o endereço IP no intervalo de endereços IP de classe C. Deixe vazio se "
-"você desejar especificar um único endereço, em vez de um intervalo."
+"Terminando o endereço IP no intervalo de endereços IP de classe C. Deixe vazio se você "
+"desejar especificar um único endereço, em vez de um intervalo."
 
 #: models/ca_item_comments.php:50
 msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this comment"
 msgstr ""
-"Identificador numérico único usado internamente pelo CollectiveAccess para "
-"identificar este comentário"
+"Identificador numérico único usado internamente pelo CollectiveAccess para identificar "
+"este comentário"
 
 #: models/ca_item_comments.php:66
 msgid "The user who created the comment."
@@ -16766,8 +16703,8 @@ msgstr "tags"
 msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this tag"
 msgstr ""
-"Identificador numérico único usado internamente pelo CollectiveAccess para "
-"identificar esta tag"
+"Identificador numérico único usado internamente pelo CollectiveAccess para identificar "
+"esta tag"
 
 #: models/ca_item_tags.php:57
 msgid "The locale of the tag."
@@ -16853,8 +16790,8 @@ msgstr "item de lista"
 msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this item"
 msgstr ""
-"Identificador numérico único usado internamente pelo CollectiveAccess para "
-"identificar este item"
+"Identificador numérico único usado internamente pelo CollectiveAccess para identificar "
+"este item"
 
 #: models/ca_list_items.php:60 models/ca_tour_stops.php:60
 msgid "Parent"
@@ -16899,8 +16836,7 @@ msgstr "Valor do item"
 #: models/ca_list_items.php:100
 msgid "Value of this list item; is stored in database when this item is selected"
 msgstr ""
-"Valor deste item de lista; é armazenado na base de dados quando este item é "
-"selecionado"
+"Valor deste item de lista; é armazenado na base de dados quando este item é selecionado"
 
 #: models/ca_list_items.php:108
 msgid "Color to display item in"
@@ -16994,15 +16930,12 @@ msgstr ""
 "entidades que precisam de um nome pessoal totalmente articulado. Use <em>organização</"
 "em> para entidades de grupo como empresas, clubes e famílias."
 
-#: models/ca_list_items.php:250 models/ca_list_items.php:251
-#: models/ca_list_items.php:265 models/ca_list_items.php:266
-#: models/ca_list_items.php:280 models/ca_list_items.php:281
-#: models/ca_list_items.php:295 models/ca_list_items.php:296
-#: models/ca_list_items.php:310 models/ca_list_items.php:311
-#: models/ca_list_items.php:325 models/ca_list_items.php:326
-#: models/ca_list_items.php:340 models/ca_list_items.php:341
-#: models/ca_list_items.php:355 models/ca_list_items.php:356
-#: models/ca_list_items.php:370 models/ca_list_items.php:371
+#: models/ca_list_items.php:250 models/ca_list_items.php:251 models/ca_list_items.php:265
+#: models/ca_list_items.php:266 models/ca_list_items.php:280 models/ca_list_items.php:281
+#: models/ca_list_items.php:295 models/ca_list_items.php:296 models/ca_list_items.php:310
+#: models/ca_list_items.php:311 models/ca_list_items.php:325 models/ca_list_items.php:326
+#: models/ca_list_items.php:340 models/ca_list_items.php:341 models/ca_list_items.php:355
+#: models/ca_list_items.php:356 models/ca_list_items.php:370 models/ca_list_items.php:371
 #: models/ca_list_items.php:385 models/ca_list_items.php:386
 msgid "Render in new menu"
 msgstr "Rendizerir em novo menu"
@@ -17045,8 +16978,8 @@ msgstr "Nome da lista"
 msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this list"
 msgstr ""
-"Identificador numérico único usado internamente pelo CollectiveAccess para "
-"identificar esta lista"
+"Identificador numérico único usado internamente pelo CollectiveAccess para identificar "
+"esta lista"
 
 #: models/ca_lists.php:66
 msgid "List code"
@@ -17088,13 +17021,13 @@ msgstr "É lista de sistema"
 #: models/ca_lists.php:89
 msgid ""
 "Set this if the list is a list used by the system to populate a specific field (as "
-"opposed to a user defined list or vocabulary). In general, system lists are defined "
-"by the system installer - you should not have to create system lists on your own."
+"opposed to a user defined list or vocabulary). In general, system lists are defined by "
+"the system installer - you should not have to create system lists on your own."
 msgstr ""
-"Define isto se a lista é uma lista usada pelo sistema para popular um campo "
-"específico (em oposição a uma lista ou vocabulário definido pelo usuário). Em geral, "
-"listas de sistema são definidas pelo instalador do sistema - você não deve ter que "
-"criar listas de sistema por conta própria."
+"Define isto se a lista é uma lista usada pelo sistema para popular um campo específico "
+"(em oposição a uma lista ou vocabulário definido pelo usuário). Em geral, listas de "
+"sistema são definidas pelo instalador do sistema - você não deve ter que criar listas "
+"de sistema por conta própria."
 
 #: models/ca_lists.php:98
 msgid "Is hierarchical"
@@ -17163,14 +17096,13 @@ msgstr "Um identificador alfanumérico único para este empréstimo."
 
 #: models/ca_loans.php:92
 msgid ""
-"Administrative source of loan. This value is often used to indicate the "
-"administrative sub-division or legacy database from which the object originates, but "
-"can also be re-tasked for use as a simple classification tool if needed."
+"Administrative source of loan. This value is often used to indicate the administrative "
+"sub-division or legacy database from which the object originates, but can also be re-"
+"tasked for use as a simple classification tool if needed."
 msgstr ""
 "Fonte administrativa do empréstimo. Este valor é frequentemente usado para indicar a "
-"subdivisão administrativa ou base de dados legado de origem do objeto, mas também "
-"pode ser reprogramado para uso como uma simples ferramenta de classificação, se "
-"necessário."
+"subdivisão administrativa ou base de dados legado de origem do objeto, mas também pode "
+"ser reprogramado para uso como uma simples ferramenta de classificação, se necessário."
 
 #: models/ca_loans.php:99
 msgid ""
@@ -17324,8 +17256,8 @@ msgstr "idiomas"
 msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this locale"
 msgstr ""
-"Identificador numérico único usado internamente pelo CollectiveAccess para "
-"identificar este idioma"
+"Identificador numérico único usado internamente pelo CollectiveAccess para identificar "
+"este idioma"
 
 #: models/ca_locales.php:53
 msgid "Name of locale. The chosen name should be descriptive and must be unique."
@@ -17404,8 +17336,8 @@ msgid ""
 "Restricts entry to items related using the specified relationship type(s). Leave all "
 "unchecked for no restriction."
 msgstr ""
-"Restringe entrada a itens relacionados usando o(s) tipo(s) de relação "
-"especificado(s). Deixe todos desmarcados para não impor restrições."
+"Restringe entrada a itens relacionados usando o(s) tipo(s) de relação especificado(s). "
+"Deixe todos desmarcados para não impor restrições."
 
 #: models/ca_metadata_dictionary_entries.php:91
 msgid "Metadata dictionary entry"
@@ -17514,8 +17446,8 @@ msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this "
 "metadata element"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar este elemento de metadados"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"este elemento de metadados"
 
 #: models/ca_metadata_elements.php:74
 msgid "Unique alphanumeric code for the metadata element."
@@ -17571,11 +17503,11 @@ msgstr "O número mínimo de atributos deste tipo que devem ser associados a um 
 
 #: models/ca_metadata_type_restrictions.php:47
 msgid ""
-"If set to 0 a delete button will allow a cataloguer to quickly clear the data "
-"contents of the element by collapsing the placement on the user interface screen.  If "
-"set to 1, the element will be fixed in place and data will need to be deleted "
-"manually.  If set to more than 1, the element placement will be duplicated (up to the "
-"number entered here) when a new record or screen is opened."
+"If set to 0 a delete button will allow a cataloguer to quickly clear the data contents "
+"of the element by collapsing the placement on the user interface screen.  If set to 1, "
+"the element will be fixed in place and data will need to be deleted manually.  If set "
+"to more than 1, the element placement will be duplicated (up to the number entered "
+"here) when a new record or screen is opened."
 msgstr ""
 "Se definido como 0, um botão de exclusão permitirá que um catalogador limpe "
 "rapidamente o conteúdo de dados do elemento ao recolher o posicionamento na tela da "
@@ -17591,8 +17523,7 @@ msgstr "O número máximo de atributos deste tipo que podem ser associados a um 
 #: models/ca_metadata_type_restrictions.php:55
 msgid ""
 "If set to more than 1 the element will be repeated to capture additional data values "
-"during cataloging.  The extent of the repeatability will match the number entered "
-"here."
+"during cataloging.  The extent of the repeatability will match the number entered here."
 msgstr ""
 "Se definido como mais do que 1, o elemento será repetido para capturar valores "
 "adicionais de dados durante o catalogamento. A extensão da repetibilidade "
@@ -17605,10 +17536,10 @@ msgstr "Número mínimo de pacotes de atributos para mostrar em um formulário d
 #: models/ca_metadata_type_restrictions.php:63
 msgid ""
 "If 0 is entered here, sets an element to the collapsed position when a new record or "
-"screen is opened.  This is useful for list elements in leu of a null value, because "
-"no data selection will be saved when the element is collapsed.  Note: \"Minimum "
-"number of attributes of this kind that must be associated with an item\" must also be "
-"saved as 0 to set the element to the collapsed position."
+"screen is opened.  This is useful for list elements in leu of a null value, because no "
+"data selection will be saved when the element is collapsed.  Note: \"Minimum number of "
+"attributes of this kind that must be associated with an item\" must also be saved as 0 "
+"to set the element to the collapsed position."
 msgstr ""
 "Se 0 for inserido aqui, define um elemento para a posição recolhida quando um novo "
 "registro ou tela for aberto. Isso é útil para elementos de lista em vez de um valor "
@@ -17655,11 +17586,10 @@ msgstr "movimento"
 
 #: models/ca_movements.php:51
 msgid ""
-"Unique numeric identifier used by CollectiveAccess internally to identify this "
-"movement"
+"Unique numeric identifier used by CollectiveAccess internally to identify this movement"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar este movimento"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"este movimento"
 
 #: models/ca_movements.php:59
 msgid "Movement type"
@@ -17684,9 +17614,8 @@ msgid ""
 "can also be re-tasked for use as a simple classification tool if needed."
 msgstr ""
 "Fonte administrativa do movimento. Este valor é frequentemente usado para indicar a "
-"subdivisão administrativa ou base de dados legado de origem do objeto, mas também "
-"pode ser reprogramado para uso como uma simples ferramenta de classificação se "
-"necessário."
+"subdivisão administrativa ou base de dados legado de origem do objeto, mas também pode "
+"ser reprogramado para uso como uma simples ferramenta de classificação se necessário."
 
 #: models/ca_movements.php:92
 msgid ""
@@ -17821,8 +17750,8 @@ msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this object "
 "checkout entry"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar esta entrada de retirada de objeto"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"esta entrada de retirada de objeto"
 
 #: models/ca_object_checkouts.php:80
 msgid "The user who checked out the object."
@@ -17948,8 +17877,8 @@ msgstr "lote de objetos"
 msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this lot"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar este lote"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"este lote"
 
 #: models/ca_object_lots.php:60
 msgid ""
@@ -17958,8 +17887,8 @@ msgid ""
 "applied to it."
 msgstr ""
 "O tipo do lote de objetos. No CollectiveAccess, cada lote tem um único tipo "
-"\"intrínseco\" que determina o conjunto de metadados descritivos e administrativos "
-"que podem ser-lhe aplicados."
+"\"intrínseco\" que determina o conjunto de metadados descritivos e administrativos que "
+"podem ser-lhe aplicados."
 
 #: models/ca_object_lots.php:68 models/ca_objects.php:202
 msgid "Accession status"
@@ -17991,8 +17920,7 @@ msgid ""
 "compose the lot by this record. It is stored as a whole number (eg. 1, 2, 3...)."
 msgstr ""
 "A extensão do lote de objetos. Isto é tipicamente o número de itens discretos que "
-"compõem o lote por este registro. É armazenado como um número inteiro (ex. 1, 2, "
-"3...)."
+"compõem o lote por este registro. É armazenado como um número inteiro (ex. 1, 2, 3...)."
 
 #: models/ca_object_lots.php:98 models/ca_objects.php:248
 msgid "Extent units"
@@ -18017,9 +17945,8 @@ msgid ""
 "tasked for use as a simple classification tool if needed."
 msgstr ""
 "Fonte administrativa do lote. Este valor é frequentemente usado para indicar a "
-"subdivisão administrativa ou base de dados legado de origem do objeto, mas também "
-"pode ser reprogramado para uso como uma simples ferramenta de classificação, se "
-"necessário."
+"subdivisão administrativa ou base de dados legado de origem do objeto, mas também pode "
+"ser reprogramado para uso como uma simples ferramenta de classificação, se necessário."
 
 #: models/ca_object_lots.php:149
 msgid "Indicates if the object lot is deleted or not."
@@ -18148,8 +18075,8 @@ msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this "
 "representation"
 msgstr ""
-"Identificador numérico único usado internamente pelo CollectiveAccess para "
-"identificar esta representação"
+"Identificador numérico único usado internamente pelo CollectiveAccess para identificar "
+"esta representação"
 
 #: models/ca_object_representations.php:65
 msgid "The locale from which the representation originates."
@@ -18157,11 +18084,11 @@ msgstr "O idioma de origem da representação."
 
 #: models/ca_object_representations.php:75
 msgid ""
-"Indicates the type of the representation. The type can only be set when creating a "
-"new representation and cannot be changed once the representation is saved."
+"Indicates the type of the representation. The type can only be set when creating a new "
+"representation and cannot be changed once the representation is saved."
 msgstr ""
-"Indica o tipo de representação. Só pode ser definido ao criar uma nova representação "
-"e não pode ser alterado uma vez salvo."
+"Indica o tipo de representação. Só pode ser definido ao criar uma nova representação e "
+"não pode ser alterado uma vez salvo."
 
 #: models/ca_object_representations.php:82
 msgid "Representation identifier"
@@ -18263,8 +18190,8 @@ msgid ""
 "Indicates that the representation should be used to depict the collection is "
 "situations where only a single representation can be displayed (eg. search results)."
 msgstr ""
-"Indica que a representação deve ser usada para representar a coleção em situações "
-"onde apenas uma representação pode ser exibida (ex. resultados de pesquisa)."
+"Indica que a representação deve ser usada para representar a coleção em situações onde "
+"apenas uma representação pode ser exibida (ex. resultados de pesquisa)."
 
 #: models/ca_object_representations_x_entities.php:40
 msgid "object representation ⇔ entity relationship"
@@ -18311,8 +18238,8 @@ msgid ""
 "Indicates that the representation should be used to depict the place is situations "
 "where only a single representation can be displayed (eg. search results)."
 msgstr ""
-"Indica que a representação deve ser usada para representar o lugar em situações em "
-"que apenas uma representação pode ser exibida (ex. resultados de pesquisa)."
+"Indica que a representação deve ser usada para representar o lugar em situações em que "
+"apenas uma representação pode ser exibida (ex. resultados de pesquisa)."
 
 #: models/ca_object_representations_x_storage_locations.php:40
 msgid "object representation ⇔ storage location relationship"
@@ -18341,8 +18268,8 @@ msgstr "relações representações de objeto ⇔ termo de vocabulário"
 
 #: models/ca_object_representations_x_vocabulary_terms.php:92
 msgid ""
-"Indicates that the representation should be used to depict the list item is "
-"situations where only a single representation can be displayed (eg. search results)."
+"Indicates that the representation should be used to depict the list item is situations "
+"where only a single representation can be displayed (eg. search results)."
 msgstr ""
 "Indica que a representação deve ser usada para representar o item de lista nas "
 "situações em que apenas uma única representação pode ser exibida (ex.: resultados da "
@@ -18356,8 +18283,8 @@ msgstr "objeto"
 msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this object"
 msgstr ""
-"Identificador numérico único usado internamente pelo CollectiveAccess para "
-"identificar esse objeto"
+"Identificador numérico único usado internamente pelo CollectiveAccess para identificar "
+"esse objeto"
 
 #: models/ca_objects.php:80 models/ca_user_sort_items.php:54
 msgid "Lot"
@@ -18374,16 +18301,15 @@ msgid ""
 "can also be re-tasked for use as a simple classification tool if needed."
 msgstr ""
 "Origem administrativa do objeto. Este valor é muitas vezes usado para indicar a "
-"subdivisão administrativa ou base de dados legado de origem do objeto, mas também "
-"pode ser reprogramado para uso como uma simples ferramenta de classificação, se "
-"necessário."
+"subdivisão administrativa ou base de dados legado de origem do objeto, mas também pode "
+"ser reprogramado para uso como uma simples ferramenta de classificação, se necessário."
 
 #: models/ca_objects.php:105
 msgid ""
 "The type of the object. In CollectiveAccess every object has a single \"instrinsic\" "
 "type that determines the set of descriptive, technical and administrative metadata "
-"that can be applied to it. As such this type is \"low-level\" and directly tied to "
-"the form of the object - eg. photograph, book, analog video recording, etc."
+"that can be applied to it. As such this type is \"low-level\" and directly tied to the "
+"form of the object - eg. photograph, book, analog video recording, etc."
 msgstr ""
 "Tipo do objeto. No CollectiveAccessm cada objeto tem um tipo único \"intrínseco\" que "
 "determina o conjunto de metadados descritivos, técnicos e administrativos que podem "
@@ -18443,8 +18369,8 @@ msgid ""
 "Indicates classification of last location for objects (eg. storage location, "
 "occurrence, loan, movement)"
 msgstr ""
-"Indica a classificação da última localização para objetos (ex. local de "
-"armazenamento, ocorrência, empréstimo, movimentação)"
+"Indica a classificação da última localização para objetos (ex. local de armazenamento, "
+"ocorrência, empréstimo, movimentação)"
 
 #: models/ca_objects.php:187
 msgid "Current location sub-class"
@@ -18481,8 +18407,7 @@ msgstr "Indica o método utilizado para adquirir o objeto."
 #: models/ca_objects.php:240
 msgid ""
 "The extent of the object. This is typically the number of discrete items that compose "
-"the object represented by this record. It is stored as a whole number (eg. 1, 2, "
-"3...)."
+"the object represented by this record. It is stored as a whole number (eg. 1, 2, 3...)."
 msgstr ""
 "A dimensão do objeto. É normalmente o número de itens discretos que compõem o objeto "
 "representado por este registro. É armazenado como um número inteiro (ex.: 1, 2, 3...)."
@@ -18529,8 +18454,8 @@ msgstr "Herdar as configurações de controle de acesso a nível de item do pai?
 
 #: models/ca_objects.php:317
 msgid ""
-"Determines whether item-level access control settings set for parent object is "
-"applied to this object."
+"Determines whether item-level access control settings set for parent object is applied "
+"to this object."
 msgstr ""
 "Determina se as configurações de controle de acesso a nível de item definidas para o "
 "objeto pai se aplicam a este objeto."
@@ -18709,8 +18634,8 @@ msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this "
 "occurrence"
 msgstr ""
-"Identificador numérico único usado internamente pelo CollectiveAccess para "
-"identificar esta ocorrência"
+"Identificador numérico único usado internamente pelo CollectiveAccess para identificar "
+"esta ocorrência"
 
 #: models/ca_occurrences.php:66
 msgid "The locale from which the item originates."
@@ -18719,12 +18644,12 @@ msgstr "O Idioma de origem do item."
 #: models/ca_occurrences.php:74
 msgid ""
 "The type of the occurrence. In CollectiveAccess every occurrence has a single "
-"\"instrinsic\" type that determines the set of descriptive and administrative "
-"metadata that can be applied to it."
+"\"instrinsic\" type that determines the set of descriptive and administrative metadata "
+"that can be applied to it."
 msgstr ""
 "O tipo da ocorrência. No CollectiveAccess, toda ocorrência tem um tipo único "
-"\"intrínseco\" que determina o conjunto de metadados descritivos e administrativos "
-"que podem ser-lhe aplicados."
+"\"intrínseco\" que determina o conjunto de metadados descritivos e administrativos que "
+"podem ser-lhe aplicados."
 
 #: models/ca_occurrences.php:82
 msgid "A unique alphanumeric identifier for this entry."
@@ -18809,8 +18734,8 @@ msgstr "lugar"
 msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this place"
 msgstr ""
-"Identificador numérico único usado internamente pelo CollectiveAccess para "
-"identificar este lugar"
+"Identificador numérico único usado internamente pelo CollectiveAccess para identificar "
+"este lugar"
 
 #: models/ca_places.php:67
 msgid "The primary locale associated with the place."
@@ -18969,8 +18894,8 @@ msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this "
 "relationship type"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar este tipo de relação"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"este tipo de relação"
 
 #: models/ca_relationship_types.php:56
 msgid "Type restriction for \"left\" side of relationship"
@@ -18992,9 +18917,9 @@ msgstr "Restrição de tipo para o lado \"direito\" da relação"
 
 #: models/ca_relationship_types.php:63
 msgid ""
-"Type restriction for \"right\" side of relationship (eg. if relationship is object "
-"��� entity, then the restriction controls for which types of entities this "
-"relationship type is valid."
+"Type restriction for \"right\" side of relationship (eg. if relationship is object ��� "
+"entity, then the restriction controls for which types of entities this relationship "
+"type is valid."
 msgstr ""
 "Restrição de tipo para o lado \"direito\" da relação (por exemplo, se a relação é "
 "objeto ��� entidade, então a restrição controla quais tipos de entidades este tipo de "
@@ -19015,8 +18940,8 @@ msgstr "Código do tipo de relação"
 
 #: models/ca_relationship_types.php:86
 msgid ""
-"Unique identifier for the relationship type; must be unique for relationship types "
-"for the current relationship."
+"Unique identifier for the relationship type; must be unique for relationship types for "
+"the current relationship."
 msgstr ""
 "Identificador único para o tipo de relação; deve ser único para tipos de relação para "
 "a relação atual."
@@ -19046,8 +18971,8 @@ msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this log "
 "entry"
 msgstr ""
-"Identificador numérico único usado internamente pelo CollectiveAccess para "
-"identificar esta entrada de log"
+"Identificador numérico único usado internamente pelo CollectiveAccess para identificar "
+"esta entrada de log"
 
 #: models/ca_representation_annotation_labels.php:41
 msgid "representation annotation title"
@@ -19203,8 +19128,8 @@ msgstr "formulário de pesquisa"
 msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this form"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar este formulário"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"este formulário"
 
 #: models/ca_search_forms.php:63
 msgid "The user who created the form."
@@ -19231,9 +19156,9 @@ msgstr "É formulário do sistema"
 
 #: models/ca_search_forms.php:80
 msgid ""
-"Set this if the form is a form used by the system (as opposed to a user defined "
-"form). In general, system forms are defined by the system installer - you should not "
-"have to create system forms on your own."
+"Set this if the form is a form used by the system (as opposed to a user defined form). "
+"In general, system forms are defined by the system installer - you should not have to "
+"create system forms on your own."
 msgstr ""
 "Defina isto se o formulário é um formulário usado pelo sistema (em oposição a um "
 "formulário definido pelo usuário). Em geral, os formulários do sistema são definidos "
@@ -19246,8 +19171,7 @@ msgstr "Tipo de pesquisa"
 
 #: models/ca_search_forms.php:90
 msgid ""
-"Determines what type of search (objects, entities, places, etc.) the form will "
-"conduct."
+"Determines what type of search (objects, entities, places, etc.) the form will conduct."
 msgstr ""
 "Determina que tipo de pesquisa (objetos, entidades, lugares, etc.), o formulário "
 "realizará."
@@ -19334,11 +19258,10 @@ msgstr "item de conjunto"
 
 #: models/ca_set_items.php:49
 msgid ""
-"Unique numeric identifier used by CollectiveAccess internally to identify this set "
-"item"
+"Unique numeric identifier used by CollectiveAccess internally to identify this set item"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar este item de conjunto"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"este item de conjunto"
 
 #: models/ca_set_items.php:56
 msgid "Set"
@@ -19378,7 +19301,7 @@ msgstr "Locais de armazenamento"
 
 #: models/ca_set_items.php:72 models/ca_sets.php:96 models/ca_user_sorts.php:66
 msgid "Object representations"
-msgstr "Representação de objeto"
+msgstr "Representações de objeto"
 
 #: models/ca_set_items.php:73 models/ca_sets.php:97 models/ca_user_sorts.php:67
 msgid "Loans"
@@ -19390,7 +19313,7 @@ msgstr "Movimentações"
 
 #: models/ca_set_items.php:75 models/ca_sets.php:99 models/ca_user_sorts.php:69
 msgid "List items"
-msgstr "Listar itens"
+msgstr "Itens de lista"
 
 #: models/ca_set_items.php:76 models/ca_sets.php:100 models/ca_user_sorts.php:70
 msgid "Tours"
@@ -19441,8 +19364,8 @@ msgstr "conjunto"
 msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this set"
 msgstr ""
-"Identificador numérico único usado internamente pelo CollectiveAccess para "
-"identificar este conjunto"
+"Identificador numérico único usado internamente pelo CollectiveAccess para identificar "
+"este conjunto"
 
 #: models/ca_sets.php:78
 msgid "The user who created the set."
@@ -19455,12 +19378,12 @@ msgstr "Código do conjunto"
 #: models/ca_sets.php:117
 msgid ""
 "A unique alphanumeric code for this set. You will need to specify this if you are "
-"using this set in a special context (on a web front-end, for example) in which the "
-"set must be unambiguously identified."
+"using this set in a special context (on a web front-end, for example) in which the set "
+"must be unambiguously identified."
 msgstr ""
-"Um código alfanumérico único para este conjunto. Você terá que especificar este "
-"código se estiver usando este conjunto em um contexto especial (num front-end web, "
-"por exemplo) no qual o conjunto deve ser identificado de forma inequívoca."
+"Um código alfanumérico único para este conjunto. Você terá que especificar este código "
+"se estiver usando este conjunto em um contexto especial (num front-end web, por "
+"exemplo) no qual o conjunto deve ser identificado de forma inequívoca."
 
 #: models/ca_sets.php:167
 msgid "Indicates if the set is deleted or not."
@@ -19503,8 +19426,8 @@ msgid ""
 "Period of time for which this access is in effect. Leave blank if you do not wish to "
 "restrict access to a specific period of time."
 msgstr ""
-"Período de tempo efetivo deste acesso. Deixe vazio se não deseja limitar o acesso a "
-"um determinado período de tempo."
+"Período de tempo efetivo deste acesso. Deixe vazio se não deseja limitar o acesso a um "
+"determinado período de tempo."
 
 #: models/ca_sets_x_users.php:40
 msgid "user-set assocation"
@@ -19536,11 +19459,11 @@ msgstr "local de armazenamento"
 
 #: models/ca_storage_locations.php:52
 msgid ""
-"Unique numeric identifier used by CollectiveAccess internally to identify this "
-"storage location"
+"Unique numeric identifier used by CollectiveAccess internally to identify this storage "
+"location"
 msgstr ""
-"Identificador numérico único usado internamente pelo CollectiveAccess para "
-"identificar este local de armazenamento"
+"Identificador numérico único usado internamente pelo CollectiveAccess para identificar "
+"este local de armazenamento"
 
 #: models/ca_storage_locations.php:67
 msgid ""
@@ -19548,9 +19471,9 @@ msgid ""
 "single \"instrinsic\" type that determines the set of descriptive and administrative "
 "metadata that can be applied to it."
 msgstr ""
-"O tipo de local de armazenamento. No CollectiveAccess, cada local de armazenamento "
-"tem um tipo \"intrínseco\" simples que determina o conjunto de metadados descritivos "
-"e administrativos que podem ser-lhe aplicados."
+"O tipo de local de armazenamento. No CollectiveAccess, cada local de armazenamento tem "
+"um tipo \"intrínseco\" simples que determina o conjunto de metadados descritivos e "
+"administrativos que podem ser-lhe aplicados."
 
 #: models/ca_storage_locations.php:75
 msgid "Location identifier"
@@ -19566,10 +19489,10 @@ msgid ""
 "administrative sub-division or legacy database from which the object originates, but "
 "can also be re-tasked for use as a simple classification tool if needed."
 msgstr ""
-"Fonte administrativa do local de armazenamento. Este valor é frequentemente usado "
-"para indicar a sub-divisão administrativa ou base de dados legado de origem do "
-"objeto, mas também pode ser reatribuído para uso como uma ferramenta de classificação "
-"simples, se necessário."
+"Fonte administrativa do local de armazenamento. Este valor é frequentemente usado para "
+"indicar a sub-divisão administrativa ou base de dados legado de origem do objeto, mas "
+"também pode ser reatribuído para uso como uma ferramenta de classificação simples, se "
+"necessário."
 
 #: models/ca_storage_locations.php:127
 msgid "Indicates if location information is accessible to the public or not. "
@@ -19797,14 +19720,13 @@ msgstr "Indica o estado atual do visita."
 
 #: models/ca_tours.php:132
 msgid ""
-"Administrative source of tour. This value is often used to indicate the "
-"administrative sub-division or legacy database from which the object originates, but "
-"can also be re-tasked for use as a simple classification tool if needed."
+"Administrative source of tour. This value is often used to indicate the administrative "
+"sub-division or legacy database from which the object originates, but can also be re-"
+"tasked for use as a simple classification tool if needed."
 msgstr ""
 "Fonte administrativa da visita. Este valor é frequentemente usado para indicar a "
-"subdivisão administrativa ou base de dados legado de origem do objeto, mas pode "
-"também ser reprogramado para uso como uma simples ferramenta de classificação, se "
-"necessário."
+"subdivisão administrativa ou base de dados legado de origem do objeto, mas pode também "
+"ser reprogramado para uso como uma simples ferramenta de classificação, se necessário."
 
 #: models/ca_tours.php:520
 msgid "Could not reorder stop %1: %2"
@@ -19822,8 +19744,8 @@ msgstr "Id de grupo"
 msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this group"
 msgstr ""
-"Identificador numérico único usado internamente pelo CollectiveAccess para "
-"identificar este grupo"
+"Identificador numérico único usado internamente pelo CollectiveAccess para identificar "
+"este grupo"
 
 #: models/ca_user_groups.php:63
 msgid "Name of group. Should be unique."
@@ -19842,8 +19764,8 @@ msgid ""
 "Description of group. This text will be displayed to system administrators only and "
 "should clearly document the purpose of the group."
 msgstr ""
-"Descrição do grupo. Este texto será mostrado unicamente aos administradores de "
-"sistema e deve claramente documentar o propósito do grupo."
+"Descrição do grupo. Este texto será mostrado unicamente aos administradores de sistema "
+"e deve claramente documentar o propósito do grupo."
 
 #: models/ca_user_groups.php:88
 msgid "Group administrator"
@@ -20048,8 +19970,8 @@ msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this sort "
 "item"
 msgstr ""
-"Identificador numérico único usado internamente pelo CollectiveAccess para "
-"identificar este item de ordenação"
+"Identificador numérico único usado internamente pelo CollectiveAccess para identificar "
+"este item de ordenação"
 
 #: models/ca_user_sort_items.php:54
 msgid "Sort this item belongs to"
@@ -20079,16 +20001,15 @@ msgstr "ordenações de usuário"
 msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this sort"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar esta ordenação"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"esta ordenação"
 
 #: models/ca_user_sorts.php:57
 msgid "Sort subject"
 msgstr "Ordenar assunto"
 
 #: models/ca_user_sorts.php:57
-msgid ""
-"Determines what kind of items (objects, entities, places, etc.) are being sorted."
+msgid "Determines what kind of items (objects, entities, places, etc.) are being sorted."
 msgstr ""
 "Determina quais tipo de itens (objetos, entidades, lugares, etc.) estão sendo "
 "ordenados."
@@ -20129,8 +20050,8 @@ msgstr "Id de usuário"
 msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this user"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar este usuário"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"este usuário"
 
 #: models/ca_users.php:62
 msgid ""
@@ -20393,8 +20314,8 @@ msgid ""
 "Unique numeric identifier used by CollectiveAccess internally to identify this watch "
 "list entry"
 msgstr ""
-"Identificador numérico único usado pelo CollectiveAccess internamente para "
-"identificar esta entrada de lista de observação"
+"Identificador numérico único usado pelo CollectiveAccess internamente para identificar "
+"esta entrada de lista de observação"
 
 #: models/ca_watch_list.php:71
 msgid "The user who is watching the specified record."
@@ -20488,8 +20409,8 @@ msgstr "Pré-gerar PDF de guias de pesquisa para download."
 
 #: plugins/NYSocStatisticsGenerator/lib/NYSocStatisticsGeneratorTool.php:150
 msgid ""
-"Generates statistics for the New York Society Library Historic Reading Records "
-"project front-end web site."
+"Generates statistics for the New York Society Library Historic Reading Records project "
+"front-end web site."
 msgstr ""
 "Gera estatísticas para o projeto de registros de leitura históricos da Biblioteca da "
 "Sociedade de Nova York."

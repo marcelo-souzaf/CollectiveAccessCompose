@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: CollectiveAccess Providence\n"
 "Report-Msgid-Bugs-To: info@collectiveaccess.org\n"
 "POT-Creation-Date: 2021-12-27 14:57+0100\n"
-"PO-Revision-Date: 2023-09-22 04:26-0300\n"
+"PO-Revision-Date: 2023-09-25 00:35-0300\n"
 "Last-Translator: Seth <Seth@collectiveacess.org>\n"
 "Language-Team: Portuguese (http://www.transifex.com/collectiveaccess/collectiveaccess-"
 "providence/language/pt/)\n"
@@ -1753,7 +1753,7 @@ msgstr "Você navegou por: "
 #: ../../themes/default/views/administrate/setup/Browse/browse_controls_html.php:102
 #: ../../themes/default/views/find/Browse/browse_controls_html.php:102
 msgid "start over"
-msgstr "começar de novo"
+msgstr "recomeçar"
 
 #: ../../themes/default/views/administrate/setup/Browse/browse_controls_html.php:110
 #: ../../themes/default/views/find/Browse/browse_controls_html.php:110
@@ -3309,7 +3309,7 @@ msgstr "Adicionar um(a) novo(a) %1 %2 <em>%3</em>"
 #: ../../themes/default/views/bundles/hierarchy_location.php:378
 msgid "Use the controls below to create new %1 relative to this %2 in the hierarchy."
 msgstr ""
-"Use os controles abaixo para criar um(a) novo(a) %1 relativo a este %2 na hierarquia."
+"Use os controles abaixo para criar um(a) novo(a) %1 relativo a este(a) %2 na hierarquia."
 
 #: ../../themes/default/views/bundles/hierarchy_location.php:386
 msgid "Add a new %1 under <em>%2</em>"
@@ -4375,7 +4375,7 @@ msgstr "%1 regras estão disponíveis para edição"
 #: ../../themes/default/views/manage/set_list_html.php:40
 #: ../../themes/default/views/manage/set_list_by_user_html.php:40
 msgid "Create new"
-msgstr "Criar novo"
+msgstr "Criar novo(a)"
 
 #: ../../themes/default/views/manage/set_list_html.php:47
 #: ../../themes/default/views/manage/set_list_by_user_html.php:47
@@ -6027,7 +6027,7 @@ msgstr "Criar um registro filho sob este"
 
 #: ../../app/helpers/displayHelpers.php:1216
 msgid "Duplicate this %1"
-msgstr "Duplicar este %1"
+msgstr "Duplicar este(a) %1"
 
 # More below
 #: ../../app/helpers/displayHelpers.php:1223
@@ -15657,7 +15657,7 @@ msgstr "Todos os vocabulários"
 
 #: ../../app/lib/Attributes/Values/LCSHAttributeValue.php:141
 msgid "LC Subject Headings"
-msgstr "Cabeçalhos de Assunto LC"
+msgstr "Títulos de Assunto LC"
 
 #: ../../app/lib/Attributes/Values/LCSHAttributeValue.php:142
 msgid "LC Name Authority File"
@@ -15665,7 +15665,7 @@ msgstr "Nome do Arquivo de Autoridade"
 
 #: ../../app/lib/Attributes/Values/LCSHAttributeValue.php:143
 msgid "LC Subject Headings for Children"
-msgstr "Cabeçalhos de Assunto LC para Crianças"
+msgstr "Títulos de Assunto LC para Crianças"
 
 #: ../../app/lib/Attributes/Values/LCSHAttributeValue.php:144
 msgid "LC Genre/Forms File"
@@ -19826,13 +19826,13 @@ msgstr ""
 #: ../../app/widgets/recordsByStatus/recordsByStatusWidget.php:71
 #: ../../app/widgets/recordsByStatus/recordsByStatusWidget.php:242
 msgid "Object representations"
-msgstr "Representação de objeto"
+msgstr "Representações de objeto"
 
 #: ../../app/models/ca_set_items.php:75 ../../app/models/ca_metadata_alert_rules.php:86
 #: ../../app/models/ca_sets.php:101 ../../app/models/ca_user_sorts.php:69
 #: ../../app/conf/navigation.conf:3487
 msgid "List items"
-msgstr "Listar itens"
+msgstr "Itens de lista"
 
 #: ../../app/models/ca_set_items.php:93 ../../app/models/ca_sets.php:112
 msgid ""

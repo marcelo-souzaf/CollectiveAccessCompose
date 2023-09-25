@@ -20,7 +20,7 @@
           <name>Thésaurus Art &amp;amp; Architecture</name>
         </label>
       </labels>
-      <items/>
+      <items />
     </list>
     <list code="object_sources" hierarchical="1" system="0" vocabulary="0">
       <labels>
@@ -358,10 +358,9 @@
               <name_singular>bequest</name_singular>
               <name_plural>bequests</name_plural>
             </label>
-            <!-- fuzzy -->
             <label locale="pt_BR" preferred="1">
-              <name_singular>herança</name_singular>
-              <name_plural>heranças</name_plural>
+              <name_singular>legado</name_singular>
+              <name_plural>legados</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>leg</name_singular>
@@ -843,10 +842,9 @@
         <item idno="i1" enabled="1" default="1">
           <labels>
             <label locale="en_US" preferred="1">
-              <name_singular>Entity Sources</name_singular>
+              <name_singular>Entity Source</name_singular>
               <name_plural>Entity Sources</name_plural>
             </label>
-            <!-- fuzzy -->
             <label locale="pt_BR" preferred="1">
               <name_singular>Fonte de entidade</name_singular>
               <name_plural>Fontes de entidades</name_plural>
@@ -1161,7 +1159,6 @@
               <name_singular>Overall dimensions</name_singular>
               <name_plural>Overall dimensions</name_plural>
             </label>
-            <!-- fuzzy -->
             <label locale="pt_BR" preferred="1">
               <name_singular>Dimensões totais</name_singular>
               <name_plural>Dimensões totais</name_plural>
@@ -1367,6 +1364,10 @@
               <name_singular>null</name_singular>
               <name_plural>null</name_plural>
             </label>
+            <label locale="pt_BR" preferred="1">
+              <name_singular>nulo</name_singular>
+              <name_plural>nulo</name_plural>
+            </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>non concerné</name_singular>
               <name_plural>non concerné</name_plural>
@@ -1394,10 +1395,9 @@
               <name_singular>home</name_singular>
               <name_plural>home</name_plural>
             </label>
-            <!-- fuzzy -->
             <label locale="pt_BR" preferred="1">
-              <name_singular>casa</name_singular>
-              <name_plural>casas</name_plural>
+              <name_singular>domicílio</name_singular>
+              <name_plural>domicílios</name_plural>
             </label>
             <label locale="fr_FR" preferred="1">
               <name_singular>domicile</name_singular>
@@ -1897,8 +1897,8 @@
           <description>Library of Congress Subject headings describing this object. To add a new heading simply type the first few letters of the heading and choose the desired one from the displayed list of possible matches.</description>
         </label>
         <label locale="pt_BR">
-          <name>Cabeçalhos de Assunto da Biblioteca do Congresso (Library of Congress Subject Headings)</name>
-          <description>Cabeçalhos de assunto da Biblioteca do Congresso descrevendo este objeto. Para adicionar um novo cabeçalho, simplesmente digite as primeiras letras do cabeçalho e escolha o desejado da lista de possíveis correspondências exibidas.</description>
+          <name>Títulos de Assunto da Biblioteca do Congresso (Library of Congress Subject Headings)</name>
+          <description>Títulos de assunto da Biblioteca do Congresso descrevendo este objeto. Para adicionar um novo título, simplesmente digite as primeiras letras do título e escolha o desejado da lista de possíveis correspondências exibidas.</description>
         </label>
         <label locale="fr_FR">
           <name>Vedettes matières de la Bibliothèque du Congrès (Library of Congress Subject Headings)</name>
@@ -1980,7 +1980,7 @@
               <name>Nom du site web</name>
             </label>
           </labels>
-          <settings/>
+          <settings />
           <elements>
             <metadataElement code="url_source" datatype="Text">
               <labels>
@@ -2015,7 +2015,7 @@
               <name>URL</name>
             </label>
           </labels>
-          <settings/>
+          <settings />
           <elements>
             <metadataElement code="url_entry" datatype="Url">
               <labels>
@@ -2609,7 +2609,6 @@
         <label locale="en_US">
           <name>Inscription</name>
         </label>
-        <!-- fuzzy -->
         <label locale="pt_BR">
           <name>Inscrição</name>
         </label>
@@ -2676,7 +2675,7 @@
           <description>Conserve l\'historique des emplacements et des mouvements d\'un objet.</description>
         </label>
       </labels>
-      <settings/>
+      <settings />
       <elements>
         <metadataElement code="storage_line1" datatype="Container">
           <labels>
@@ -2690,7 +2689,7 @@
               <name>Emplacement</name>
             </label>
           </labels>
-          <settings/>
+          <settings />
           <elements>
             <metadataElement code="storageLine1" datatype="Text">
               <labels>
@@ -2725,7 +2724,7 @@
               <name>Date de mouvement</name>
             </label>
           </labels>
-          <settings/>
+          <settings />
           <elements>
             <metadataElement code="storageLine2" datatype="DateRange">
               <labels>
@@ -2760,7 +2759,7 @@
               <name>Autorisation</name>
             </label>
           </labels>
-          <settings/>
+          <settings />
           <elements>
             <metadataElement code="storageLine3" datatype="DateRange">
               <labels>
@@ -2957,7 +2956,6 @@
         <label locale="en_US">
           <name>Runtime</name>
         </label>
-        <!-- fuzzy -->
         <label locale="pt_BR">
           <name>Tempo de execução</name>
         </label>
@@ -3067,7 +3065,6 @@
         <label locale="en_US">
           <name>Life dates</name>
         </label>
-        <!-- fuzzy -->
         <label locale="pt_BR">
           <name>Datas de vida</name>
         </label>
@@ -3101,7 +3098,7 @@
           <name>Adresse</name>
         </label>
       </labels>
-      <settings/>
+      <settings />
       <elements>
         <metadataElement code="line1" datatype="Container">
           <labels>
@@ -3115,7 +3112,7 @@
               <name>Adresse ligne 1</name>
             </label>
           </labels>
-          <settings/>
+          <settings />
           <elements>
             <metadataElement code="address1" datatype="Text">
               <labels>
@@ -3150,7 +3147,7 @@
               <name>Adresse ligne 2</name>
             </label>
           </labels>
-          <settings/>
+          <settings />
           <elements>
             <metadataElement code="address2" datatype="Text">
               <labels>
@@ -3185,7 +3182,7 @@
               <name>Adresse ligne 3</name>
             </label>
           </labels>
-          <settings/>
+          <settings />
           <elements>
             <metadataElement code="city" datatype="Text">
               <labels>
@@ -3277,7 +3274,7 @@
               <name>Type d\'adresse</name>
             </label>
           </labels>
-          <settings/>
+          <settings />
           <elements>
             <metadataElement code="address4" datatype="List" list="address_type">
               <labels>
@@ -3733,8 +3730,10 @@
               <bundle>preferred_labels</bundle>
               <settings>
                 <setting name="label" locale="en_US">Title</setting>
+                <setting name="label" locale="pt_BR">Título</setting>
                 <setting name="label" locale="fr_FR">Titre</setting>
                 <setting name="add_label" locale="en_US">Add title</setting>
+                <setting name="add_label" locale="pt_BR">Adicionar título</setting>
                 <setting name="add_label" locale="fr_FR">Ajouter un titre</setting>
               </settings>
             </placement>
@@ -3961,10 +3960,10 @@
               <bundle>ca_attribute_lcsh_terms</bundle>
               <settings>
                 <setting name="label" locale="en_US">Library of Congress Subject Headings</setting>
-                <setting name="label" locale="pt_BR">Cabeçalhos de Assunto da Biblioteca do Congresso</setting>
+                <setting name="label" locale="pt_BR">Títulos de Assunto da Biblioteca do Congresso</setting>
                 <setting name="label" locale="fr_FR">Vedettes matières Bibliothèque du Congrès</setting>
                 <setting name="add_label" locale="en_US">Add new subject heading</setting>
-                <setting name="add_label" locale="pt_BR">Adicionar novo cabeçalho de assunto</setting>
+                <setting name="add_label" locale="pt_BR">Adicionar novo título de assunto</setting>
                 <setting name="add_label" locale="fr_FR">Ajouter une nouvelle vedette matière</setting>
               </settings>
             </placement>
@@ -4264,10 +4263,10 @@
               <bundle>ca_attribute_lcsh_terms</bundle>
               <settings>
                 <setting name="label" locale="en_US">Library of Congress Subject Headings</setting>
-                <setting name="label" locale="pt_BR">Cabeçalhos de Assunto da Biblioteca do Congresso</setting>
+                <setting name="label" locale="pt_BR">Títulos de Assunto da Biblioteca do Congresso</setting>
                 <setting name="label" locale="fr_FR">Vedettes matières Bibliothèque du Congrès</setting>
                 <setting name="add_label" locale="en_US">Add new subject heading</setting>
-                <setting name="add_label" locale="pt_BR">Adicionar novo cabeçalho de assunto</setting>
+                <setting name="add_label" locale="pt_BR">Adicionar novo título de assunto</setting>
                 <setting name="add_label" locale="fr_FR">Ajouter une nouvelle vedette matière</setting>
               </settings>
             </placement>
@@ -4517,10 +4516,10 @@
               <bundle>ca_attribute_lcsh_terms</bundle>
               <settings>
                 <setting name="label" locale="en_US">Library of Congress Subject Headings</setting>
-                <setting name="label" locale="pt_BR">Cabeçalhos de Assunto da Biblioteca do Congresso</setting>
+                <setting name="label" locale="pt_BR">Títulos de Assunto da Biblioteca do Congresso</setting>
                 <setting name="label" locale="fr_FR">Vedettes matières Bibliothèque du Congrès</setting>
                 <setting name="add_label" locale="en_US">Add new subject heading</setting>
-                <setting name="add_label" locale="pt_BR">Adicionar novo cabeçalho de assunto</setting>
+                <setting name="add_label" locale="pt_BR">Adicionar novo título de assunto</setting>
                 <setting name="add_label" locale="fr_FR">Ajouter une nouvelle vedette matière</setting>
               </settings>
             </placement>
@@ -5031,7 +5030,7 @@
             </label>
             <label locale="pt_BR">
               <typename>teve como artista</typename>
-              <typename_reverse>foi artista</typename_reverse>
+              <typename_reverse>foi artista de</typename_reverse>
             </label>
             <label locale="fr_FR">
               <typename>a eu pour artiste</typename>
@@ -5047,7 +5046,6 @@
               <typename>had as curator</typename>
               <typename_reverse>was curator of</typename_reverse>
             </label>
-            <!-- fuzzy -->
             <label locale="pt_BR">
               <typename>teve como curador</typename>
               <typename_reverse>foi curador de</typename_reverse>
@@ -5102,10 +5100,9 @@
               <typename>had as panelist</typename>
               <typename_reverse>was panelist in</typename_reverse>
             </label>
-            <!-- fuzzy -->
             <label locale="pt_BR">
-              <typename>teve como palestrante</typename>
-              <typename_reverse>foi palestrante em</typename_reverse>
+              <typename>teve como painelista</typename>
+              <typename_reverse>foi painelista em</typename_reverse>
             </label>
             <label locale="fr_FR">
               <typename>a eu pour critique</typename>
@@ -5193,7 +5190,6 @@
               <typename>had as performer</typename>
               <typename_reverse>was performer in</typename_reverse>
             </label>
-            <!-- fuzzy -->
             <label locale="pt_BR">
               <typename>teve como performer</typename>
               <typename_reverse>foi performer em</typename_reverse>
@@ -5597,7 +5593,7 @@
               <typename_reverse>is parent of</typename_reverse>
             </label>
             <label locale="pt_BR">
-              <typename>é filho de</typename>
+              <typename>é filho(a) de</typename>
               <typename_reverse>é pai/mãe de</typename_reverse>
             </label>
             <label locale="fr_FR">
